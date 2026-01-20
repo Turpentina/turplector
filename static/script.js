@@ -227,7 +227,9 @@ function renderCards(cardList) {
 
         // Click anywhere else on card navigates to detail page
         cardEl.addEventListener("click", () => {
-            window.location.href = `/turplector/card/${card.serial}`;
+            // window.location.href = `/turplector/card/${card.serial}`;
+            // Use query parameter instead of deep link
+            window.location.href = `card.html?serial=${encodeURIComponent(card.serial)}`;
         });
 
         cardGrid.appendChild(cardEl);

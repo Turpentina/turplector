@@ -1,13 +1,17 @@
 async function loadCard() {
-    const pathParts = window.location.pathname.split("/");
-    const serial = pathParts[pathParts.length - 1];
+    
+    // const pathParts = window.location.pathname.split("/");
+    // const serial = pathParts[pathParts.length - 1];
+    // Use query param instead of deep linking
+    const params = new URLSearchParams(window.location.search);
+    const serial = params.get("serial");
     if (!serial) {
         document.getElementById("cardDetail").innerHTML = "<p>No card specified</p>";
         return;
     }
 
     try {
-        const res = await fetch(`cards.json`);
+        const res = await fetch(`static/cards.json`);
         if (!res.ok) {
             document.getElementById("cardDetail").innerHTML = "<p>Card not found</p>";
             return;
