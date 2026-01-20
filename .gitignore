@@ -1,0 +1,13 @@
+*.pyc
+*.log
+*.txt
+*.log
+*.bat
+backend/scraper_wechat/*
+backend/scraper_wiki/*
+backend/main.py
+backend/populate_cards_from_manual_data.py
+backend/populate_cards_from_search_details.py
+backend/cards.db
+backend/cards_manual.yaml
+backend/export_db_to_json.py

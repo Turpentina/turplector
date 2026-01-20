@@ -1,0 +1,243 @@
+/* Reset & basics */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    padding: 1rem;
+    background-color: rgba(1, 1, 83, 0.795);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+header input {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Layout */
+main {
+    padding: 1rem;
+}
+
+/* Sidebar */
+#sidebar {
+    padding-right: 1rem;
+}
+
+#sidebar h3 {
+    margin-top: 1.75rem;      /* space ABOVE each "Filter by..." */
+    margin-bottom: 0.4rem;    /* small space before the select */
+    font-size: 1rem;
+}
+
+#sidebar h3:first-of-type {
+    margin-top: 0;            /* no extra space at top */
+}
+
+#sidebar select {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.6rem 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#sidebar select:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+/* Card grid */
+#cardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+/* Card */
+.card {
+    background: transparent;
+    border-radius: 0;
+    overflow: visible;
+    box-shadow: none;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.card-content > div:not(.card-title) {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* Card detail page */
+.card-detail {
+    max-width: 500px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.card-detail img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: contain;
+    background: transparent;
+    border-radius: 0;
+}
+
+.card-tags {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.card-detail .card-tags {
+    margin-top: 0.5rem;
+}
+
+/* Info table */
+.card-info-table {
+    width: 100%;
+    max-width: 500px;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-info-table th {
+    background-color: #222;
+    color: white;
+    padding: 0.75rem;
+    text-align: left;
+    font-weight: bold;
+    width: 30%;
+}
+
+.card-info-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-info-table tr:last-child td {
+    border-bottom: none;
+}
+
+.card-info-table a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.card-info-table a:hover {
+    text-decoration: underline;
+}
+
+/* collected badge */
+
+.collected-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: rgba(255,255,255,0.9);
+    color: #666;
+    border-radius: 50%;
+    width: 36px;      /* bigger width */
+    height: 36px;     /* bigger height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;  /* bigger checkmark */
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.collected-badge:hover {
+    transform: scale(1.1);
+}
+
+.collected-badge.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Toggle All Collected button */
+#toggleAllCollected {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-top: 1.75rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(1, 1, 83, 0.795);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+#toggleAllCollected:hover {
+    background-color: rgba(8, 8, 85, 0.582); 
+    transform: translateY(-2px); /* Slight lift */
+}
+
+/* Import & Export buttons */
+#importCollected,
+#exportCollected {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-top: 1rem; /* slightly less than toggleAll for spacing */
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(19, 19, 83, 0.582);  /* complementary blue */
+    border: none;
+    border-radius: 6px; /* same as toggleAll */
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+#importCollected:hover,
+#exportCollected:hover {
+    background-color: rgba(19, 19, 83, 0.582);/* darker on hover */
+    transform: translateY(-2px); /* slight lift on hover */
+}

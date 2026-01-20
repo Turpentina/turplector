@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Collection</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+
+<header>
+    <h1>Genshin Physical TCG List</h1>
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search cards..."
+    />
+</header>
+
+<main style="display: flex;">
+    <!-- Sidebar -->
+    <aside id="sidebar" style="width: 200px; padding: 1rem; border-right: 1px solid #ccc;">
+        <h3>Filter by Set</h3>
+        <select id="setFilter">
+            <option value="">All Sets</option>
+        </select>
+        <h3>Filter by Rarity</h3>
+        <select id="rarityFilter">
+            <option value="">All Rarities</option>
+        </select>
+        <h3>Filter by Category</h3>
+        <select id="categoryFilter">
+            <option value="">All Categories</option>
+        </select>
+        <h3>Filter by Subcategory</h3>
+        <select id="subcategoryFilter">
+            <option value="">All Subcategories</option>
+        </select>
+        <h3>Collection Status</h3>
+        <select id="collectionFilter">
+            <option value="">All</option>
+            <option value="collected">Collected</option>
+            <option value="missing">Missing</option>
+        </select>
+        <button id="toggleAllCollected">Toggle All Collected</button>
+        <button id="exportCollected">Export Collected</button>
+        <button id="importCollected">Import Collected</button>
+        <input type="file" id="importCollectedFile" accept=".txt" style="display:none;">        
+
+    </aside>
+
+    <!-- Main content -->
+    <div style="flex: 1; padding: 1rem;">
+        <div id="cardCount" style="margin-bottom: 1rem;">Loading...</div>
+        <div id="cardGrid" class="card-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem;"></div>
+    </div>
+</main>
+    <script src="/static/script.js"></script>
+</body>
+</html>
+
