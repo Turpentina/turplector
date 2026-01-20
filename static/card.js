@@ -7,16 +7,18 @@ async function loadCard() {
     }
 
     try {
-        const res = await fetch(`http://localhost:8001/cards/${serial}`);
+        const res = await fetch(`/cards.json`);
         if (!res.ok) {
             document.getElementById("cardDetail").innerHTML = "<p>Card not found</p>";
             return;
         }
-        const card = await res.json();
+        
+        const cards = await res.json();
+        const card = cards.find(c => c.serial === serial);
 
         const detailDiv = document.getElementById("cardDetail");
         detailDiv.innerHTML = `
-            <img src="http://localhost:8001/${card.image}" alt="${card.serial}">
+            <img src="https://raw.githubusercontent.com/Turpentina/turplector/main/backend/${card.image}" alt="${card.serial}">
             <h1>${card.serial}</h1>
             <table class="card-info-table">
                 <tr><th>Name (English)</th><td>${card.name_en}</td></tr>
