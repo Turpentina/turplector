@@ -7,7 +7,7 @@ async function loadCard() {
     }
 
     try {
-        const res = await fetch(`/cards.json`);
+        const res = await fetch(`cards.json`);
         if (!res.ok) {
             document.getElementById("cardDetail").innerHTML = "<p>Card not found</p>";
             return;
