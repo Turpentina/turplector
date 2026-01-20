@@ -67,7 +67,7 @@ function toggleCollected(serial) {
 // load cards from json
 async function loadCards() {
     try {
-        const response = await fetch("/static/cards.json"); // serve JSON statically
+        const response = await fetch("static/cards.json"); // serve JSON statically
         cards = await response.json();
         
         populateSetFilter(cards);
