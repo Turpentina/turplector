@@ -11,7 +11,7 @@ The site displays all currently released cards including booster cards, starter 
 
 The aim is to:
 - Help collectors track their collection
-- Make Chinese lanague cards more accessible to English speakers
+- Make Chinese language cards more accessible to English speakers
   
   
 ## Usage
