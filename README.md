@@ -1,6 +1,6 @@
 # Turplector
 
-A website for tracking collections of Genshin Impact Genius Invokation TCG cards.
+A website for tracking collections of Genshin Impact Genius Invokation TCG cards.  
 https://turpentina.github.io/turplector/
   
   
@@ -16,11 +16,10 @@ The aim is to:
   
 ## Usage
 
-Click on the top right of a card to mark it as collected.
-Collection data is stored in the local storage of your browser, which can also be exported as a text file.
-Clicking on a card displays more detailed information, including a link to the Genshin Wiki's in-game card version.
+Click on the top right of a card to mark it as collected. 
+Clicking on a card displays more detailed information, including a link to the Genshin Wiki's in-game card version. 
 
-Note: Some in-game cards differ from the physical versions. For example, Ganyu had her hp boosted in-game from 10 to 12 after the physical cards were released.
+**Note:** Some in-game cards differ from the physical versions. For example, Ganyu had her hp boosted in-game from 10 to 12 after the physical cards were released.
 
 For more gameplay accurate information, please visit:
 - Genshin TCG subreddit https://www.reddit.com/r/GeniusInvokationTCG/ 
@@ -39,7 +38,7 @@ It is recommended to export your collection periodically as a backup.
 ## Known Issues
 
 - Cards that do not have an in-game counterpart do not translate and link to the wiki correctly
-  - Example: Ice Lotus (created by Ganyu's elemental skill, Trail of the Qilin) exists as a physical card but not in game
+  - Example: Ice Lotus (GCG01B-T001) (created by Ganyu's elemental skill, Trail of the Qilin) exists as a physical card but not in game
   
   
 ## Disclaimer
