@@ -207,7 +207,7 @@ function renderCards(cardList) {
 
         cardEl.innerHTML = `
             <div class="collected-badge ${collected ? "active" : ""}" title="Mark as collected">✔</div>
-            <img src="https://raw.githubusercontent.com/Turpentina/turplector/main/backend/${card.image}" alt="${card.serial}">
+            <img src="${cardImageUrl(card.image)}" alt="${card.serial}">
             <div class="card-content">
                 <div class="card-title">${card.serial}</div>
                 <div>${card.name_en}</div>

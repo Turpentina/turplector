@@ -22,7 +22,7 @@ async function loadCard() {
 
         const detailDiv = document.getElementById("cardDetail");
         detailDiv.innerHTML = `
-            <img src="https://raw.githubusercontent.com/Turpentina/turplector/main/backend/${card.image}" alt="${card.serial}">
+            <img src="${cardImageUrl(card.image)}" alt="${card.serial}">
             <h1>${card.serial}</h1>
             <table class="card-info-table">
                 <tr><th>Name (English)</th><td>${card.name_en}</td></tr>
