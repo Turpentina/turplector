@@ -215,7 +215,7 @@ main {
 
 #toggleAllCollected:hover {
     background-color: rgba(8, 8, 85, 0.582); 
-    transform: translateY(-2px); /* Slight lift */
+    transform: translateY(-2px); /* slight lift on hover */
 }
 
 /* Import & Export buttons */
@@ -228,7 +228,7 @@ main {
     font-size: 1.1rem;
     font-weight: bold;
     color: white;
-    background-color: rgba(19, 19, 83, 0.582);  /* complementary blue */
+    background-color: rgba(1, 1, 83, 0.795); 
     border: none;
     border-radius: 6px; /* same as toggleAll */
     cursor: pointer;
@@ -238,6 +238,31 @@ main {
 
 #importCollected:hover,
 #exportCollected:hover {
-    background-color: rgba(19, 19, 83, 0.582);/* darker on hover */
+    background-color: rgba(8, 8, 85, 0.582); 
     transform: translateY(-2px); /* slight lift on hover */
+}
+
+/* Back button */
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 40px;
+    height: 40px;
+  
+    border-radius: 50%;
+    text-decoration: none;
+  
+    font-size: 20px;
+    font-weight: bold;
+  
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.back-button:hover {
+    transform: scale(1.05);
 }
