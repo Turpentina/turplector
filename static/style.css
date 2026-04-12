@@ -5,17 +5,34 @@
     padding: 0;
 }
 
+/* Theme: edit these during development (also affects card.html via shared stylesheet) */
+:root {
+    --color-body: #2e4023;
+    --bg-body: #fffff6;
+
+    --color-header: #fffff5;
+    --bg-header: #3f6d23;
+
+    --color-sidebar: #2e4023;
+    --bg-sidebar: #fffff6;
+    --sidebar-border-color: #ccc;
+
+    --color-action-btn: #ffffff;
+    --bg-action-btn: #607e2f;
+    --bg-action-btn-hover: #607e2f86;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: var(--bg-body);
+    color: var(--color-body);
 }
 
 /* Header */
 header {
     padding: 1rem;
-    background-color: rgba(1, 1, 83, 0.795);
-    color: white;
+    background-color: var(--bg-header);
+    color: var(--color-header);
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -33,13 +50,18 @@ main {
 
 /* Sidebar */
 #sidebar {
-    padding-right: 1rem;
+    width: 200px;
+    padding: 1rem;
+    border-right: 1px solid var(--sidebar-border-color);
+    color: var(--color-sidebar);
+    background-color: var(--bg-sidebar);
 }
 
 #sidebar h3 {
     margin-top: 1.75rem;      /* space ABOVE each "Filter by..." */
     margin-bottom: 0.4rem;    /* small space before the select */
     font-size: 1rem;
+    color: inherit;
 }
 
 #sidebar h3:first-of-type {
@@ -53,6 +75,8 @@ main {
     border-radius: 6px;
     border: 1px solid #ccc;
     cursor: pointer;
+    color:#3a3413;
+    background-color: white;
 }
 
 #sidebar select:focus {
@@ -204,8 +228,8 @@ main {
     margin-top: 1.75rem;
     font-size: 1.1rem;
     font-weight: bold;
-    color: white;
-    background-color: rgba(1, 1, 83, 0.795);
+    color: var(--color-action-btn);
+    background-color: var(--bg-action-btn);
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -214,7 +238,7 @@ main {
 }
 
 #toggleAllCollected:hover {
-    background-color: rgba(8, 8, 85, 0.582); 
+    background-color: var(--bg-action-btn-hover);
     transform: translateY(-2px); /* slight lift on hover */
 }
 
@@ -227,8 +251,8 @@ main {
     margin-top: 1rem; /* slightly less than toggleAll for spacing */
     font-size: 1.1rem;
     font-weight: bold;
-    color: white;
-    background-color: rgba(1, 1, 83, 0.795); 
+    color: var(--color-action-btn);
+    background-color: var(--bg-action-btn);
     border: none;
     border-radius: 6px; /* same as toggleAll */
     cursor: pointer;
@@ -238,7 +262,7 @@ main {
 
 #importCollected:hover,
 #exportCollected:hover {
-    background-color: rgba(8, 8, 85, 0.582); 
+    background-color: var(--bg-action-btn-hover);
     transform: translateY(-2px); /* slight lift on hover */
 }
 
