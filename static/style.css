@@ -30,11 +30,9 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    overflow: hidden;
 }
 
 #layout {
-    overflow: hidden;
     display: flex;
     height: 100vh;
 }
@@ -47,21 +45,8 @@ header {
 }
 
 .right {
-    display: flex;
-    flex-direction: column;
     overflow-y: auto;
     flex: 1;
-}
-
-/* Layout */
-main {
-    display: flex;
-    flex: 1;
-}
-
-main > div {
-    flex: 1;
-    padding: 1rem;
 }
 
 #sidebar {
@@ -165,13 +150,12 @@ main > div {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1rem;
+    padding: 1rem;
 }
 
 /* all content aside from header and sidebar */
 .content {
-    flex: 1;
     padding: 1rem;
-    flex-direction: column;
 }
 
 /* individual card on main page */
@@ -196,8 +180,6 @@ main > div {
     left: 0;
     right: 0;
     padding: 0.75rem;
-    display: flex;
-    flex-direction: column;
     gap: 0.5rem;
     background: rgba(0, 0, 0, 0.5);
 }
