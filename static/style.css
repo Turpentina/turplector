@@ -30,6 +30,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    overflow: hidden;
+}
+
+#layout {
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
 }
 
 /* Header */
@@ -39,11 +46,17 @@ header {
     color: var(--color-header);
 }
 
+.right {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    flex: 1;
+}
+
 /* Layout */
 main {
     display: flex;
     flex: 1;
-    overflow: hidden;
 }
 
 main > div {
@@ -156,8 +169,8 @@ main > div {
 /* all content aside from header and sidebar */
 .content {
     flex: 1;
-    overflow-y: auto;
     padding: 1rem;
+    flex-direction: column;
 }
 
 /* individual card on main page */
