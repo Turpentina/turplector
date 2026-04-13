@@ -11,53 +11,59 @@
 
 <header>
     <h1>Genshin Physical TCG Tracker</h1>
-    <input
-        type="text"
-        id="searchInput"
-        placeholder="Search cards..."
-    />
 </header>
 
-<main style="display: flex;">
+<main>
     <!-- Sidebar -->
     <aside id="sidebar">
+        <!-- 🔍 Search moved here -->
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search cards..."
+        />
+
         <h3>Filter by Set</h3>
         <select id="setFilter">
             <option value="">All Sets</option>
         </select>
+
         <h3>Filter by Rarity</h3>
         <select id="rarityFilter">
             <option value="">All Rarities</option>
         </select>
+
         <h3>Filter by Category</h3>
         <select id="categoryFilter">
             <option value="">All Categories</option>
         </select>
+
         <h3>Filter by Subcategory</h3>
         <select id="subcategoryFilter">
             <option value="">All Subcategories</option>
         </select>
+
         <h3>Collection Status</h3>
         <select id="collectionFilter">
             <option value="">All</option>
             <option value="collected">Collected</option>
             <option value="missing">Missing</option>
         </select>
+
         <button id="toggleAllCollected">Check/Uncheck All</button>
         <button id="exportCollected">Export Collection</button>
         <button id="importCollected">Import Collection</button>
         <input type="file" id="importCollectedFile" accept=".txt" style="display:none;">        
-
     </aside>
 
     <!-- Main content -->
-    <div style="flex: 1; padding: 1rem;">
-        <div id="cardCount" style="margin-bottom: 1rem;">Loading...</div>
-        <div id="cardGrid" class="card-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem;"></div>
+    <div class="content">
+        <div id="cardCount">Loading...</div>
+        <div id="cardGrid" class="card-grid"></div>
     </div>
 </main>
-    <script src="static/paths.js"></script>
-    <script src="static/script.js"></script>
+
+<script src="static/paths.js"></script>
+<script src="static/script.js"></script>
 </body>
 </html>
-
