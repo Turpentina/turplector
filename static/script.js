@@ -6,6 +6,8 @@ const categoryFilter = document.getElementById("categoryFilter");
 const subcategoryFilter = document.getElementById("subcategoryFilter");
 const rarityFilter = document.getElementById("rarityFilter");
 const collectionFilter = document.getElementById("collectionFilter");
+const toggleBtn = document.getElementById("sidebarToggle");
+const sidebar = document.getElementById("sidebar");
 
 
 const TYPE_ORDER = [
@@ -21,6 +23,21 @@ const SUBTYPE_ORDER = {
     Support: ["Companion", "Location", "Item"],
     Event: ["Food", "Elemental Resonance"]
 };
+
+// Sidebar toggle for mobile
+toggleBtn.addEventListener("click", () => {
+    sidebar.classList.toggle("open");
+});
+
+document.addEventListener("click", (e) => {
+    if (
+        sidebar.classList.contains("open") &&
+        !sidebar.contains(e.target) &&
+        e.target !== toggleBtn
+    ) {
+        sidebar.classList.remove("open");
+    }
+});
 
 // local storage for collected cards
 

@@ -313,3 +313,46 @@ header {
 .back-button:hover {
     transform: scale(1.05);
 }
+
+#sidebarToggle {
+    display: none;
+}
+
+/* MOBILE ONLY */
+@media (max-width: 768px) {
+
+    /* Sidebar becomes overlay */
+    #sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        z-index: 1000;
+
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    /* When open */
+    #sidebar.open {
+        transform: translateX(0);
+    }
+
+    /* Prevent content from shifting */
+    #layout {
+        position: relative;
+    }
+
+    /* Toggle button styling */
+    #sidebarToggle {
+        display: inline-block;
+        padding: 0.5rem 0.75rem;
+        font-size: 1.2rem;
+        background: var(--bg-action-btn);
+        color: var(--color-action-btn);
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        width: fit-content;
+    }
+}
