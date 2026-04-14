@@ -100,6 +100,27 @@ header {
 }
 
 /* sidebar buttons */
+#applyFilters {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--color-action-btn);
+    background-color: var(--bg-action-btn);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+#applyFilters:hover {
+    background-color: var(--bg-action-btn-hover);
+    transform: translateY(-2px);
+}
+
 #toggleAllCollected {
     display: block;
     width: 100%;

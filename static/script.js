@@ -6,8 +6,11 @@ const categoryFilter = document.getElementById("categoryFilter");
 const subcategoryFilter = document.getElementById("subcategoryFilter");
 const rarityFilter = document.getElementById("rarityFilter");
 const collectionFilter = document.getElementById("collectionFilter");
+const applyFiltersBtn = document.getElementById("applyFilters");
 const toggleBtn = document.getElementById("sidebarToggle");
 const sidebar = document.getElementById("sidebar");
+
+const LIST_STATE_KEY = "tcg_list_filters";
 
 
 const TYPE_ORDER = [
@@ -81,19 +84,58 @@ function toggleCollected(serial) {
 //    }
 //}
 
-// load cards from json
+// load cards from json (full list for filter options; grid only after Apply or restore)
 async function loadCards() {
     try {
         const response = await fetch("static/cards.json"); // serve JSON statically
         cards = await response.json();
-        
+
         populateSetFilter(cards);
         populateCategoryFilter(cards);
         populateRarityFilter(cards);
-        renderCards(cards);
+
+        if (restoreListStateFromStorage()) {
+            applyFilters();
+        } else {
+            subcategoryFilter.disabled = true;
+            renderCards([]);
+            cardCountEl.textContent =
+                "Set filters and click Apply filters to load cards.";
+        }
     } catch (err) {
         console.error("Failed to load cards:", err);
     }
+}
+
+function restoreListStateFromStorage() {
+    let saved;
+    try {
+        saved = JSON.parse(sessionStorage.getItem(LIST_STATE_KEY) || "null");
+    } catch {
+        return false;
+    }
+    if (!saved || typeof saved !== "object") return false;
+
+    searchInput.value = saved.search ?? "";
+    setFilter.value = saved.set ?? "";
+    categoryFilter.value = saved.category ?? "";
+    updateSubcategoryOptions();
+    subcategoryFilter.value = saved.subcategory ?? "";
+    rarityFilter.value = saved.rarity ?? "";
+    collectionFilter.value = saved.collection ?? "";
+    return true;
+}
+
+function persistListState() {
+    const state = {
+        search: searchInput.value,
+        set: setFilter.value,
+        category: categoryFilter.value,
+        subcategory: subcategoryFilter.value,
+        rarity: rarityFilter.value,
+        collection: collectionFilter.value
+    };
+    sessionStorage.setItem(LIST_STATE_KEY, JSON.stringify(state));
 }
 
 function sortByOrder(values, order) {
@@ -291,6 +333,7 @@ function applyFilters() {
             matchesCollection
         );
     });
+    persistListState();
     renderCards(filtered);
 }
 
@@ -379,15 +422,18 @@ importFileInput.addEventListener("change", (event) => {
 });
 
 
-searchInput.addEventListener("input", applyFilters);
-setFilter.addEventListener("change", applyFilters);
-rarityFilter.addEventListener("change", applyFilters);
+applyFiltersBtn.addEventListener("click", applyFilters);
+
+searchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        e.preventDefault();
+        applyFilters();
+    }
+});
+
 categoryFilter.addEventListener("change", () => {
     updateSubcategoryOptions();
     subcategoryFilter.value = "";
-    applyFilters();
 });
-subcategoryFilter.addEventListener("change", applyFilters);
-collectionFilter.addEventListener("change", applyFilters);
 
 loadCards();
