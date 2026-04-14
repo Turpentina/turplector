@@ -29,12 +29,12 @@ body {
     color: var(--color-body);
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100dvh;
 }
 
 #layout {
     display: flex;
-    height: 100vh;
+    height: 100dvh;
 }
 
 /* Header */
@@ -52,7 +52,7 @@ header {
 #sidebar {
     width: 200px;
     flex: 0 0 200px;
-    height: 100vh;
+    height: 100dvh;
     padding: 1rem;
     overflow-y: auto;
 
