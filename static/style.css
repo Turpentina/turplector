@@ -166,6 +166,28 @@ header {
     transform: translateY(-2px); /* slight lift on hover */
 }
 
+.sidebar-link-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--color-action-btn);
+    background-color: var(--bg-action-btn);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.sidebar-link-button:hover {
+    background-color: var(--bg-action-btn-hover);
+    transform: translateY(-2px);
+}
+
 /* Card grid */
 #cardGrid {
     display: grid;
@@ -337,6 +359,57 @@ header {
 
 #sidebarToggle {
     display: none;
+}
+
+/* Info page */
+.info-main {
+    padding: 2rem 1rem 3rem;
+}
+
+.info-container {
+    max-width: 820px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.info-intro {
+    margin-bottom: 1.25rem;
+}
+
+.info-section {
+    margin: 1rem 0;
+    border: 1px solid var(--sidebar-border-color);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 0.5rem 1rem;
+}
+
+.info-section summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
+
+.info-section-content {
+    color: var(--color-body);
+    padding-bottom: 0.75rem;
+}
+
+.info-section-content h3 {
+    margin: 0.5rem 0;
+}
+
+.info-section-content p,
+.info-section-content ul {
+    margin: 0.5rem 0;
+}
+
+.info-section-content ul {
+    padding-left: 1.25rem;
+}
+
+.info-section-content a {
+    color: var(--accent);
 }
 
 /* MOBILE ONLY */
