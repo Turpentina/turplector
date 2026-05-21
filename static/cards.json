@@ -14532,20 +14532,6 @@
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Tandoori_Roast_Chicken_(Event_Card)"
   },
   {
-    "serial": "GCG04B-A208(0)",
-    "name_cn": "忘玄",
-    "name_en": "Mystical Abandon",
-    "rarity": 0,
-    "deck": "Booster",
-    "set_number": 4,
-    "card_type": "Action",
-    "card_category": "Equipment",
-    "card_subcategory": "Talent",
-    "image": "images\\GCG04B\\GCG04B-A208(0).png",
-    "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Mystical_Abandon_(Equipment_Card)"
-  },
-  {
     "serial": "GCG04B-A208(1)",
     "name_cn": "忘玄",
     "name_en": "Mystical Abandon",
@@ -34757,7 +34743,7 @@
     "card_type": "Promo",
     "card_category": "N/A",
     "card_subcategory": "N/A",
-    "image": "images/Manual/GCG-PR017.jpg",
+    "image": "images/Manual/GCG-PR017.png",
     "image_back": "N/A",
     "wiki_url": "N/A"
   },
