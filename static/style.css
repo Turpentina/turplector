@@ -6,21 +6,30 @@
 }
 
 :root {
-    --color-body: #e9e7f5;
-    --bg-body: #121018;
+    --bg-body: #08140E;
+    --bg-header: #112018;
+    --bg-sidebar: #17251D;
+    --bg-surface: #2A3C32;
+    --bg-action-btn: #9F5F38;
+    --bg-action-btn-hover: #B06A3F;
 
-    --color-header: #ffffff;
-    --bg-header: #3c2f5c;
+    --color-body: #C87A4A;
+    --color-header: #F2EDE3;
+    --color-sidebar: #D8D0C5;
+    --color-action-btn: #F2EDE3;
 
-    --color-sidebar: #d6d1eb;
-    --bg-sidebar: #1a1625;
-    --sidebar-border-color: #5b4b8a;
+    --accent: #B06A3F;
 
-    --color-action-btn: #ffffff;
-    --bg-action-btn: #6d5ba6;
-    --bg-action-btn-hover: #5b4b8a;
+    --sidebar-border: #314339;
+    --border: #3A4D42;
 
-    --accent: #a78bfa;
+    /* Card detail table */
+    --table-bg: #17251D;
+    --table-header-bg: #223229;
+    --table-header-color: #F2EDE3;
+    --table-text-color: #D8D0C5;
+    --table-border-color: #314339;
+    --table-link-color: #D99261;
 }
 
 body {
@@ -58,6 +67,7 @@ header {
 
     color: var(--color-sidebar);
     background-color: var(--bg-sidebar);
+    border-right: 1px solid var(--border);
 }
 
 #sidebar input {
@@ -67,7 +77,9 @@ header {
     margin-bottom: 1rem;
     font-size: 1rem;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    background: var(--bg-surface);
+    color: var(--color-sidebar);
+    border: 1px solid var(--border);
 }
 
 /* filter dropdown titles */
@@ -88,10 +100,11 @@ header {
     font-size: 1.1rem;
     padding: 0.6rem 0.5rem;
     border-radius: 6px;
-    border: 1px solid #ccc;
     cursor: pointer;
     color:#3a3413;
-    background-color: white;
+    background: var(--bg-surface);
+    color: var(--color-sidebar);
+    border: 1px solid var(--border);
 }
 
 #sidebar select:focus {
@@ -270,13 +283,14 @@ header {
     max-width: 500px;
     margin: 2rem auto;
     border-collapse: collapse;
-    background: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: var(--table-bg);
+    border: 1px solid var(--table-border-color);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
 }
 
 .card-info-table th {
-    background-color: #222;
-    color: white;
+    background-color: var(--table-header-bg);
+    color: var(--table-header-color);
     padding: 0.75rem;
     text-align: left;
     font-weight: bold;
@@ -285,8 +299,8 @@ header {
 
 .card-info-table td {
     padding: 0.75rem;
-    border-bottom: 1px solid #ddd;
-    color: black;
+    border-bottom: 1px solid var(--table-border-color);
+    color: var(--table-text-color);
 }
 
 .card-info-table tr:last-child td {
@@ -294,7 +308,7 @@ header {
 }
 
 .card-info-table a {
-    color: #0066cc;
+    color: var(--table-link-color);
     text-decoration: none;
 }
 
@@ -378,7 +392,7 @@ header {
 
 .info-section {
     margin: 1rem 0;
-    border: 1px solid var(--sidebar-border-color);
+    border: 1px solid var(--sidebar-border);
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.04);
     padding: 0.5rem 1rem;
@@ -425,6 +439,7 @@ header {
 
         transform: translateX(-100%);
         transition: transform 0.3s ease;
+        box-shadow: 4px 0 12px rgba(0,0,0,0.25);
     }
 
     /* When open */
