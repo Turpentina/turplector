@@ -4020,16 +4020,16 @@
   {
     "serial": "GCG01B-T010(1)",
     "name_cn": "旋火轮",
-    "name_en": "Pyronado",
+    "name_en": "旋火轮",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG01B\\GCG01B-T010(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Pyronado_(Character_Card_Skill)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG01B-T011(1)",
@@ -4174,16 +4174,16 @@
   {
     "serial": "GCG01B-T021(1)",
     "name_cn": "璇玑屏",
-    "name_en": "Jade Screen",
+    "name_en": "璇玑屏",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG01B\\GCG01B-T021(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Jade_Screen_(Character_Card_Skill)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG01B-T022(1)",
@@ -4202,16 +4202,16 @@
   {
     "serial": "GCG01B-T023(1)",
     "name_cn": "大扫除",
-    "name_en": "Sweeping Time",
+    "name_en": "大扫除",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG01B\\GCG01B-T023(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Sweeping_Time_(Character_Card_Skill)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG01B-T024(1)",
@@ -4286,16 +4286,16 @@
   {
     "serial": "GCG01B-T029(1)",
     "name_cn": "火之新生",
-    "name_en": "Fiery Rebirth",
+    "name_en": "火之新生",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG01B\\GCG01B-T029(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Fiery_Rebirth"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG01B-T030(1)",
@@ -4314,16 +4314,16 @@
   {
     "serial": "GCG01B-T031(1)",
     "name_cn": "活化激能",
-    "name_en": "Radical Vitality",
+    "name_en": "活化激能",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG01B\\GCG01B-T031(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Radical_Vitality"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG01B-T032(1)",
@@ -8360,16 +8360,16 @@
   {
     "serial": "GCG02B-T047(1)",
     "name_cn": "苍鹭震击",
-    "name_en": "Heron Strike",
+    "name_en": "苍鹭震击",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG02B\\GCG02B-T047(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Heron_Strike"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG02B-T048(1)",
@@ -8444,16 +8444,16 @@
   {
     "serial": "GCG02B-T053(1)",
     "name_cn": "踏潮",
-    "name_en": "Wavestrider",
+    "name_en": "踏潮",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG02B\\GCG02B-T053(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Wavestrider"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG02B-T054(1)",
@@ -8668,30 +8668,30 @@
   {
     "serial": "GCG02B-T069(1)",
     "name_cn": "猜拳三连击・剪刀",
-    "name_en": "Rock-Paper-Scissors Combo: Scissors",
+    "name_en": "猜拳三连击・剪刀",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG02B\\GCG02B-T069(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Rock-Paper-Scissors_Combo:_Scissors"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG02B-T070(1)",
     "name_cn": "猜拳三连击・布",
-    "name_en": "Rock-Paper-Scissors Combo: Paper",
+    "name_en": "猜拳三连击・布",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG02B\\GCG02B-T070(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Rock-Paper-Scissors_Combo:_Paper"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG02B-T071(1)",
@@ -8710,16 +8710,16 @@
   {
     "serial": "GCG02B-T072(1)",
     "name_cn": "雷晶核心",
-    "name_en": "Electro Crystal Core",
+    "name_en": "雷晶核心",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG02B\\GCG02B-T072(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Electro_Crystal_Core"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG02B-T073(1)",
@@ -12056,16 +12056,16 @@
   {
     "serial": "GCG03B-T089(1)",
     "name_cn": "诸愿百眼之轮",
-    "name_en": "Chakra Desiderata",
+    "name_en": "诸愿百眼之轮",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG03B\\GCG03B-T089(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Chakra_Desiderata_(Character_Card_Skill)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG03B-T090(1)",
@@ -16214,16 +16214,16 @@
   {
     "serial": "GCG04B-T121(1)",
     "name_cn": "破局",
-    "name_en": "Breakthrough",
+    "name_en": "破局",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG04B\\GCG04B-T121(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Breakthrough_(Character_Card_Skill)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG04B-T122(1)",
@@ -16270,16 +16270,16 @@
   {
     "serial": "GCG04B-T125(1)",
     "name_cn": "焚落踢",
-    "name_en": "Incineration Drive",
+    "name_en": "焚落踢",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG04B\\GCG04B-T125(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Incineration_Drive"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG04B-T126(1)",
@@ -16396,16 +16396,16 @@
   {
     "serial": "GCG04B-T134(1)",
     "name_cn": "长枪开相",
-    "name_en": "Spear Flourish",
+    "name_en": "长枪开相",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG04B\\GCG04B-T134(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Spear_Flourish"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG04B-T135(1)",
@@ -16522,44 +16522,44 @@
   {
     "serial": "GCG04B-T143(1)",
     "name_cn": "霆电迸发",
-    "name_en": "Surging Thunder",
+    "name_en": "霆电迸发",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG04B\\GCG04B-T143(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Surging_Thunder"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG04B-T144(1)",
     "name_cn": "长延涤流",
-    "name_en": "Perpetual Cleansing",
+    "name_en": "长延涤流",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG04B\\GCG04B-T144(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Perpetual_Cleansing"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG04B-T145(1)",
     "name_cn": "终幕涤流",
-    "name_en": "Ultimate Cleansing",
+    "name_en": "终幕涤流",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG04B\\GCG04B-T145(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Ultimate_Cleansing"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG04B-T146(1)",
@@ -17068,16 +17068,16 @@
   {
     "serial": "GCG01S-T010(0)",
     "name_cn": "旋火轮",
-    "name_en": "Pyronado",
+    "name_en": "旋火轮",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG01S\\GCG01S-T010(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Pyronado_(Character_Card_Skill)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG01S-T011(0)",
@@ -17670,16 +17670,16 @@
   {
     "serial": "GCG02S-T031(0)",
     "name_cn": "活化激能",
-    "name_en": "Radical Vitality",
+    "name_en": "活化激能",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG02S\\GCG02S-T031(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Radical_Vitality"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG02S-T033(0)",
@@ -18230,16 +18230,16 @@
   {
     "serial": "GCG03S-T021(0)",
     "name_cn": "璇玑屏",
-    "name_en": "Jade Screen",
+    "name_en": "璇玑屏",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG03S\\GCG03S-T021(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Jade_Screen_(Character_Card_Skill)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG03S-T022(0)",
@@ -18258,16 +18258,16 @@
   {
     "serial": "GCG03S-T023(0)",
     "name_cn": "大扫除",
-    "name_en": "Sweeping Time",
+    "name_en": "大扫除",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG03S\\GCG03S-T023(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Sweeping_Time_(Character_Card_Skill)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG03S-T032(0)",
@@ -20484,16 +20484,16 @@
   {
     "serial": "GCG07S-T029(0)",
     "name_cn": "火之新生",
-    "name_en": "Fiery Rebirth",
+    "name_en": "火之新生",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG07S\\GCG07S-T029(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Fiery_Rebirth"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG07S-T030(0)",
@@ -21030,16 +21030,16 @@
   {
     "serial": "GCG08S-T029(0)",
     "name_cn": "火之新生",
-    "name_en": "Fiery Rebirth",
+    "name_en": "火之新生",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG08S\\GCG08S-T029(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Fiery_Rebirth"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG08S-T030(0)",
@@ -21548,16 +21548,16 @@
   {
     "serial": "GCG09S-T047(0)",
     "name_cn": "苍鹭震击",
-    "name_en": "Heron Strike",
+    "name_en": "苍鹭震击",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG09S\\GCG09S-T047(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Heron_Strike"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG09S-T048(0)",
@@ -23830,16 +23830,16 @@
   {
     "serial": "GCG13S-T053(0)",
     "name_cn": "踏潮",
-    "name_en": "Wavestrider",
+    "name_en": "踏潮",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG13S\\GCG13S-T053(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Wavestrider"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG13S-T054(0)",
@@ -24936,30 +24936,30 @@
   {
     "serial": "GCG15S-T069(0)",
     "name_cn": "猜拳三连击・剪刀",
-    "name_en": "Rock-Paper-Scissors Combo: Scissors",
+    "name_en": "猜拳三连击・剪刀",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG15S\\GCG15S-T069(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Rock-Paper-Scissors_Combo:_Scissors"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG15S-T070(0)",
     "name_cn": "猜拳三连击・布",
-    "name_en": "Rock-Paper-Scissors Combo: Paper",
+    "name_en": "猜拳三连击・布",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG15S\\GCG15S-T070(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Rock-Paper-Scissors_Combo:_Paper"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG15S-T071(0)",
@@ -24978,16 +24978,16 @@
   {
     "serial": "GCG15S-T072(0)",
     "name_cn": "雷晶核心",
-    "name_en": "Electro Crystal Core",
+    "name_en": "雷晶核心",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG15S\\GCG15S-T072(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Electro_Crystal_Core"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG16S-C026(0)",
@@ -26098,16 +26098,16 @@
   {
     "serial": "GCG17S-T089(0)",
     "name_cn": "诸愿百眼之轮",
-    "name_en": "Chakra Desiderata",
+    "name_en": "诸愿百眼之轮",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG17S\\GCG17S-T089(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Chakra_Desiderata_(Character_Card_Skill)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG18S-C038(0)",
@@ -29430,16 +29430,16 @@
   {
     "serial": "GCG23S-T089(0)",
     "name_cn": "诸愿百眼之轮",
-    "name_en": "Chakra Desiderata",
+    "name_en": "诸愿百眼之轮",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG23S\\GCG23S-T089(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Chakra_Desiderata_(Character_Card_Skill)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG23S-T092(0)",
@@ -31096,16 +31096,16 @@
   {
     "serial": "GCG26S-T121(0)",
     "name_cn": "破局",
-    "name_en": "Breakthrough",
+    "name_en": "破局",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG26S\\GCG26S-T121(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Breakthrough_(Character_Card_Skill)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG26S-T122(0)",
@@ -32776,16 +32776,16 @@
   {
     "serial": "GCG29S-T125(0)",
     "name_cn": "焚落踢",
-    "name_en": "Incineration Drive",
+    "name_en": "焚落踢",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG29S\\GCG29S-T125(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Incineration_Drive"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG29S-T127(0)",
@@ -33322,16 +33322,16 @@
   {
     "serial": "GCG30S-T121(0)",
     "name_cn": "破局",
-    "name_en": "Breakthrough",
+    "name_en": "破局",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG30S\\GCG30S-T121(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Breakthrough_(Character_Card_Skill)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG30S-T122(0)",
@@ -33896,44 +33896,44 @@
   {
     "serial": "GCG31S-T125(0)",
     "name_cn": "焚落踢",
-    "name_en": "Incineration Drive",
+    "name_en": "焚落踢",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG31S\\GCG31S-T125(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Incineration_Drive"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG31S-T144(0)",
     "name_cn": "长延涤流",
-    "name_en": "Perpetual Cleansing",
+    "name_en": "长延涤流",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG31S\\GCG31S-T144(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Perpetual_Cleansing"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG31S-T145(0)",
     "name_cn": "终幕涤流",
-    "name_en": "Ultimate Cleansing",
+    "name_en": "终幕涤流",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG31S\\GCG31S-T145(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Ultimate_Cleansing"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG31S-T146(0)",
@@ -34470,16 +34470,16 @@
   {
     "serial": "GCG32S-T134(0)",
     "name_cn": "长枪开相",
-    "name_en": "Spear Flourish",
+    "name_en": "长枪开相",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Skill",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG32S\\GCG32S-T134(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Spear_Flourish"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG32S-T139(0)",
