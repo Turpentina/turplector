@@ -67,7 +67,6 @@ header {
 
     color: var(--color-sidebar);
     background-color: var(--bg-sidebar);
-    border-right: 1px solid var(--border);
 }
 
 #sidebar input {
