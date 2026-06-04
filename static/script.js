@@ -178,11 +178,15 @@ function sortSetsDynamic(sets) {
 function populateSetFilter(cards) {
     const sets = new Set(cards.map(c => c.serial.split("-")[0]));
     const sortedSets = sortSetsDynamic(sets);
+    const boostersOption = document.createElement("option");
+    boostersOption.value = "__ALL_BOOSTERS__";
+    boostersOption.textContent = "All Boosters";
+    setFilter.appendChild(boostersOption);
 
     sortedSets.forEach(setCode => {
         const option = document.createElement("option");
         option.value = setCode;
-        option.textContent = setCode;
+        option.textContent = setCode === "GCG" ? "Promo" : setCode;
         setFilter.appendChild(option);
     });
 }
@@ -312,7 +316,11 @@ function applyFilters() {
                               card.name_cn.includes(query)
 
         // Only match exact set prefix followed by dash
-        const matchesSet = selectedSet === "" || card.serial.startsWith(selectedSet + "-");
+        const matchesSet =
+            selectedSet === "" ||
+            (selectedSet === "__ALL_BOOSTERS__"
+                ? card.serial.split("-")[0].endsWith("B")
+                : card.serial.startsWith(selectedSet + "-"));
         const matchesRarity = selectedRarity === "" || String(card.rarity) === selectedRarity;
         // Only match category filter
         const matchesCategory = selectedCategory === "" || card.card_category == selectedCategory;
