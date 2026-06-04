@@ -3894,16 +3894,16 @@
   {
     "serial": "GCG01B-T001(1)",
     "name_cn": "冰莲",
-    "name_en": "冰莲",
+    "name_en": "Ice Lotus",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG01B\\GCG01B-T001(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Ganyu_(Character_Card)"
   },
   {
     "serial": "GCG01B-T002(1)",
@@ -3922,30 +3922,30 @@
   {
     "serial": "GCG01B-T003(1)",
     "name_cn": "重华叠霜领域",
-    "name_en": "重华叠霜领域",
+    "name_en": "Chonghua's Frost Field",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG01B\\GCG01B-T003(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Chongyun_(Character_Card)"
   },
   {
     "serial": "GCG01B-T004(1)",
     "name_cn": "冰元素附魔",
-    "name_en": "冰元素附魔",
+    "name_en": "Cryo Elemental Infusion",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG01B\\GCG01B-T004(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka_(Character_Card)"
   },
   {
     "serial": "GCG01B-T005(1)",
@@ -3978,16 +3978,16 @@
   {
     "serial": "GCG01B-T007(1)",
     "name_cn": "泡影",
-    "name_en": "泡影",
+    "name_en": "Illusory Bubble",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG01B\\GCG01B-T007(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Mona_(Character_Card)"
   },
   {
     "serial": "GCG01B-T008(1)",
@@ -4006,30 +4006,30 @@
   {
     "serial": "GCG01B-T009(1)",
     "name_cn": "火元素附魔",
-    "name_en": "火元素附魔",
+    "name_en": "Pyro Infusion",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG01B\\GCG01B-T009(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Diluc_(Character_Card)"
   },
   {
     "serial": "GCG01B-T010(1)",
     "name_cn": "旋火轮",
-    "name_en": "旋火轮",
+    "name_en": "Pyronado",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG01B\\GCG01B-T010(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xiangling_(Character_Card)"
   },
   {
     "serial": "GCG01B-T011(1)",
@@ -4062,30 +4062,30 @@
   {
     "serial": "GCG01B-T013(1)",
     "name_cn": "雷元素附魔",
-    "name_en": "雷元素附魔",
+    "name_en": "Electro Infusion",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG01B\\GCG01B-T013(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Keqing_(Character_Card)"
   },
   {
     "serial": "GCG01B-T014(1)",
     "name_cn": "鸣煌护持",
-    "name_en": "鸣煌护持",
+    "name_en": "Crowfeather Cover",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG01B\\GCG01B-T014(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kujou_Sara_(Character_Card)"
   },
   {
     "serial": "GCG01B-T015(1)",
@@ -4118,16 +4118,16 @@
   {
     "serial": "GCG01B-T017(1)",
     "name_cn": "引雷",
-    "name_en": "引雷",
+    "name_en": "Conductive",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG01B\\GCG01B-T017(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Lisa_(Character_Card)"
   },
   {
     "serial": "GCG01B-T018(1)",
@@ -4174,44 +4174,44 @@
   {
     "serial": "GCG01B-T021(1)",
     "name_cn": "璇玑屏",
-    "name_en": "璇玑屏",
+    "name_en": "Jade Screen",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG01B\\GCG01B-T021(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Ningguang_(Character_Card)"
   },
   {
     "serial": "GCG01B-T022(1)",
     "name_cn": "护体岩铠",
-    "name_en": "护体岩铠",
+    "name_en": "Full Plate",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG01B\\GCG01B-T022(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Noelle_(Character_Card)"
   },
   {
     "serial": "GCG01B-T023(1)",
     "name_cn": "大扫除",
-    "name_en": "大扫除",
+    "name_en": "Sweeping Time",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG01B\\GCG01B-T023(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Noelle_(Character_Card)"
   },
   {
     "serial": "GCG01B-T024(1)",
@@ -4286,86 +4286,86 @@
   {
     "serial": "GCG01B-T029(1)",
     "name_cn": "火之新生",
-    "name_en": "火之新生",
+    "name_en": "Fiery Rebirth",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG01B\\GCG01B-T029(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Abyss_Lector:_Fathomless_Flames_(Character_Card)"
   },
   {
     "serial": "GCG01B-T030(1)",
     "name_cn": "渊火加护",
-    "name_en": "渊火加护",
+    "name_en": "Aegis of Abyssal Flame",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG01B\\GCG01B-T030(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Abyss_Lector:_Fathomless_Flames_(Character_Card)"
   },
   {
     "serial": "GCG01B-T031(1)",
     "name_cn": "活化激能",
-    "name_en": "活化激能",
+    "name_en": "Radical Vitality",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG01B\\GCG01B-T031(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Jadeplume_Terrorshroom_(Character_Card)"
   },
   {
     "serial": "GCG01B-T032(1)",
     "name_cn": "结晶",
-    "name_en": "结晶",
+    "name_en": "Shield",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG01B\\GCG01B-T032(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG01B-T033(1)",
     "name_cn": "激化领域",
-    "name_en": "激化领域",
+    "name_en": "Catalyzing Field",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG01B\\GCG01B-T033(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG01B-T034(1)",
     "name_cn": "草原核",
-    "name_en": "草原核",
+    "name_en": "Dendro Core",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG01B\\GCG01B-T034(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG01B-T035(1)",
@@ -4384,16 +4384,16 @@
   {
     "serial": "GCG01B-T036(1)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG01B\\GCG01B-T036(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG02B-C019(1)",
@@ -8150,44 +8150,44 @@
   {
     "serial": "GCG02B-T032(1)",
     "name_cn": "结晶",
-    "name_en": "结晶",
+    "name_en": "Shield",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T032(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG02B-T033(1)",
     "name_cn": "激化领域",
-    "name_en": "激化领域",
+    "name_en": "Catalyzing Field",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T033(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG02B-T034(1)",
     "name_cn": "草原核",
-    "name_en": "草原核",
+    "name_en": "Dendro Core",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T034(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG02B-T035(1)",
@@ -8206,30 +8206,30 @@
   {
     "serial": "GCG02B-T036(1)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02B\\GCG02B-T036(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG02B-T037(1)",
     "name_cn": "猫爪护盾",
-    "name_en": "猫爪护盾",
+    "name_en": "Cat-Claw Shield",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T037(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Diona_(Character_Card)"
   },
   {
     "serial": "GCG02B-T038(1)",
@@ -8248,30 +8248,30 @@
   {
     "serial": "GCG02B-T039(1)",
     "name_cn": "寒冰之棱",
-    "name_en": "寒冰之棱",
+    "name_en": "Icicle",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T039(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kaeya_(Character_Card)"
   },
   {
     "serial": "GCG02B-T040(1)",
     "name_cn": "冷酷之心",
-    "name_en": "冷酷之心",
+    "name_en": "Grimheart",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02B\\GCG02B-T040(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Eula_(Character_Card)"
   },
   {
     "serial": "GCG02B-T041(1)",
@@ -8290,30 +8290,30 @@
   {
     "serial": "GCG02B-T042(1)",
     "name_cn": "雨帘剑",
-    "name_en": "雨帘剑",
+    "name_en": "Rain Sword",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T042(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xingqiu_(Character_Card)"
   },
   {
     "serial": "GCG02B-T043(1)",
     "name_cn": "虹剑势",
-    "name_en": "虹剑势",
+    "name_en": "Rainbow Bladework",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T043(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xingqiu_(Character_Card)"
   },
   {
     "serial": "GCG02B-T044(1)",
@@ -8332,58 +8332,58 @@
   {
     "serial": "GCG02B-T045(1)",
     "name_cn": "仪来羽衣",
-    "name_en": "仪来羽衣",
+    "name_en": "Ceremonial Garment",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02B\\GCG02B-T045(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Sangonomiya_Kokomi_(Character_Card)"
   },
   {
     "serial": "GCG02B-T046(1)",
     "name_cn": "苍鹭护盾",
-    "name_en": "苍鹭护盾",
+    "name_en": "Heron Shield",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02B\\GCG02B-T046(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Candace_(Character_Card)"
   },
   {
     "serial": "GCG02B-T047(1)",
     "name_cn": "苍鹭震击",
-    "name_en": "苍鹭震击",
+    "name_en": "Heron Strike",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Elemental Skill",
+    "card_subcategory": "None",
     "image": "images\\GCG02B\\GCG02B-T047(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Candace_(Character_Card)"
   },
   {
     "serial": "GCG02B-T048(1)",
     "name_cn": "赤冕祝祷",
-    "name_en": "赤冕祝祷",
+    "name_en": "Prayer of the Crimson Crown",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T048(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Candace_(Character_Card)"
   },
   {
     "serial": "GCG02B-T049(1)",
@@ -8402,86 +8402,86 @@
   {
     "serial": "GCG02B-T050(1)",
     "name_cn": "彼岸蝶舞",
-    "name_en": "彼岸蝶舞",
+    "name_en": "Paramita Papilio",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02B\\GCG02B-T050(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Hu_Tao_(Character_Card)"
   },
   {
     "serial": "GCG02B-T051(1)",
     "name_cn": "血梅香",
-    "name_en": "血梅香",
+    "name_en": "Blood Blossom",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02B\\GCG02B-T051(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Hu_Tao_(Character_Card)"
   },
   {
     "serial": "GCG02B-T052(1)",
     "name_cn": "捉浪・涛拥之守",
-    "name_en": "捉浪・涛拥之守",
+    "name_en": "Tidecaller: Surf Embrace",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02B\\GCG02B-T052(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Beidou_(Character_Card)"
   },
   {
     "serial": "GCG02B-T053(1)",
     "name_cn": "踏潮",
-    "name_en": "踏潮",
+    "name_en": "Wavestrider",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Elemental Skill",
+    "card_subcategory": "None",
     "image": "images\\GCG02B\\GCG02B-T053(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Beidou_(Character_Card)"
   },
   {
     "serial": "GCG02B-T054(1)",
     "name_cn": "雷兽之盾",
-    "name_en": "雷兽之盾",
+    "name_en": "Thunderbeast's Targe",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T054(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Beidou_(Character_Card)"
   },
   {
     "serial": "GCG02B-T055(1)",
     "name_cn": "风域",
-    "name_en": "风域",
+    "name_en": "Stormzone",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T055(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Venti_(Character_Card)"
   },
   {
     "serial": "GCG02B-T056(1)",
@@ -8500,30 +8500,30 @@
   {
     "serial": "GCG02B-T057(1)",
     "name_cn": "协鸣之风",
-    "name_en": "协鸣之风",
+    "name_en": "Stormeye",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T057(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Venti_(Character_Card)"
   },
   {
     "serial": "GCG02B-T058(1)",
     "name_cn": "夜叉傩面",
-    "name_en": "夜叉傩面",
+    "name_en": "Yaksha's Mask",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02B\\GCG02B-T058(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xiao_(Character_Card)"
   },
   {
     "serial": "GCG02B-T059(1)",
@@ -8542,30 +8542,30 @@
   {
     "serial": "GCG02B-T060(1)",
     "name_cn": "玉璋护盾",
-    "name_en": "玉璋护盾",
+    "name_en": "Jade Shield",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T060(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Zhongli_(Character_Card)"
   },
   {
     "serial": "GCG02B-T061(1)",
     "name_cn": "石化",
-    "name_en": "石化",
+    "name_en": "Petrification",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02B\\GCG02B-T061(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Zhongli_(Character_Card)"
   },
   {
     "serial": "GCG02B-T062(1)",
@@ -8598,16 +8598,16 @@
   {
     "serial": "GCG02B-T064(1)",
     "name_cn": "桂子仙机",
-    "name_en": "桂子仙机",
+    "name_en": "Adeptal Legacy",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T064(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yaoyao_(Character_Card)"
   },
   {
     "serial": "GCG02B-T065(1)",
@@ -8626,72 +8626,72 @@
   {
     "serial": "GCG02B-T066(1)",
     "name_cn": "脉摄宣明",
-    "name_en": "脉摄宣明",
+    "name_en": "Pulsing Clarity",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T066(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Baizhu_(Character_Card)"
   },
   {
     "serial": "GCG02B-T067(1)",
     "name_cn": "无郤气护盾",
-    "name_en": "无郤气护盾",
+    "name_en": "Seamless Shield",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02B\\GCG02B-T067(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Baizhu_(Character_Card)"
   },
   {
     "serial": "GCG02B-T068(1)",
     "name_cn": "潜行",
-    "name_en": "潜行",
+    "name_en": "Stealth",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02B\\GCG02B-T068(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Fatui_Pyro_Agent_(Character_Card)"
   },
   {
     "serial": "GCG02B-T069(1)",
     "name_cn": "猜拳三连击・剪刀",
-    "name_en": "猜拳三连击・剪刀",
+    "name_en": "Rock-Paper-Scissors Combo: Scissors",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Elemental Skill",
+    "card_subcategory": "None",
     "image": "images\\GCG02B\\GCG02B-T069(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Electro_Hypostasis_(Character_Card)"
   },
   {
     "serial": "GCG02B-T070(1)",
     "name_cn": "猜拳三连击・布",
-    "name_en": "猜拳三连击・布",
+    "name_en": "Rock-Paper-Scissors Combo: Paper",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Elemental Skill",
+    "card_subcategory": "None",
     "image": "images\\GCG02B\\GCG02B-T070(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Electro_Hypostasis_(Character_Card)"
   },
   {
     "serial": "GCG02B-T071(1)",
@@ -8710,30 +8710,30 @@
   {
     "serial": "GCG02B-T072(1)",
     "name_cn": "雷晶核心",
-    "name_en": "雷晶核心",
+    "name_en": "Electro Crystal Core",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02B\\GCG02B-T072(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Electro_Hypostasis_(Character_Card)"
   },
   {
     "serial": "GCG02B-T073(1)",
     "name_cn": "岩盔",
-    "name_en": "岩盔",
+    "name_en": "Stonehide",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02B\\GCG02B-T073(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Stonehide_Lawachurl_(Character_Card)"
   },
   {
     "serial": "GCG03B-C037(1)",
@@ -11776,44 +11776,44 @@
   {
     "serial": "GCG03B-T032(1)",
     "name_cn": "结晶",
-    "name_en": "结晶",
+    "name_en": "Shield",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03B\\GCG03B-T032(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG03B-T033(1)",
     "name_cn": "激化领域",
-    "name_en": "激化领域",
+    "name_en": "Catalyzing Field",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03B\\GCG03B-T033(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG03B-T034(1)",
     "name_cn": "草原核",
-    "name_en": "草原核",
+    "name_en": "Dendro Core",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03B\\GCG03B-T034(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG03B-T035(1)",
@@ -11832,16 +11832,16 @@
   {
     "serial": "GCG03B-T036(1)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T036(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG03B-T074(1)",
@@ -11860,72 +11860,72 @@
   {
     "serial": "GCG03B-T075(1)",
     "name_cn": "度厄真符",
-    "name_en": "度厄真符",
+    "name_en": "Fortune-Preserving Talisman",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03B\\GCG03B-T075(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Qiqi_(Character_Card)"
   },
   {
     "serial": "GCG03B-T076(1)",
     "name_cn": "近战状态",
-    "name_en": "近战状态",
+    "name_en": "Melee Stance",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T076(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Tartaglia_(Character_Card)"
   },
   {
     "serial": "GCG03B-T077(1)",
     "name_cn": "断流",
-    "name_en": "断流",
+    "name_en": "Riptide",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T077(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Tartaglia_(Character_Card)"
   },
   {
     "serial": "GCG03B-T078(1)",
     "name_cn": "远程状态",
-    "name_en": "远程状态",
+    "name_en": "Ranged Stance",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T078(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Tartaglia_(Character_Card)"
   },
   {
     "serial": "GCG03B-T079(1)",
     "name_cn": "泷廻鉴花",
-    "name_en": "泷廻鉴花",
+    "name_en": "Takimeguri Kanka",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T079(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayato_(Character_Card)"
   },
   {
     "serial": "GCG03B-T080(1)",
@@ -11944,100 +11944,100 @@
   {
     "serial": "GCG03B-T081(1)",
     "name_cn": "庭火焰硝",
-    "name_en": "庭火焰硝",
+    "name_en": "Niwabi Enshou",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T081(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yoimiya_(Character_Card)"
   },
   {
     "serial": "GCG03B-T082(1)",
     "name_cn": "琉金火光",
-    "name_en": "琉金火光",
+    "name_en": "Aurous Blaze",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03B\\GCG03B-T082(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yoimiya_(Character_Card)"
   },
   {
     "serial": "GCG03B-T083(1)",
     "name_cn": "丹火印",
-    "name_en": "丹火印",
+    "name_en": "Scarlet Seal",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T083(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yanfei_(Character_Card)"
   },
   {
     "serial": "GCG03B-T084(1)",
     "name_cn": "灼灼",
-    "name_en": "灼灼",
+    "name_en": "Brilliance",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T084(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yanfei_(Character_Card)"
   },
   {
     "serial": "GCG03B-T085(1)",
     "name_cn": "烈烧佑命护盾",
-    "name_en": "烈烧佑命护盾",
+    "name_en": "Blazing Barrier",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03B\\GCG03B-T085(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Thoma_(Character_Card)"
   },
   {
     "serial": "GCG03B-T086(1)",
     "name_cn": "炽火大铠",
-    "name_en": "炽火大铠",
+    "name_en": "Scorching Ooyoroi",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03B\\GCG03B-T086(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Thoma_(Character_Card)"
   },
   {
     "serial": "GCG03B-T087(1)",
     "name_cn": "雷狼",
-    "name_en": "雷狼",
+    "name_en": "The Wolf Within",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T087(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Razor_(Character_Card)"
   },
   {
     "serial": "GCG03B-T088(1)",
@@ -12056,16 +12056,16 @@
   {
     "serial": "GCG03B-T089(1)",
     "name_cn": "诸愿百眼之轮",
-    "name_en": "诸愿百眼之轮",
+    "name_en": "Chakra Desiderata",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T089(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Raiden_Shogun_(Character_Card)"
   },
   {
     "serial": "GCG03B-T090(1)",
@@ -12084,30 +12084,30 @@
   {
     "serial": "GCG03B-T091(1)",
     "name_cn": "天狐霆雷",
-    "name_en": "天狐霆雷",
+    "name_en": "Tenko Thunderbolts",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03B\\GCG03B-T091(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yae_Miko_(Character_Card)"
   },
   {
     "serial": "GCG03B-T092(1)",
     "name_cn": "乱岚拨止",
-    "name_en": "乱岚拨止",
+    "name_en": "Midare Ranzan",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T092(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kaedehara_Kazuha_(Character_Card)"
   },
   {
     "serial": "GCG03B-T093(1)",
@@ -12140,44 +12140,44 @@
   {
     "serial": "GCG03B-T095(1)",
     "name_cn": "乱神之怪力",
-    "name_en": "乱神之怪力",
+    "name_en": "Superlative Superstrength",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T095(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Arataki_Itto_(Character_Card)"
   },
   {
     "serial": "GCG03B-T096(1)",
     "name_cn": "怒目鬼王",
-    "name_en": "怒目鬼王",
+    "name_en": "Raging Oni King",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T096(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Arataki_Itto_(Character_Card)"
   },
   {
     "serial": "GCG03B-T097(1)",
     "name_cn": "大将旗指物",
-    "name_en": "大将旗指物",
+    "name_en": "General's War Banner",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03B\\GCG03B-T097(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Gorou_(Character_Card)"
   },
   {
     "serial": "GCG03B-T098(1)",
@@ -12196,16 +12196,16 @@
   {
     "serial": "GCG03B-T099(1)",
     "name_cn": "通塞识",
-    "name_en": "通塞识",
+    "name_en": "Vijnana Suffusion",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T099(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Tighnari_(Character_Card)"
   },
   {
     "serial": "GCG03B-T100(1)",
@@ -12224,44 +12224,44 @@
   {
     "serial": "GCG03B-T101(1)",
     "name_cn": "猫箱急件",
-    "name_en": "猫箱急件",
+    "name_en": "Urgent Neko Parcel",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03B\\GCG03B-T101(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kirara_(Character_Card)"
   },
   {
     "serial": "GCG03B-T102(1)",
     "name_cn": "安全运输护盾",
-    "name_en": "安全运输护盾",
+    "name_en": "Shield of Safe Transport",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03B\\GCG03B-T102(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kirara_(Character_Card)"
   },
   {
     "serial": "GCG03B-T103(1)",
     "name_cn": "猫草豆蔻",
-    "name_en": "猫草豆蔻",
+    "name_en": "Cat Grass Cardamom",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03B\\GCG03B-T103(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kirara_(Character_Card)"
   },
   {
     "serial": "GCG03B-T104(1)",
@@ -12280,44 +12280,44 @@
   {
     "serial": "GCG03B-T105(1)",
     "name_cn": "流萤护罩",
-    "name_en": "流萤护罩",
+    "name_en": "Flowing Cicin Shield",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03B\\GCG03B-T105(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Fatui_Cryo_Cicin_Mage_(Character_Card)"
   },
   {
     "serial": "GCG03B-T106(1)",
     "name_cn": "水光破镜",
-    "name_en": "水光破镜",
+    "name_en": "Refraction",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T106(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Mirror_Maiden_(Character_Card)"
   },
   {
     "serial": "GCG03B-T107(1)",
     "name_cn": "原海明珠",
-    "name_en": "原海明珠",
+    "name_en": "Fontemer Pearl",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03B\\GCG03B-T107(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Millennial_Pearl_Seahorse_(Character_Card)"
   },
   {
     "serial": "GCG03B-T108(1)",
@@ -16004,44 +16004,44 @@
   {
     "serial": "GCG04B-T032(1)",
     "name_cn": "结晶",
-    "name_en": "结晶",
+    "name_en": "Shield",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T032(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG04B-T033(1)",
     "name_cn": "激化领域",
-    "name_en": "激化领域",
+    "name_en": "Catalyzing Field",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T033(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG04B-T034(1)",
     "name_cn": "草原核",
-    "name_en": "草原核",
+    "name_en": "Dendro Core",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T034(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG04B-T035(1)",
@@ -16060,30 +16060,30 @@
   {
     "serial": "GCG04B-T036(1)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG04B\\GCG04B-T036(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG04B-T111(1)",
     "name_cn": "冰翎",
-    "name_en": "冰翎",
+    "name_en": "Icy Quill",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T111(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Shenhe_(Character_Card)"
   },
   {
     "serial": "GCG04B-T112(1)",
@@ -16102,30 +16102,30 @@
   {
     "serial": "GCG04B-T113(1)",
     "name_cn": "安眠帷幕护盾",
-    "name_en": "安眠帷幕护盾",
+    "name_en": "Curtain of Slumber",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T113(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Layla_(Character_Card)"
   },
   {
     "serial": "GCG04B-T114(1)",
     "name_cn": "飞星",
-    "name_en": "飞星",
+    "name_en": "Shooting Star",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T114(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Layla_(Character_Card)"
   },
   {
     "serial": "GCG04B-T115(1)",
@@ -16144,16 +16144,16 @@
   {
     "serial": "GCG04B-T116(1)",
     "name_cn": "瞬时剪影",
-    "name_en": "瞬时剪影",
+    "name_en": "Snappy Silhouette",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG04B\\GCG04B-T116(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Charlotte_(Character_Card)"
   },
   {
     "serial": "GCG04B-T117(1)",
@@ -16172,86 +16172,86 @@
   {
     "serial": "GCG04B-T118(1)",
     "name_cn": "金杯的丰馈",
-    "name_en": "金杯的丰馈",
+    "name_en": "Golden Chalice's Bounty",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T118(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Nilou_(Character_Card)"
   },
   {
     "serial": "GCG04B-T119(1)",
     "name_cn": "丰壤之核",
-    "name_en": "丰壤之核",
+    "name_en": "Bountiful Core ",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Summon",
+    "card_subcategory": "None",
     "image": "images\\GCG04B\\GCG04B-T119(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Bountiful_Core_(Summon)"
   },
   {
     "serial": "GCG04B-T120(1)",
     "name_cn": "永世流沔",
-    "name_en": "永世流沔",
+    "name_en": "Lingering Aeon",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG04B\\GCG04B-T120(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Nilou_(Character_Card)"
   },
   {
     "serial": "GCG04B-T121(1)",
     "name_cn": "破局",
-    "name_en": "破局",
+    "name_en": "Breakthrough",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG04B\\GCG04B-T121(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yelan_(Character_Card)"
   },
   {
     "serial": "GCG04B-T122(1)",
     "name_cn": "玄掷玲珑",
-    "name_en": "玄掷玲珑",
+    "name_en": "Exquisite Throw",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T122(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yelan_(Character_Card)"
   },
   {
     "serial": "GCG04B-T123(1)",
     "name_cn": "鼓舞领域",
-    "name_en": "鼓舞领域",
+    "name_en": "Inspiration Field",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T123(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Bennett_(Character_Card)"
   },
   {
     "serial": "GCG04B-T124(1)",
@@ -17068,16 +17068,16 @@
   {
     "serial": "GCG01S-T010(0)",
     "name_cn": "旋火轮",
-    "name_en": "旋火轮",
+    "name_en": "Pyronado",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG01S\\GCG01S-T010(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xiangling_(Character_Card)"
   },
   {
     "serial": "GCG01S-T011(0)",
@@ -17124,16 +17124,16 @@
   {
     "serial": "GCG01S-T034(0)",
     "name_cn": "草原核",
-    "name_en": "草原核",
+    "name_en": "Dendro Core",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG01S\\GCG01S-T034(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG01S-T035(0)",
@@ -17152,16 +17152,16 @@
   {
     "serial": "GCG01S-T036(0)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG01S\\GCG01S-T036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG02S-C010(0)",
@@ -17628,16 +17628,16 @@
   {
     "serial": "GCG02S-T017(0)",
     "name_cn": "引雷",
-    "name_en": "引雷",
+    "name_en": "Conductive",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02S\\GCG02S-T017(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Lisa_(Character_Card)"
   },
   {
     "serial": "GCG02S-T018(0)",
@@ -17670,44 +17670,44 @@
   {
     "serial": "GCG02S-T031(0)",
     "name_cn": "活化激能",
-    "name_en": "活化激能",
+    "name_en": "Radical Vitality",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG02S\\GCG02S-T031(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Jadeplume_Terrorshroom_(Character_Card)"
   },
   {
     "serial": "GCG02S-T033(0)",
     "name_cn": "激化领域",
-    "name_en": "激化领域",
+    "name_en": "Catalyzing Field",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02S\\GCG02S-T033(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG02S-T034(0)",
     "name_cn": "草原核",
-    "name_en": "草原核",
+    "name_en": "Dendro Core",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG02S\\GCG02S-T034(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG02S-T035(0)",
@@ -18188,16 +18188,16 @@
   {
     "serial": "GCG03S-T014(0)",
     "name_cn": "鸣煌护持",
-    "name_en": "鸣煌护持",
+    "name_en": "Crowfeather Cover",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03S\\GCG03S-T014(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kujou_Sara_(Character_Card)"
   },
   {
     "serial": "GCG03S-T015(0)",
@@ -18230,58 +18230,58 @@
   {
     "serial": "GCG03S-T021(0)",
     "name_cn": "璇玑屏",
-    "name_en": "璇玑屏",
+    "name_en": "Jade Screen",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03S\\GCG03S-T021(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Ningguang_(Character_Card)"
   },
   {
     "serial": "GCG03S-T022(0)",
     "name_cn": "护体岩铠",
-    "name_en": "护体岩铠",
+    "name_en": "Full Plate",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03S\\GCG03S-T022(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Noelle_(Character_Card)"
   },
   {
     "serial": "GCG03S-T023(0)",
     "name_cn": "大扫除",
-    "name_en": "大扫除",
+    "name_en": "Sweeping Time",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG03S\\GCG03S-T023(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Noelle_(Character_Card)"
   },
   {
     "serial": "GCG03S-T032(0)",
     "name_cn": "结晶",
-    "name_en": "结晶",
+    "name_en": "Shield",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG03S\\GCG03S-T032(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG04S-C005(0)",
@@ -18748,16 +18748,16 @@
   {
     "serial": "GCG04S-T007(0)",
     "name_cn": "泡影",
-    "name_en": "泡影",
+    "name_en": "Illusory Bubble",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04S\\GCG04S-T007(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Mona_(Character_Card)"
   },
   {
     "serial": "GCG04S-T008(0)",
@@ -18776,16 +18776,16 @@
   {
     "serial": "GCG04S-T009(0)",
     "name_cn": "火元素附魔",
-    "name_en": "火元素附魔",
+    "name_en": "Pyro Infusion",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG04S\\GCG04S-T009(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Diluc_(Character_Card)"
   },
   {
     "serial": "GCG04S-T019(0)",
@@ -18804,16 +18804,16 @@
   {
     "serial": "GCG04S-T034(0)",
     "name_cn": "草原核",
-    "name_en": "草原核",
+    "name_en": "Dendro Core",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04S\\GCG04S-T034(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG04S-T035(0)",
@@ -18832,16 +18832,16 @@
   {
     "serial": "GCG04S-T036(0)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG04S\\GCG04S-T036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG05S-C001(0)",
@@ -19308,16 +19308,16 @@
   {
     "serial": "GCG05S-T001(0)",
     "name_cn": "冰莲",
-    "name_en": "冰莲",
+    "name_en": "Ice Lotus",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG05S\\GCG05S-T001(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Ganyu_(Character_Card)"
   },
   {
     "serial": "GCG05S-T002(0)",
@@ -19392,16 +19392,16 @@
   {
     "serial": "GCG05S-T036(0)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG05S\\GCG05S-T036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG06S-C002(0)",
@@ -19868,16 +19868,16 @@
   {
     "serial": "GCG06S-T003(0)",
     "name_cn": "重华叠霜领域",
-    "name_en": "重华叠霜领域",
+    "name_en": "Chonghua's Frost Field",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG06S\\GCG06S-T003(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Chongyun_(Character_Card)"
   },
   {
     "serial": "GCG06S-T012(0)",
@@ -19896,30 +19896,30 @@
   {
     "serial": "GCG06S-T013(0)",
     "name_cn": "雷元素附魔",
-    "name_en": "雷元素附魔",
+    "name_en": "Electro Infusion",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG06S\\GCG06S-T013(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Keqing_(Character_Card)"
   },
   {
     "serial": "GCG06S-T014(0)",
     "name_cn": "鸣煌护持",
-    "name_en": "鸣煌护持",
+    "name_en": "Crowfeather Cover",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG06S\\GCG06S-T014(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kujou_Sara_(Character_Card)"
   },
   {
     "serial": "GCG06S-T015(0)",
@@ -20414,16 +20414,16 @@
   {
     "serial": "GCG07S-T001(0)",
     "name_cn": "冰莲",
-    "name_en": "冰莲",
+    "name_en": "Ice Lotus",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG07S\\GCG07S-T001(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Ganyu_(Character_Card)"
   },
   {
     "serial": "GCG07S-T002(0)",
@@ -20442,16 +20442,16 @@
   {
     "serial": "GCG07S-T004(0)",
     "name_cn": "冰元素附魔",
-    "name_en": "冰元素附魔",
+    "name_en": "Cryo Elemental Infusion",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG07S\\GCG07S-T004(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka_(Character_Card)"
   },
   {
     "serial": "GCG07S-T005(0)",
@@ -20484,30 +20484,30 @@
   {
     "serial": "GCG07S-T029(0)",
     "name_cn": "火之新生",
-    "name_en": "火之新生",
+    "name_en": "Fiery Rebirth",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG07S\\GCG07S-T029(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Abyss_Lector:_Fathomless_Flames_(Character_Card)"
   },
   {
     "serial": "GCG07S-T030(0)",
     "name_cn": "渊火加护",
-    "name_en": "渊火加护",
+    "name_en": "Aegis of Abyssal Flame",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG07S\\GCG07S-T030(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Abyss_Lector:_Fathomless_Flames_(Character_Card)"
   },
   {
     "serial": "GCG08S-C006(0)",
@@ -20974,16 +20974,16 @@
   {
     "serial": "GCG08S-T009(0)",
     "name_cn": "火元素附魔",
-    "name_en": "火元素附魔",
+    "name_en": "Pyro Infusion",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG08S\\GCG08S-T009(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Diluc_(Character_Card)"
   },
   {
     "serial": "GCG08S-T012(0)",
@@ -21002,16 +21002,16 @@
   {
     "serial": "GCG08S-T013(0)",
     "name_cn": "雷元素附魔",
-    "name_en": "雷元素附魔",
+    "name_en": "Electro Infusion",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG08S\\GCG08S-T013(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Keqing_(Character_Card)"
   },
   {
     "serial": "GCG08S-T028(0)",
@@ -21030,30 +21030,30 @@
   {
     "serial": "GCG08S-T029(0)",
     "name_cn": "火之新生",
-    "name_en": "火之新生",
+    "name_en": "Fiery Rebirth",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG08S\\GCG08S-T029(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Abyss_Lector:_Fathomless_Flames_(Character_Card)"
   },
   {
     "serial": "GCG08S-T030(0)",
     "name_cn": "渊火加护",
-    "name_en": "渊火加护",
+    "name_en": "Aegis of Abyssal Flame",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG08S\\GCG08S-T030(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Abyss_Lector:_Fathomless_Flames_(Character_Card)"
   },
   {
     "serial": "GCG08S-T035(0)",
@@ -21534,44 +21534,44 @@
   {
     "serial": "GCG09S-T046(0)",
     "name_cn": "苍鹭护盾",
-    "name_en": "苍鹭护盾",
+    "name_en": "Heron Shield",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG09S\\GCG09S-T046(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Candace_(Character_Card)"
   },
   {
     "serial": "GCG09S-T047(0)",
     "name_cn": "苍鹭震击",
-    "name_en": "苍鹭震击",
+    "name_en": "Heron Strike",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Elemental Skill",
+    "card_subcategory": "None",
     "image": "images\\GCG09S\\GCG09S-T047(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Candace_(Character_Card)"
   },
   {
     "serial": "GCG09S-T048(0)",
     "name_cn": "赤冕祝祷",
-    "name_en": "赤冕祝祷",
+    "name_en": "Prayer of the Crimson Crown",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG09S\\GCG09S-T048(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Candace_(Character_Card)"
   },
   {
     "serial": "GCG09S-T049(0)",
@@ -21590,16 +21590,16 @@
   {
     "serial": "GCG09S-T055(0)",
     "name_cn": "风域",
-    "name_en": "风域",
+    "name_en": "Stormzone",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG09S\\GCG09S-T055(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Venti_(Character_Card)"
   },
   {
     "serial": "GCG09S-T056(0)",
@@ -21618,16 +21618,16 @@
   {
     "serial": "GCG09S-T057(0)",
     "name_cn": "协鸣之风",
-    "name_en": "协鸣之风",
+    "name_en": "Stormeye",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG09S\\GCG09S-T057(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Venti_(Character_Card)"
   },
   {
     "serial": "GCG10S-C023(0)",
@@ -22094,16 +22094,16 @@
   {
     "serial": "GCG10S-T032(0)",
     "name_cn": "结晶",
-    "name_en": "结晶",
+    "name_en": "Shield",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG10S\\GCG10S-T032(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG10S-T044(0)",
@@ -22122,16 +22122,16 @@
   {
     "serial": "GCG10S-T045(0)",
     "name_cn": "仪来羽衣",
-    "name_en": "仪来羽衣",
+    "name_en": "Ceremonial Garment",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG10S\\GCG10S-T045(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Sangonomiya_Kokomi_(Character_Card)"
   },
   {
     "serial": "GCG10S-T059(0)",
@@ -22150,30 +22150,30 @@
   {
     "serial": "GCG10S-T060(0)",
     "name_cn": "玉璋护盾",
-    "name_en": "玉璋护盾",
+    "name_en": "Jade Shield",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG10S\\GCG10S-T060(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Zhongli_(Character_Card)"
   },
   {
     "serial": "GCG10S-T061(0)",
     "name_cn": "石化",
-    "name_en": "石化",
+    "name_en": "Petrification",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG10S\\GCG10S-T061(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Zhongli_(Character_Card)"
   },
   {
     "serial": "GCG10S-T062(0)",
@@ -22654,72 +22654,72 @@
   {
     "serial": "GCG11S-T034(0)",
     "name_cn": "草原核",
-    "name_en": "草原核",
+    "name_en": "Dendro Core",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG11S\\GCG11S-T034(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG11S-T036(0)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG11S\\GCG11S-T036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG11S-T039(0)",
     "name_cn": "寒冰之棱",
-    "name_en": "寒冰之棱",
+    "name_en": "Icicle",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG11S\\GCG11S-T039(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kaeya_(Character_Card)"
   },
   {
     "serial": "GCG11S-T042(0)",
     "name_cn": "雨帘剑",
-    "name_en": "雨帘剑",
+    "name_en": "Rain Sword",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG11S\\GCG11S-T042(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xingqiu_(Character_Card)"
   },
   {
     "serial": "GCG11S-T043(0)",
     "name_cn": "虹剑势",
-    "name_en": "虹剑势",
+    "name_en": "Rainbow Bladework",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG11S\\GCG11S-T043(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xingqiu_(Character_Card)"
   },
   {
     "serial": "GCG11S-T044(0)",
@@ -22738,16 +22738,16 @@
   {
     "serial": "GCG11S-T045(0)",
     "name_cn": "仪来羽衣",
-    "name_en": "仪来羽衣",
+    "name_en": "Ceremonial Garment",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG11S\\GCG11S-T045(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Sangonomiya_Kokomi_(Character_Card)"
   },
   {
     "serial": "GCG12S-C019(0)",
@@ -23214,44 +23214,44 @@
   {
     "serial": "GCG12S-T034(0)",
     "name_cn": "草原核",
-    "name_en": "草原核",
+    "name_en": "Dendro Core",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG12S\\GCG12S-T034(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG12S-T036(0)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG12S\\GCG12S-T036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG12S-T037(0)",
     "name_cn": "猫爪护盾",
-    "name_en": "猫爪护盾",
+    "name_en": "Cat-Claw Shield",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG12S\\GCG12S-T037(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Diona_(Character_Card)"
   },
   {
     "serial": "GCG12S-T038(0)",
@@ -23270,44 +23270,44 @@
   {
     "serial": "GCG12S-T042(0)",
     "name_cn": "雨帘剑",
-    "name_en": "雨帘剑",
+    "name_en": "Rain Sword",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG12S\\GCG12S-T042(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xingqiu_(Character_Card)"
   },
   {
     "serial": "GCG12S-T043(0)",
     "name_cn": "虹剑势",
-    "name_en": "虹剑势",
+    "name_en": "Rainbow Bladework",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG12S\\GCG12S-T043(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xingqiu_(Character_Card)"
   },
   {
     "serial": "GCG12S-T058(0)",
     "name_cn": "夜叉傩面",
-    "name_en": "夜叉傩面",
+    "name_en": "Yaksha's Mask",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG12S\\GCG12S-T058(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xiao_(Character_Card)"
   },
   {
     "serial": "GCG13S-C020(0)",
@@ -23774,100 +23774,100 @@
   {
     "serial": "GCG13S-T032(0)",
     "name_cn": "结晶",
-    "name_en": "结晶",
+    "name_en": "Shield",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG13S\\GCG13S-T032(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG13S-T036(0)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG13S\\GCG13S-T036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG13S-T039(0)",
     "name_cn": "寒冰之棱",
-    "name_en": "寒冰之棱",
+    "name_en": "Icicle",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG13S\\GCG13S-T039(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kaeya_(Character_Card)"
   },
   {
     "serial": "GCG13S-T052(0)",
     "name_cn": "捉浪・涛拥之守",
-    "name_en": "捉浪・涛拥之守",
+    "name_en": "Tidecaller: Surf Embrace",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG13S\\GCG13S-T052(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Beidou_(Character_Card)"
   },
   {
     "serial": "GCG13S-T053(0)",
     "name_cn": "踏潮",
-    "name_en": "踏潮",
+    "name_en": "Wavestrider",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Elemental Skill",
+    "card_subcategory": "None",
     "image": "images\\GCG13S\\GCG13S-T053(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Beidou_(Character_Card)"
   },
   {
     "serial": "GCG13S-T054(0)",
     "name_cn": "雷兽之盾",
-    "name_en": "雷兽之盾",
+    "name_en": "Thunderbeast's Targe",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG13S\\GCG13S-T054(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Beidou_(Character_Card)"
   },
   {
     "serial": "GCG13S-T073(0)",
     "name_cn": "岩盔",
-    "name_en": "岩盔",
+    "name_en": "Stonehide",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG13S\\GCG13S-T073(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Stonehide_Lawachurl_(Character_Card)"
   },
   {
     "serial": "GCG14S-C032(0)",
@@ -24362,16 +24362,16 @@
   {
     "serial": "GCG14S-T064(0)",
     "name_cn": "桂子仙机",
-    "name_en": "桂子仙机",
+    "name_en": "Adeptal Legacy",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG14S\\GCG14S-T064(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yaoyao_(Character_Card)"
   },
   {
     "serial": "GCG14S-T065(0)",
@@ -24390,44 +24390,44 @@
   {
     "serial": "GCG14S-T066(0)",
     "name_cn": "脉摄宣明",
-    "name_en": "脉摄宣明",
+    "name_en": "Pulsing Clarity",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG14S\\GCG14S-T066(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Baizhu_(Character_Card)"
   },
   {
     "serial": "GCG14S-T067(0)",
     "name_cn": "无郤气护盾",
-    "name_en": "无郤气护盾",
+    "name_en": "Seamless Shield",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG14S\\GCG14S-T067(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Baizhu_(Character_Card)"
   },
   {
     "serial": "GCG14S-T068(0)",
     "name_cn": "潜行",
-    "name_en": "潜行",
+    "name_en": "Stealth",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG14S\\GCG14S-T068(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Fatui_Pyro_Agent_(Character_Card)"
   },
   {
     "serial": "GCG15S-C021(0)",
@@ -24894,16 +24894,16 @@
   {
     "serial": "GCG15S-T040(0)",
     "name_cn": "冷酷之心",
-    "name_en": "冷酷之心",
+    "name_en": "Grimheart",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG15S\\GCG15S-T040(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Eula_(Character_Card)"
   },
   {
     "serial": "GCG15S-T041(0)",
@@ -24936,30 +24936,30 @@
   {
     "serial": "GCG15S-T069(0)",
     "name_cn": "猜拳三连击・剪刀",
-    "name_en": "猜拳三连击・剪刀",
+    "name_en": "Rock-Paper-Scissors Combo: Scissors",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Elemental Skill",
+    "card_subcategory": "None",
     "image": "images\\GCG15S\\GCG15S-T069(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Electro_Hypostasis_(Character_Card)"
   },
   {
     "serial": "GCG15S-T070(0)",
     "name_cn": "猜拳三连击・布",
-    "name_en": "猜拳三连击・布",
+    "name_en": "Rock-Paper-Scissors Combo: Paper",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Elemental Skill",
+    "card_subcategory": "None",
     "image": "images\\GCG15S\\GCG15S-T070(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Electro_Hypostasis_(Character_Card)"
   },
   {
     "serial": "GCG15S-T071(0)",
@@ -24978,16 +24978,16 @@
   {
     "serial": "GCG15S-T072(0)",
     "name_cn": "雷晶核心",
-    "name_en": "雷晶核心",
+    "name_en": "Electro Crystal Core",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG15S\\GCG15S-T072(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Electro_Hypostasis_(Character_Card)"
   },
   {
     "serial": "GCG16S-C026(0)",
@@ -25454,44 +25454,44 @@
   {
     "serial": "GCG16S-T032(0)",
     "name_cn": "结晶",
-    "name_en": "结晶",
+    "name_en": "Shield",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG16S\\GCG16S-T032(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG16S-T050(0)",
     "name_cn": "彼岸蝶舞",
-    "name_en": "彼岸蝶舞",
+    "name_en": "Paramita Papilio",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG16S\\GCG16S-T050(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Hu_Tao_(Character_Card)"
   },
   {
     "serial": "GCG16S-T051(0)",
     "name_cn": "血梅香",
-    "name_en": "血梅香",
+    "name_en": "Blood Blossom",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG16S\\GCG16S-T051(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Hu_Tao_(Character_Card)"
   },
   {
     "serial": "GCG16S-T059(0)",
@@ -25510,30 +25510,30 @@
   {
     "serial": "GCG16S-T060(0)",
     "name_cn": "玉璋护盾",
-    "name_en": "玉璋护盾",
+    "name_en": "Jade Shield",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG16S\\GCG16S-T060(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Zhongli_(Character_Card)"
   },
   {
     "serial": "GCG16S-T061(0)",
     "name_cn": "石化",
-    "name_en": "石化",
+    "name_en": "Petrification",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG16S\\GCG16S-T061(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Zhongli_(Character_Card)"
   },
   {
     "serial": "GCG16S-T062(0)",
@@ -26014,30 +26014,30 @@
   {
     "serial": "GCG17S-T034(0)",
     "name_cn": "草原核",
-    "name_en": "草原核",
+    "name_en": "Dendro Core",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG17S\\GCG17S-T034(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG17S-T079(0)",
     "name_cn": "泷廻鉴花",
-    "name_en": "泷廻鉴花",
+    "name_en": "Takimeguri Kanka",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG17S\\GCG17S-T079(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayato_(Character_Card)"
   },
   {
     "serial": "GCG17S-T080(0)",
@@ -26056,30 +26056,30 @@
   {
     "serial": "GCG17S-T085(0)",
     "name_cn": "烈烧佑命护盾",
-    "name_en": "烈烧佑命护盾",
+    "name_en": "Blazing Barrier",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG17S\\GCG17S-T085(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Thoma_(Character_Card)"
   },
   {
     "serial": "GCG17S-T086(0)",
     "name_cn": "炽火大铠",
-    "name_en": "炽火大铠",
+    "name_en": "Scorching Ooyoroi",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG17S\\GCG17S-T086(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Thoma_(Character_Card)"
   },
   {
     "serial": "GCG17S-T088(0)",
@@ -26098,16 +26098,16 @@
   {
     "serial": "GCG17S-T089(0)",
     "name_cn": "诸愿百眼之轮",
-    "name_en": "诸愿百眼之轮",
+    "name_en": "Chakra Desiderata",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG17S\\GCG17S-T089(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Raiden_Shogun_(Character_Card)"
   },
   {
     "serial": "GCG18S-C038(0)",
@@ -26574,58 +26574,58 @@
   {
     "serial": "GCG18S-T036(0)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG18S\\GCG18S-T036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG18S-T076(0)",
     "name_cn": "近战状态",
-    "name_en": "近战状态",
+    "name_en": "Melee Stance",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG18S\\GCG18S-T076(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Tartaglia_(Character_Card)"
   },
   {
     "serial": "GCG18S-T077(0)",
     "name_cn": "断流",
-    "name_en": "断流",
+    "name_en": "Riptide",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG18S\\GCG18S-T077(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Tartaglia_(Character_Card)"
   },
   {
     "serial": "GCG18S-T078(0)",
     "name_cn": "远程状态",
-    "name_en": "远程状态",
+    "name_en": "Ranged Stance",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG18S\\GCG18S-T078(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Tartaglia_(Character_Card)"
   },
   {
     "serial": "GCG18S-T104(0)",
@@ -26644,30 +26644,30 @@
   {
     "serial": "GCG18S-T105(0)",
     "name_cn": "流萤护罩",
-    "name_en": "流萤护罩",
+    "name_en": "Flowing Cicin Shield",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG18S\\GCG18S-T105(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Fatui_Cryo_Cicin_Mage_(Character_Card)"
   },
   {
     "serial": "GCG18S-T106(0)",
     "name_cn": "水光破镜",
-    "name_en": "水光破镜",
+    "name_en": "Refraction",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG18S\\GCG18S-T106(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Mirror_Maiden_(Character_Card)"
   },
   {
     "serial": "GCG19S-C047(0)",
@@ -27134,16 +27134,16 @@
   {
     "serial": "GCG19S-T032(0)",
     "name_cn": "结晶",
-    "name_en": "结晶",
+    "name_en": "Shield",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG19S\\GCG19S-T032(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG19S-T094(0)",
@@ -27162,44 +27162,44 @@
   {
     "serial": "GCG19S-T095(0)",
     "name_cn": "乱神之怪力",
-    "name_en": "乱神之怪力",
+    "name_en": "Superlative Superstrength",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG19S\\GCG19S-T095(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Arataki_Itto_(Character_Card)"
   },
   {
     "serial": "GCG19S-T096(0)",
     "name_cn": "怒目鬼王",
-    "name_en": "怒目鬼王",
+    "name_en": "Raging Oni King",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG19S\\GCG19S-T096(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Arataki_Itto_(Character_Card)"
   },
   {
     "serial": "GCG19S-T097(0)",
     "name_cn": "大将旗指物",
-    "name_en": "大将旗指物",
+    "name_en": "General's War Banner",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG19S\\GCG19S-T097(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Gorou_(Character_Card)"
   },
   {
     "serial": "GCG19S-T098(0)",
@@ -27218,16 +27218,16 @@
   {
     "serial": "GCG19S-T106(0)",
     "name_cn": "水光破镜",
-    "name_en": "水光破镜",
+    "name_en": "Refraction",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG19S\\GCG19S-T106(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Mirror_Maiden_(Character_Card)"
   },
   {
     "serial": "GCG20S-C037(0)",
@@ -27708,86 +27708,86 @@
   {
     "serial": "GCG20S-T075(0)",
     "name_cn": "度厄真符",
-    "name_en": "度厄真符",
+    "name_en": "Fortune-Preserving Talisman",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG20S\\GCG20S-T075(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Qiqi_(Character_Card)"
   },
   {
     "serial": "GCG20S-T076(0)",
     "name_cn": "近战状态",
-    "name_en": "近战状态",
+    "name_en": "Melee Stance",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG20S\\GCG20S-T076(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Tartaglia_(Character_Card)"
   },
   {
     "serial": "GCG20S-T077(0)",
     "name_cn": "断流",
-    "name_en": "断流",
+    "name_en": "Riptide",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG20S\\GCG20S-T077(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Tartaglia_(Character_Card)"
   },
   {
     "serial": "GCG20S-T078(0)",
     "name_cn": "远程状态",
-    "name_en": "远程状态",
+    "name_en": "Ranged Stance",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG20S\\GCG20S-T078(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Tartaglia_(Character_Card)"
   },
   {
     "serial": "GCG20S-T083(0)",
     "name_cn": "丹火印",
-    "name_en": "丹火印",
+    "name_en": "Scarlet Seal",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG20S\\GCG20S-T083(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yanfei_(Character_Card)"
   },
   {
     "serial": "GCG20S-T084(0)",
     "name_cn": "灼灼",
-    "name_en": "灼灼",
+    "name_en": "Brilliance",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG20S\\GCG20S-T084(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yanfei_(Character_Card)"
   },
   {
     "serial": "GCG21S-C045(0)",
@@ -28254,16 +28254,16 @@
   {
     "serial": "GCG21S-T036(0)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG21S\\GCG21S-T036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG21S-T090(0)",
@@ -28282,30 +28282,30 @@
   {
     "serial": "GCG21S-T091(0)",
     "name_cn": "天狐霆雷",
-    "name_en": "天狐霆雷",
+    "name_en": "Tenko Thunderbolts",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG21S\\GCG21S-T091(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yae_Miko_(Character_Card)"
   },
   {
     "serial": "GCG21S-T107(0)",
     "name_cn": "原海明珠",
-    "name_en": "原海明珠",
+    "name_en": "Fontemer Pearl",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG21S\\GCG21S-T107(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Millennial_Pearl_Seahorse_(Character_Card)"
   },
   {
     "serial": "GCG21S-T108(0)",
@@ -28814,44 +28814,44 @@
   {
     "serial": "GCG22S-T033(0)",
     "name_cn": "激化领域",
-    "name_en": "激化领域",
+    "name_en": "Catalyzing Field",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG22S\\GCG22S-T033(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG22S-T087(0)",
     "name_cn": "雷狼",
-    "name_en": "雷狼",
+    "name_en": "The Wolf Within",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG22S\\GCG22S-T087(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Razor_(Character_Card)"
   },
   {
     "serial": "GCG22S-T099(0)",
     "name_cn": "通塞识",
-    "name_en": "通塞识",
+    "name_en": "Vijnana Suffusion",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG22S\\GCG22S-T099(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Tighnari_(Character_Card)"
   },
   {
     "serial": "GCG22S-T100(0)",
@@ -28870,44 +28870,44 @@
   {
     "serial": "GCG22S-T101(0)",
     "name_cn": "猫箱急件",
-    "name_en": "猫箱急件",
+    "name_en": "Urgent Neko Parcel",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG22S\\GCG22S-T101(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kirara_(Character_Card)"
   },
   {
     "serial": "GCG22S-T102(0)",
     "name_cn": "安全运输护盾",
-    "name_en": "安全运输护盾",
+    "name_en": "Shield of Safe Transport",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG22S\\GCG22S-T102(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kirara_(Character_Card)"
   },
   {
     "serial": "GCG22S-T103(0)",
     "name_cn": "猫草豆蔻",
-    "name_en": "猫草豆蔻",
+    "name_en": "Cat Grass Cardamom",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG22S\\GCG22S-T103(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kirara_(Character_Card)"
   },
   {
     "serial": "GCG23S-C037(0)",
@@ -29374,16 +29374,16 @@
   {
     "serial": "GCG23S-T036(0)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG23S\\GCG23S-T036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG23S-T074(0)",
@@ -29402,16 +29402,16 @@
   {
     "serial": "GCG23S-T075(0)",
     "name_cn": "度厄真符",
-    "name_en": "度厄真符",
+    "name_en": "Fortune-Preserving Talisman",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG23S\\GCG23S-T075(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Qiqi_(Character_Card)"
   },
   {
     "serial": "GCG23S-T088(0)",
@@ -29430,30 +29430,30 @@
   {
     "serial": "GCG23S-T089(0)",
     "name_cn": "诸愿百眼之轮",
-    "name_en": "诸愿百眼之轮",
+    "name_en": "Chakra Desiderata",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG23S\\GCG23S-T089(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Raiden_Shogun_(Character_Card)"
   },
   {
     "serial": "GCG23S-T092(0)",
     "name_cn": "乱岚拨止",
-    "name_en": "乱岚拨止",
+    "name_en": "Midare Ranzan",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG23S\\GCG23S-T092(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kaedehara_Kazuha_(Character_Card)"
   },
   {
     "serial": "GCG23S-T093(0)",
@@ -29948,16 +29948,16 @@
   {
     "serial": "GCG24S-T079(0)",
     "name_cn": "泷廻鉴花",
-    "name_en": "泷廻鉴花",
+    "name_en": "Takimeguri Kanka",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG24S\\GCG24S-T079(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayato_(Character_Card)"
   },
   {
     "serial": "GCG24S-T080(0)",
@@ -29976,58 +29976,58 @@
   {
     "serial": "GCG24S-T081(0)",
     "name_cn": "庭火焰硝",
-    "name_en": "庭火焰硝",
+    "name_en": "Niwabi Enshou",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG24S\\GCG24S-T081(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yoimiya_(Character_Card)"
   },
   {
     "serial": "GCG24S-T082(0)",
     "name_cn": "琉金火光",
-    "name_en": "琉金火光",
+    "name_en": "Aurous Blaze",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG24S\\GCG24S-T082(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yoimiya_(Character_Card)"
   },
   {
     "serial": "GCG24S-T085(0)",
     "name_cn": "烈烧佑命护盾",
-    "name_en": "烈烧佑命护盾",
+    "name_en": "Blazing Barrier",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG24S\\GCG24S-T085(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Thoma_(Character_Card)"
   },
   {
     "serial": "GCG24S-T086(0)",
     "name_cn": "炽火大铠",
-    "name_en": "炽火大铠",
+    "name_en": "Scorching Ooyoroi",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG24S\\GCG24S-T086(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Thoma_(Character_Card)"
   },
   {
     "serial": "GCG25S-C062(0)",
@@ -30494,30 +30494,30 @@
   {
     "serial": "GCG25S-T033(0)",
     "name_cn": "激化领域",
-    "name_en": "激化领域",
+    "name_en": "Catalyzing Field",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG25S\\GCG25S-T033(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG25S-T034(0)",
     "name_cn": "草原核",
-    "name_en": "草原核",
+    "name_en": "Dendro Core",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG25S\\GCG25S-T034(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG25S-T035(0)",
@@ -31054,72 +31054,72 @@
   {
     "serial": "GCG26S-T118(0)",
     "name_cn": "金杯的丰馈",
-    "name_en": "金杯的丰馈",
+    "name_en": "Golden Chalice's Bounty",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG26S\\GCG26S-T118(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Nilou_(Character_Card)"
   },
   {
     "serial": "GCG26S-T119(0)",
     "name_cn": "丰壤之核",
-    "name_en": "丰壤之核",
+    "name_en": "Bountiful Core ",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Summon",
+    "card_subcategory": "None",
     "image": "images\\GCG26S\\GCG26S-T119(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Bountiful_Core_(Summon)"
   },
   {
     "serial": "GCG26S-T120(0)",
     "name_cn": "永世流沔",
-    "name_en": "永世流沔",
+    "name_en": "Lingering Aeon",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG26S\\GCG26S-T120(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Nilou_(Character_Card)"
   },
   {
     "serial": "GCG26S-T121(0)",
     "name_cn": "破局",
-    "name_en": "破局",
+    "name_en": "Breakthrough",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG26S\\GCG26S-T121(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yelan_(Character_Card)"
   },
   {
     "serial": "GCG26S-T122(0)",
     "name_cn": "玄掷玲珑",
-    "name_en": "玄掷玲珑",
+    "name_en": "Exquisite Throw",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG26S\\GCG26S-T122(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yelan_(Character_Card)"
   },
   {
     "serial": "GCG26S-T135(0)",
@@ -31614,30 +31614,30 @@
   {
     "serial": "GCG27S-T036(0)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG27S\\GCG27S-T036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG27S-T111(0)",
     "name_cn": "冰翎",
-    "name_en": "冰翎",
+    "name_en": "Icy Quill",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG27S\\GCG27S-T111(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Shenhe_(Character_Card)"
   },
   {
     "serial": "GCG27S-T112(0)",
@@ -31656,16 +31656,16 @@
   {
     "serial": "GCG27S-T116(0)",
     "name_cn": "瞬时剪影",
-    "name_en": "瞬时剪影",
+    "name_en": "Snappy Silhouette",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG27S\\GCG27S-T116(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Charlotte_(Character_Card)"
   },
   {
     "serial": "GCG27S-T117(0)",
@@ -32174,30 +32174,30 @@
   {
     "serial": "GCG28S-T113(0)",
     "name_cn": "安眠帷幕护盾",
-    "name_en": "安眠帷幕护盾",
+    "name_en": "Curtain of Slumber",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG28S\\GCG28S-T113(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Layla_(Character_Card)"
   },
   {
     "serial": "GCG28S-T114(0)",
     "name_cn": "飞星",
-    "name_en": "飞星",
+    "name_en": "Shooting Star",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG28S\\GCG28S-T114(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Layla_(Character_Card)"
   },
   {
     "serial": "GCG28S-T115(0)",
@@ -32734,16 +32734,16 @@
   {
     "serial": "GCG29S-T033(0)",
     "name_cn": "激化领域",
-    "name_en": "激化领域",
+    "name_en": "Catalyzing Field",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG29S\\GCG29S-T033(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG29S-T035(0)",
@@ -33294,58 +33294,58 @@
   {
     "serial": "GCG30S-T033(0)",
     "name_cn": "激化领域",
-    "name_en": "激化领域",
+    "name_en": "Catalyzing Field",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG30S\\GCG30S-T033(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG30S-T036(0)",
     "name_cn": "冻结",
-    "name_en": "冻结",
+    "name_en": "Frozen",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG30S\\GCG30S-T036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG30S-T121(0)",
     "name_cn": "破局",
-    "name_en": "破局",
+    "name_en": "Breakthrough",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG30S\\GCG30S-T121(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yelan_(Character_Card)"
   },
   {
     "serial": "GCG30S-T122(0)",
     "name_cn": "玄掷玲珑",
-    "name_en": "玄掷玲珑",
+    "name_en": "Exquisite Throw",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG30S\\GCG30S-T122(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yelan_(Character_Card)"
   },
   {
     "serial": "GCG30S-T126(0)",
@@ -33854,16 +33854,16 @@
   {
     "serial": "GCG31S-T111(0)",
     "name_cn": "冰翎",
-    "name_en": "冰翎",
+    "name_en": "Icy Quill",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG31S\\GCG31S-T111(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Shenhe_(Character_Card)"
   },
   {
     "serial": "GCG31S-T112(0)",
@@ -34414,30 +34414,30 @@
   {
     "serial": "GCG32S-T032(0)",
     "name_cn": "结晶",
-    "name_en": "结晶",
+    "name_en": "Shield",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG32S\\GCG32S-T032(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG/Rules#Elemental_Reactions"
   },
   {
     "serial": "GCG32S-T123(0)",
     "name_cn": "鼓舞领域",
-    "name_en": "鼓舞领域",
+    "name_en": "Inspiration Field",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG32S\\GCG32S-T123(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Bennett_(Character_Card)"
   },
   {
     "serial": "GCG32S-T132(0)",
