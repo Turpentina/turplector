@@ -13428,30 +13428,30 @@
   {
     "serial": "GCG04B-A036(1)",
     "name_cn": "灵光明朔之心",
-    "name_en": null,
+    "name_en": "灵光明朔之心",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Equipment",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG04B\\GCG04B-A036(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Heart_of_Khvarena%27s_Brilliance_(Equipment_Card)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG04B-A036(2)",
     "name_cn": "灵光明朔之心",
-    "name_en": null,
+    "name_en": "灵光明朔之心",
     "rarity": 2,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Equipment",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG04B\\GCG04B-A036(2).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Heart_of_Khvarena%27s_Brilliance_(Equipment_Card)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG04B-A051(1)",
@@ -15290,30 +15290,30 @@
   {
     "serial": "GCG04B-A235(1)",
     "name_cn": "乐团遗落之花",
-    "name_en": null,
+    "name_en": "乐团遗落之花",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Equipment",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG04B\\GCG04B-A235(1).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Flower_of_Paradise_Lost_(Equipment_Card)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG04B-A235(2)",
     "name_cn": "乐团遗落之花",
-    "name_en": null,
+    "name_en": "乐团遗落之花",
     "rarity": 2,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Equipment",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG04B\\GCG04B-A235(2).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Flower_of_Paradise_Lost_(Equipment_Card)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG04B-A236(1)",
@@ -30312,16 +30312,16 @@
   {
     "serial": "GCG25S-A235(0)",
     "name_cn": "乐团遗落之花",
-    "name_en": null,
+    "name_en": "乐团遗落之花",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Equipment",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG25S\\GCG25S-A235(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Flower_of_Paradise_Lost_(Equipment_Card)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG25S-A237(0)",
@@ -30900,16 +30900,16 @@
   {
     "serial": "GCG26S-A235(0)",
     "name_cn": "乐团遗落之花",
-    "name_en": null,
+    "name_en": "乐团遗落之花",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Equipment",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG26S\\GCG26S-A235(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Flower_of_Paradise_Lost_(Equipment_Card)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG26S-A237(0)",
@@ -32342,16 +32342,16 @@
   {
     "serial": "GCG29S-A036(0)",
     "name_cn": "灵光明朔之心",
-    "name_en": null,
+    "name_en": "灵光明朔之心",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Equipment",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG29S\\GCG29S-A036(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Heart_of_Khvarena%27s_Brilliance_(Equipment_Card)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG29S-A057(0)",
@@ -32566,16 +32566,16 @@
   {
     "serial": "GCG29S-A235(0)",
     "name_cn": "乐团遗落之花",
-    "name_en": null,
+    "name_en": "乐团遗落之花",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Equipment",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG29S\\GCG29S-A235(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Flower_of_Paradise_Lost_(Equipment_Card)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG29S-A241(0)",
@@ -32888,16 +32888,16 @@
   {
     "serial": "GCG30S-A036(0)",
     "name_cn": "灵光明朔之心",
-    "name_en": null,
+    "name_en": "灵光明朔之心",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Equipment",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG30S\\GCG30S-A036(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Heart_of_Khvarena%27s_Brilliance_(Equipment_Card)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG30S-A057(0)",
@@ -34022,16 +34022,16 @@
   {
     "serial": "GCG32S-A036(0)",
     "name_cn": "灵光明朔之心",
-    "name_en": null,
+    "name_en": "灵光明朔之心",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Equipment",
-    "card_subcategory": "None",
+    "card_category": "Unknown",
+    "card_subcategory": "Unknown",
     "image": "images\\GCG32S\\GCG32S-A036(0).png",
     "image_back": null,
-    "wiki_url": "https://genshin-impact.fandom.com/wiki/Heart_of_Khvarena%27s_Brilliance_(Equipment_Card)"
+    "wiki_url": "N/A"
   },
   {
     "serial": "GCG32S-A051(0)",
