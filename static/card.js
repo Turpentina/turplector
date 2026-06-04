@@ -21,6 +21,10 @@ async function loadCard() {
         const card = cards.find(c => c.serial === serial);
 
         const detailDiv = document.getElementById("cardDetail");
+        const wikiCell =
+            card.wiki_url && card.wiki_url !== "N/A"
+                ? `<a href="${card.wiki_url}" target="_blank">${card.name_en}</a>`
+                : "N/A";
         detailDiv.innerHTML = `
             <img src="${cardImageUrl(card.image)}" alt="${card.serial}">
             <h1>${card.serial}</h1>
@@ -33,7 +37,7 @@ async function loadCard() {
                 <tr><th>Card Type</th><td>${card.card_type}</td></tr>
                 <tr><th>Category</th><td>${card.card_category}</td></tr>
                 <tr><th>Subcategory</th><td>${card.card_subcategory}</td></tr>
-                <tr><th>Wiki</th><td><a href="${card.wiki_url}" target="_blank">${card.name_en}</a></td></tr>
+                <tr><th>Wiki</th><td>${wikiCell}</td></tr>
             </table>
         `;
 
