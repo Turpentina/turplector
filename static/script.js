@@ -310,10 +310,20 @@ function updateSubcategoryOptions() {
 
 const cardCountEl = document.getElementById("cardCount");
 
+function updateCardCount(cardList) {
+    const collectedCount = getCollectedCount(cardList);
+    const percent =
+        cardList.length > 0
+            ? ((collectedCount / cardList.length) * 100).toFixed(1)
+            : "0.0";
+
+    cardCountEl.textContent =
+        `Showing ${cardList.length} cards — Collected ${collectedCount} (${percent}%)`;
+}
+
 function renderCards(cardList) {
     cardGrid.innerHTML = "";
-    const collectedCount = getCollectedCount(cardList);
-    cardCountEl.textContent = `Showing ${cardList.length} cards — Collected ${collectedCount}`;
+	updateCardCount(cardList);
 
     cardList.forEach(card => {
         const cardEl = document.createElement("div");
@@ -332,14 +342,14 @@ function renderCards(cardList) {
 
         // Click badge to toggle collection
         const badge = cardEl.querySelector(".collected-badge");
-        badge.addEventListener("click", (e) => {
-            e.stopPropagation(); // Prevent navigation
-            toggleCollected(card.serial);
-            badge.classList.toggle("active"); 
-            // Update count for currently displayed cards
-            const newCount = getCollectedCount(cardList);
-            cardCountEl.textContent = `Showing ${cardList.length} cards — Collected ${newCount}`;
-        });
+		badge.addEventListener("click", (e) => {
+			e.stopPropagation();
+
+			toggleCollected(card.serial);
+			badge.classList.toggle("active");
+
+			updateCardCount(cardList);
+		});
 
         // Click anywhere else on card navigates to detail page
         cardEl.addEventListener("click", () => {
