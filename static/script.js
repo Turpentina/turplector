@@ -72,23 +72,6 @@ function toggleCollected(serial) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(collected));
 }
 
-// load cards from db 
-
-//async function loadCards() {
-//    subcategoryFilter.disabled = true;
-//    try {
-//        const response = await fetch("/cards");
-//        cards = await response.json();
-//
-//        populateSetFilter(cards);
-//        populateCategoryFilter(cards);
-//        populateRarityFilter(cards);
-//        renderCards(cards);
-//    } catch (err) {
-//        console.error("Failed to load cards:", err);
-//    }
-//}
-
 // load cards from json (full list for filter options; grid only after Apply or restore)
 async function loadCards() {
     try {
@@ -231,9 +214,11 @@ function sortCardsByCardOrder(cardList) {
 function populateSetFilter(cards) {
     const sets = new Set(cards.map(c => c.serial.split("-")[0]));
     const sortedSets = sortSetsDynamic(sets);
+
     const boostersOption = document.createElement("option");
     boostersOption.value = "__ALL_BOOSTERS__";
-    boostersOption.textContent = "All Boosters";
+    boostersOption.textContent = "All Booster Sets";
+    boostersOption.selected = true;
     setFilter.appendChild(boostersOption);
 
     sortedSets.forEach(setCode => {
