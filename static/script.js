@@ -9,6 +9,7 @@ const collectionFilter = document.getElementById("collectionFilter");
 const applyFiltersBtn = document.getElementById("applyFilters");
 const toggleBtn = document.getElementById("sidebarToggle");
 const sidebar = document.getElementById("sidebar");
+const sortMode = document.getElementById("sortMode");
 
 const LIST_STATE_KEY = "tcg_list_filters";
 
@@ -127,18 +128,20 @@ function restoreListStateFromStorage() {
     subcategoryFilter.value = saved.subcategory ?? "";
     rarityFilter.value = saved.rarity ?? "";
     collectionFilter.value = saved.collection ?? "";
+	sortMode.value = saved.sortMode ?? "set";
     return true;
 }
 
 function persistListState() {
-    const state = {
-        search: searchInput.value,
-        set: setFilter.value,
-        category: categoryFilter.value,
-        subcategory: subcategoryFilter.value,
-        rarity: rarityFilter.value,
-        collection: collectionFilter.value
-    };
+	const state = {
+		search: searchInput.value,
+		set: setFilter.value,
+		category: categoryFilter.value,
+		subcategory: subcategoryFilter.value,
+		rarity: rarityFilter.value,
+		collection: collectionFilter.value,
+		sortMode: sortMode.value
+	};
     sessionStorage.setItem(LIST_STATE_KEY, JSON.stringify(state));
 }
 
@@ -176,6 +179,52 @@ function sortSetsDynamic(sets) {
 
         // tie-breaker: alphabetical
         return a.localeCompare(b);
+    });
+}
+
+function getCardOrderKey(serial) {
+    const match = serial.match(
+        /^GCG\d+[A-Z]-([A-Z]+)(\d+)(?:\((\d+)\))?$/
+    );
+
+    if (!match) {
+        return {
+            num: Number.MAX_SAFE_INTEGER,
+            typeRank: Number.MAX_SAFE_INTEGER,
+            rarity: Number.MAX_SAFE_INTEGER
+        };
+    }
+
+    const [, type, cardNum, rarity] = match;
+
+    const typeRank = {
+        C: 0,
+        A: 1,
+        T: 2,
+		P: 3
+    };
+
+    return {
+        num: parseInt(cardNum, 10),
+        typeRank: typeRank[type],
+        rarity: rarity ? parseInt(rarity, 10) : 0
+    };
+}
+
+function sortCardsByCardOrder(cardList) {
+    return [...cardList].sort((a, b) => {
+        const ka = getCardOrderKey(a.serial);
+        const kb = getCardOrderKey(b.serial);
+
+        if (ka.typeRank !== kb.typeRank) {
+            return ka.typeRank - kb.typeRank;
+        }
+
+        if (ka.num !== kb.num) {
+            return ka.num - kb.num;
+        }
+
+        return ka.rarity - kb.rarity;
     });
 }
 
@@ -345,8 +394,15 @@ function applyFilters() {
             matchesCollection
         );
     });
+	
+	let sorted = filtered;
+
+	if (sortMode.value === "card") {
+		sorted = sortCardsByCardOrder(filtered);
+	}
+	
     persistListState();
-    renderCards(filtered);
+    renderCards(sorted);
 }
 
 const toggleAllBtn = document.getElementById("toggleAllCollected");
@@ -447,5 +503,7 @@ categoryFilter.addEventListener("change", () => {
     updateSubcategoryOptions();
     subcategoryFilter.value = "";
 });
+
+sortMode.addEventListener("change", applyFilters);
 
 loadCards();
