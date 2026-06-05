@@ -2780,7 +2780,7 @@
     "set_number": 1,
     "card_type": "Action",
     "card_category": "Support",
-    "card_subcategory": "None",
+    "card_subcategory": "Item",
     "image": "images\\GCG01B\\GCG01B-A059(1).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Treasure-Seeking_Seelie_(Support_Card)"
@@ -2794,7 +2794,7 @@
     "set_number": 1,
     "card_type": "Action",
     "card_category": "Support",
-    "card_subcategory": "None",
+    "card_subcategory": "Item",
     "image": "images\\GCG01B\\GCG01B-A059(2).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Treasure-Seeking_Seelie_(Support_Card)"
@@ -8365,8 +8365,8 @@
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Elemental Skill",
-    "card_subcategory": "None",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG02B\\GCG02B-T047(1).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Candace_(Character_Card)"
@@ -8449,8 +8449,8 @@
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Elemental Skill",
-    "card_subcategory": "None",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG02B\\GCG02B-T053(1).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Beidou_(Character_Card)"
@@ -8673,8 +8673,8 @@
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Elemental Skill",
-    "card_subcategory": "None",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG02B\\GCG02B-T069(1).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Electro_Hypostasis_(Character_Card)"
@@ -8687,8 +8687,8 @@
     "deck": "Booster",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Elemental Skill",
-    "card_subcategory": "None",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG02B\\GCG02B-T070(1).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Electro_Hypostasis_(Character_Card)"
@@ -13427,31 +13427,31 @@
   },
   {
     "serial": "GCG04B-A036(1)",
-    "name_cn": "灵光明朔之心",
-    "name_en": "灵光明朔之心",
+    "name_cn": "灵光明烁之心",
+    "name_en": "Heart of Khvarena's Brilliance",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Equipment",
+    "card_subcategory": "Artifact",
     "image": "images\\GCG04B\\GCG04B-A036(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Heart_of_Khvarena's_Brilliance_(Equipment_Card)"
   },
   {
     "serial": "GCG04B-A036(2)",
-    "name_cn": "灵光明朔之心",
-    "name_en": "灵光明朔之心",
+    "name_cn": "灵光明烁之心",
+    "name_en": "Heart of Khvarena's Brilliance",
     "rarity": 2,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Equipment",
+    "card_subcategory": "Artifact",
     "image": "images\\GCG04B\\GCG04B-A036(2).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Heart_of_Khvarena's_Brilliance_(Equipment_Card)"
   },
   {
     "serial": "GCG04B-A051(1)",
@@ -15290,30 +15290,30 @@
   {
     "serial": "GCG04B-A235(1)",
     "name_cn": "乐团遗落之花",
-    "name_en": "乐团遗落之花",
+    "name_en": "Flower of Paradise Lost",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Equipment",
+    "card_subcategory": "Artifact",
     "image": "images\\GCG04B\\GCG04B-A235(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Flower_of_Paradise_Lost_(Equipment_Card)"
   },
   {
     "serial": "GCG04B-A235(2)",
     "name_cn": "乐团遗落之花",
-    "name_en": "乐团遗落之花",
+    "name_en": "Flower of Paradise Lost",
     "rarity": 2,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Equipment",
+    "card_subcategory": "Artifact",
     "image": "images\\GCG04B\\GCG04B-A235(2).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Flower_of_Paradise_Lost_(Equipment_Card)"
   },
   {
     "serial": "GCG04B-A236(1)",
@@ -15640,30 +15640,30 @@
   {
     "serial": "GCG04B-A245(1)",
     "name_cn": "留念镜",
-    "name_en": "留念镜",
+    "name_en": "Memento Lens ",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Support",
+    "card_subcategory": "Item",
     "image": "images\\GCG04B\\GCG04B-A245(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Memento_Lens_(Support_Card)"
   },
   {
     "serial": "GCG04B-A245(2)",
     "name_cn": "留念镜",
-    "name_en": "留念镜",
+    "name_en": "Memento Lens ",
     "rarity": 2,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Support",
+    "card_subcategory": "Item",
     "image": "images\\GCG04B\\GCG04B-A245(2).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Memento_Lens_(Support_Card)"
   },
   {
     "serial": "GCG04B-A246(1)",
@@ -16270,16 +16270,16 @@
   {
     "serial": "GCG04B-T125(1)",
     "name_cn": "焚落踢",
-    "name_en": "焚落踢",
+    "name_en": "Incineration Drive",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Burst",
     "image": "images\\GCG04B\\GCG04B-T125(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Dehya_(Character_Card)"
   },
   {
     "serial": "GCG04B-T126(1)",
@@ -16298,58 +16298,58 @@
   {
     "serial": "GCG04B-T127(1)",
     "name_cn": "启途誓使",
-    "name_en": "启途誓使",
+    "name_en": "Pactsworn Pathclearer",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG04B\\GCG04B-T127(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Cyno_(Character_Card)"
   },
   {
     "serial": "GCG04B-T128(1)",
     "name_cn": "优风倾姿",
-    "name_en": "优风倾姿",
+    "name_en": "Windfavored",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG04B\\GCG04B-T128(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Wanderer_(Character_Card)"
   },
   {
     "serial": "GCG04B-T129(1)",
     "name_cn": "步天梯",
-    "name_en": "步天梯",
+    "name_en": "Skyladder",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T129(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xianyun_(Character_Card)"
   },
   {
     "serial": "GCG04B-T130(1)",
     "name_cn": "闲云冲击波",
-    "name_en": "闲云冲击波",
+    "name_en": "Driftcloud Wave",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG04B\\GCG04B-T130(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xianyun_(Character_Card)"
   },
   {
     "serial": "GCG04B-T131(1)",
@@ -16368,86 +16368,86 @@
   {
     "serial": "GCG04B-T132(1)",
     "name_cn": "飞云旗阵",
-    "name_en": "飞云旗阵",
+    "name_en": "Flying Cloud Flag Formation",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T132(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yun_Jin_(Character_Card)"
   },
   {
     "serial": "GCG04B-T133(1)",
     "name_cn": "旋云护盾",
-    "name_en": "旋云护盾",
+    "name_en": "Shield of Swirling Clouds",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG04B\\GCG04B-T133(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yun_Jin_(Character_Card)"
   },
   {
     "serial": "GCG04B-T134(1)",
     "name_cn": "长枪开相",
-    "name_en": "长枪开相",
+    "name_en": "Spear Flourish",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG04B\\GCG04B-T134(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yun_Jin_(Character_Card)"
   },
   {
     "serial": "GCG04B-T135(1)",
     "name_cn": "蕴种印",
-    "name_en": "蕴种印",
+    "name_en": "Seed of Skandha",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG04B\\GCG04B-T135(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Nahida_(Character_Card)"
   },
   {
     "serial": "GCG04B-T136(1)",
     "name_cn": "摩耶之殿",
-    "name_en": "摩耶之殿",
+    "name_en": "Shine of Maya",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T136(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Nahida_(Character_Card)"
   },
   {
     "serial": "GCG04B-T137(1)",
     "name_cn": "水泡围困",
-    "name_en": "水泡围困",
+    "name_en": "Mist Bubble Prison",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG04B\\GCG04B-T137(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Hydro_Hilichurl_Rogue_(Character_Card)"
   },
   {
     "serial": "GCG04B-T138(1)",
@@ -16466,16 +16466,16 @@
   {
     "serial": "GCG04B-T139(1)",
     "name_cn": "魔蝎祝福",
-    "name_en": "魔蝎祝福",
+    "name_en": "Scorpion Blessing",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T139(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Eremite_Scorching_Loremaster_(Character_Card)"
   },
   {
     "serial": "GCG04B-T140(1)",
@@ -16508,86 +16508,86 @@
   {
     "serial": "GCG04B-T142(1)",
     "name_cn": "雷萤护罩",
-    "name_en": "雷萤护罩",
+    "name_en": "Electro Cicin Shield",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T142(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Fatui_Electro_Cicin_Mage_(Character_Card)"
   },
   {
     "serial": "GCG04B-T143(1)",
     "name_cn": "霆电迸发",
-    "name_en": "霆电迸发",
+    "name_en": "Surging Thunder",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Burst",
     "image": "images\\GCG04B\\GCG04B-T143(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Fatui_Electro_Cicin_Mage_(Character_Card)"
   },
   {
     "serial": "GCG04B-T144(1)",
     "name_cn": "长延涤流",
-    "name_en": "长延涤流",
+    "name_en": "Perpetual Cleansing",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG04B\\GCG04B-T144(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Dvalin_(Character_Card)"
   },
   {
     "serial": "GCG04B-T145(1)",
     "name_cn": "终幕涤流",
-    "name_en": "终幕涤流",
+    "name_en": "Ultimate Cleansing",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG04B\\GCG04B-T145(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Dvalin_(Character_Card)"
   },
   {
     "serial": "GCG04B-T146(1)",
     "name_cn": "坍毁",
-    "name_en": "坍毁",
+    "name_en": "Total Collapse",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG04B\\GCG04B-T146(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Dvalin_(Character_Card)"
   },
   {
     "serial": "GCG04B-T147(1)",
     "name_cn": "灵蛇祝福",
-    "name_en": "灵蛇祝福",
+    "name_en": "Spirit-Serpent's Blessing",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG04B\\GCG04B-T147(1).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Eremite_Floral_Ring-Dancer_(Character_Card)"
   },
   {
     "serial": "GCG04B-T148(1)",
@@ -16864,7 +16864,7 @@
     "set_number": 1,
     "card_type": "Action",
     "card_category": "Support",
-    "card_subcategory": "None",
+    "card_subcategory": "Item",
     "image": "images\\GCG01S\\GCG01S-A059(0).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Treasure-Seeking_Seelie_(Support_Card)"
@@ -17424,7 +17424,7 @@
     "set_number": 1,
     "card_type": "Action",
     "card_category": "Support",
-    "card_subcategory": "None",
+    "card_subcategory": "Item",
     "image": "images\\GCG02S\\GCG02S-A059(0).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Treasure-Seeking_Seelie_(Support_Card)"
@@ -17998,7 +17998,7 @@
     "set_number": 1,
     "card_type": "Action",
     "card_category": "Support",
-    "card_subcategory": "None",
+    "card_subcategory": "Item",
     "image": "images\\GCG03S\\GCG03S-A059(0).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Treasure-Seeking_Seelie_(Support_Card)"
@@ -18614,7 +18614,7 @@
     "set_number": 1,
     "card_type": "Action",
     "card_category": "Support",
-    "card_subcategory": "None",
+    "card_subcategory": "Item",
     "image": "images\\GCG04S\\GCG04S-A059(0).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Treasure-Seeking_Seelie_(Support_Card)"
@@ -19104,7 +19104,7 @@
     "set_number": 1,
     "card_type": "Action",
     "card_category": "Support",
-    "card_subcategory": "None",
+    "card_subcategory": "Item",
     "image": "images\\GCG05S\\GCG05S-A059(0).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Treasure-Seeking_Seelie_(Support_Card)"
@@ -19664,7 +19664,7 @@
     "set_number": 1,
     "card_type": "Action",
     "card_category": "Support",
-    "card_subcategory": "None",
+    "card_subcategory": "Item",
     "image": "images\\GCG06S\\GCG06S-A059(0).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Treasure-Seeking_Seelie_(Support_Card)"
@@ -20224,7 +20224,7 @@
     "set_number": 1,
     "card_type": "Action",
     "card_category": "Support",
-    "card_subcategory": "None",
+    "card_subcategory": "Item",
     "image": "images\\GCG07S\\GCG07S-A059(0).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Treasure-Seeking_Seelie_(Support_Card)"
@@ -20784,7 +20784,7 @@
     "set_number": 1,
     "card_type": "Action",
     "card_category": "Support",
-    "card_subcategory": "None",
+    "card_subcategory": "Item",
     "image": "images\\GCG08S\\GCG08S-A059(0).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Treasure-Seeking_Seelie_(Support_Card)"
@@ -21553,8 +21553,8 @@
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Elemental Skill",
-    "card_subcategory": "None",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG09S\\GCG09S-T047(0).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Candace_(Character_Card)"
@@ -23835,8 +23835,8 @@
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Elemental Skill",
-    "card_subcategory": "None",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG13S\\GCG13S-T053(0).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Beidou_(Character_Card)"
@@ -24941,8 +24941,8 @@
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Elemental Skill",
-    "card_subcategory": "None",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG15S\\GCG15S-T069(0).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Electro_Hypostasis_(Character_Card)"
@@ -24955,8 +24955,8 @@
     "deck": "Starter",
     "set_number": 2,
     "card_type": "Accessory",
-    "card_category": "Elemental Skill",
-    "card_subcategory": "None",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG15S\\GCG15S-T070(0).png",
     "image_back": null,
     "wiki_url": "https://genshin-impact.fandom.com/wiki/Electro_Hypostasis_(Character_Card)"
@@ -30312,16 +30312,16 @@
   {
     "serial": "GCG25S-A235(0)",
     "name_cn": "乐团遗落之花",
-    "name_en": "乐团遗落之花",
+    "name_en": "Flower of Paradise Lost",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Equipment",
+    "card_subcategory": "Artifact",
     "image": "images\\GCG25S\\GCG25S-A235(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Flower_of_Paradise_Lost_(Equipment_Card)"
   },
   {
     "serial": "GCG25S-A237(0)",
@@ -30550,44 +30550,44 @@
   {
     "serial": "GCG25S-T127(0)",
     "name_cn": "启途誓使",
-    "name_en": "启途誓使",
+    "name_en": "Pactsworn Pathclearer",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG25S\\GCG25S-T127(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Cyno_(Character_Card)"
   },
   {
     "serial": "GCG25S-T135(0)",
     "name_cn": "蕴种印",
-    "name_en": "蕴种印",
+    "name_en": "Seed of Skandha",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG25S\\GCG25S-T135(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Nahida_(Character_Card)"
   },
   {
     "serial": "GCG25S-T136(0)",
     "name_cn": "摩耶之殿",
-    "name_en": "摩耶之殿",
+    "name_en": "Shine of Maya",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG25S\\GCG25S-T136(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Nahida_(Character_Card)"
   },
   {
     "serial": "GCG26S-C058(0)",
@@ -30900,16 +30900,16 @@
   {
     "serial": "GCG26S-A235(0)",
     "name_cn": "乐团遗落之花",
-    "name_en": "乐团遗落之花",
+    "name_en": "Flower of Paradise Lost",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Equipment",
+    "card_subcategory": "Artifact",
     "image": "images\\GCG26S\\GCG26S-A235(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Flower_of_Paradise_Lost_(Equipment_Card)"
   },
   {
     "serial": "GCG26S-A237(0)",
@@ -31124,30 +31124,30 @@
   {
     "serial": "GCG26S-T135(0)",
     "name_cn": "蕴种印",
-    "name_en": "蕴种印",
+    "name_en": "Seed of Skandha",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG26S\\GCG26S-T135(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Nahida_(Character_Card)"
   },
   {
     "serial": "GCG26S-T136(0)",
     "name_cn": "摩耶之殿",
-    "name_en": "摩耶之殿",
+    "name_en": "Shine of Maya",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG26S\\GCG26S-T136(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Nahida_(Character_Card)"
   },
   {
     "serial": "GCG27S-C055(0)",
@@ -31684,16 +31684,16 @@
   {
     "serial": "GCG27S-T137(0)",
     "name_cn": "水泡围困",
-    "name_en": "水泡围困",
+    "name_en": "Mist Bubble Prison",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG27S\\GCG27S-T137(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Hydro_Hilichurl_Rogue_(Character_Card)"
   },
   {
     "serial": "GCG27S-T138(0)",
@@ -32104,16 +32104,16 @@
   {
     "serial": "GCG28S-A245(0)",
     "name_cn": "留念镜",
-    "name_en": "留念镜",
+    "name_en": "Memento Lens ",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Support",
+    "card_subcategory": "Item",
     "image": "images\\GCG28S\\GCG28S-A245(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Memento_Lens_(Support_Card)"
   },
   {
     "serial": "GCG28S-A246(0)",
@@ -32216,30 +32216,30 @@
   {
     "serial": "GCG28S-T128(0)",
     "name_cn": "优风倾姿",
-    "name_en": "优风倾姿",
+    "name_en": "Windfavored",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG28S\\GCG28S-T128(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Wanderer_(Character_Card)"
   },
   {
     "serial": "GCG28S-T129(0)",
     "name_cn": "步天梯",
-    "name_en": "步天梯",
+    "name_en": "Skyladder",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG28S\\GCG28S-T129(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xianyun_(Character_Card)"
   },
   {
     "serial": "GCG28S-T141(0)",
@@ -32258,16 +32258,16 @@
   {
     "serial": "GCG28S-T142(0)",
     "name_cn": "雷萤护罩",
-    "name_en": "雷萤护罩",
+    "name_en": "Electro Cicin Shield",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG28S\\GCG28S-T142(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Fatui_Electro_Cicin_Mage_(Character_Card)"
   },
   {
     "serial": "GCG29S-C061(0)",
@@ -32341,17 +32341,17 @@
   },
   {
     "serial": "GCG29S-A036(0)",
-    "name_cn": "灵光明朔之心",
-    "name_en": "灵光明朔之心",
+    "name_cn": "灵光明烁之心",
+    "name_en": "Heart of Khvarena's Brilliance",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Equipment",
+    "card_subcategory": "Artifact",
     "image": "images\\GCG29S\\GCG29S-A036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Heart_of_Khvarena's_Brilliance_(Equipment_Card)"
   },
   {
     "serial": "GCG29S-A057(0)",
@@ -32566,16 +32566,16 @@
   {
     "serial": "GCG29S-A235(0)",
     "name_cn": "乐团遗落之花",
-    "name_en": "乐团遗落之花",
+    "name_en": "Flower of Paradise Lost",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Equipment",
+    "card_subcategory": "Artifact",
     "image": "images\\GCG29S\\GCG29S-A235(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Flower_of_Paradise_Lost_(Equipment_Card)"
   },
   {
     "serial": "GCG29S-A241(0)",
@@ -32636,16 +32636,16 @@
   {
     "serial": "GCG29S-A245(0)",
     "name_cn": "留念镜",
-    "name_en": "留念镜",
+    "name_en": "Memento Lens ",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Support",
+    "card_subcategory": "Item",
     "image": "images\\GCG29S\\GCG29S-A245(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Memento_Lens_(Support_Card)"
   },
   {
     "serial": "GCG29S-A246(0)",
@@ -32776,44 +32776,44 @@
   {
     "serial": "GCG29S-T125(0)",
     "name_cn": "焚落踢",
-    "name_en": "焚落踢",
+    "name_en": "Incineration Drive",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Burst",
     "image": "images\\GCG29S\\GCG29S-T125(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Dehya_(Character_Card)"
   },
   {
     "serial": "GCG29S-T127(0)",
     "name_cn": "启途誓使",
-    "name_en": "启途誓使",
+    "name_en": "Pactsworn Pathclearer",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG29S\\GCG29S-T127(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Cyno_(Character_Card)"
   },
   {
     "serial": "GCG29S-T147(0)",
     "name_cn": "灵蛇祝福",
-    "name_en": "灵蛇祝福",
+    "name_en": "Spirit-Serpent's Blessing",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG29S\\GCG29S-T147(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Eremite_Floral_Ring-Dancer_(Character_Card)"
   },
   {
     "serial": "GCG29S-T148(0)",
@@ -32887,17 +32887,17 @@
   },
   {
     "serial": "GCG30S-A036(0)",
-    "name_cn": "灵光明朔之心",
-    "name_en": "灵光明朔之心",
+    "name_cn": "灵光明烁之心",
+    "name_en": "Heart of Khvarena's Brilliance",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Equipment",
+    "card_subcategory": "Artifact",
     "image": "images\\GCG30S\\GCG30S-A036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Heart_of_Khvarena's_Brilliance_(Equipment_Card)"
   },
   {
     "serial": "GCG30S-A057(0)",
@@ -33210,16 +33210,16 @@
   {
     "serial": "GCG30S-A245(0)",
     "name_cn": "留念镜",
-    "name_en": "留念镜",
+    "name_en": "Memento Lens ",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Support",
+    "card_subcategory": "Item",
     "image": "images\\GCG30S\\GCG30S-A245(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Memento_Lens_(Support_Card)"
   },
   {
     "serial": "GCG30S-A248(0)",
@@ -33364,16 +33364,16 @@
   {
     "serial": "GCG30S-T130(0)",
     "name_cn": "闲云冲击波",
-    "name_en": "闲云冲击波",
+    "name_en": "Driftcloud Wave",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG30S\\GCG30S-T130(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Xianyun_(Character_Card)"
   },
   {
     "serial": "GCG30S-T131(0)",
@@ -33896,58 +33896,58 @@
   {
     "serial": "GCG31S-T125(0)",
     "name_cn": "焚落踢",
-    "name_en": "焚落踢",
+    "name_en": "Incineration Drive",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Burst",
     "image": "images\\GCG31S\\GCG31S-T125(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Dehya_(Character_Card)"
   },
   {
     "serial": "GCG31S-T144(0)",
     "name_cn": "长延涤流",
-    "name_en": "长延涤流",
+    "name_en": "Perpetual Cleansing",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG31S\\GCG31S-T144(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Dvalin_(Character_Card)"
   },
   {
     "serial": "GCG31S-T145(0)",
     "name_cn": "终幕涤流",
-    "name_en": "终幕涤流",
+    "name_en": "Ultimate Cleansing",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG31S\\GCG31S-T145(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Dvalin_(Character_Card)"
   },
   {
     "serial": "GCG31S-T146(0)",
     "name_cn": "坍毁",
-    "name_en": "坍毁",
+    "name_en": "Total Collapse",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG31S\\GCG31S-T146(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Dvalin_(Character_Card)"
   },
   {
     "serial": "GCG32S-C060(0)",
@@ -34021,17 +34021,17 @@
   },
   {
     "serial": "GCG32S-A036(0)",
-    "name_cn": "灵光明朔之心",
-    "name_en": "灵光明朔之心",
+    "name_cn": "灵光明烁之心",
+    "name_en": "Heart of Khvarena's Brilliance",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Action",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Equipment",
+    "card_subcategory": "Artifact",
     "image": "images\\GCG32S\\GCG32S-A036(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Heart_of_Khvarena's_Brilliance_(Equipment_Card)"
   },
   {
     "serial": "GCG32S-A051(0)",
@@ -34442,58 +34442,58 @@
   {
     "serial": "GCG32S-T132(0)",
     "name_cn": "飞云旗阵",
-    "name_en": "飞云旗阵",
+    "name_en": "Flying Cloud Flag Formation",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG32S\\GCG32S-T132(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yun_Jin_(Character_Card)"
   },
   {
     "serial": "GCG32S-T133(0)",
     "name_cn": "旋云护盾",
-    "name_en": "旋云护盾",
+    "name_en": "Shield of Swirling Clouds",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Character Status",
     "image": "images\\GCG32S\\GCG32S-T133(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yun_Jin_(Character_Card)"
   },
   {
     "serial": "GCG32S-T134(0)",
     "name_cn": "长枪开相",
-    "name_en": "长枪开相",
+    "name_en": "Spear Flourish",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Skill",
+    "card_subcategory": "Elemental Skill",
     "image": "images\\GCG32S\\GCG32S-T134(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Yun_Jin_(Character_Card)"
   },
   {
     "serial": "GCG32S-T139(0)",
     "name_cn": "魔蝎祝福",
-    "name_en": "魔蝎祝福",
+    "name_en": "Scorpion Blessing",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
     "card_type": "Accessory",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "Status",
+    "card_subcategory": "Field Status",
     "image": "images\\GCG32S\\GCG32S-T139(0).png",
     "image_back": null,
-    "wiki_url": "N/A"
+    "wiki_url": "https://genshin-impact.fandom.com/wiki/Eremite_Scorching_Loremaster_(Character_Card)"
   },
   {
     "serial": "GCG32S-T140(0)",
@@ -34517,8 +34517,8 @@
     "deck": "Promo",
     "set_number": 1,
     "card_type": "Promo",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "None",
+    "card_subcategory": "None",
     "image": "images/Manual/GCG-PR001.jpg",
     "image_back": "N/A",
     "wiki_url": "N/A"
@@ -34531,8 +34531,8 @@
     "deck": "Promo",
     "set_number": 1,
     "card_type": "Promo",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "None",
+    "card_subcategory": "None",
     "image": "images/Manual/GCG-PR002.jpg",
     "image_back": "N/A",
     "wiki_url": "N/A"
@@ -34629,8 +34629,8 @@
     "deck": "Promo",
     "set_number": 3,
     "card_type": "Promo",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "None",
+    "card_subcategory": "None",
     "image": "images\\GCG\\GCG-PR009(3).png",
     "image_back": null,
     "wiki_url": "N/A"
@@ -34643,8 +34643,8 @@
     "deck": "Promo",
     "set_number": 3,
     "card_type": "Promo",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "None",
+    "card_subcategory": "None",
     "image": "images\\GCG\\GCG-PR010(3).png",
     "image_back": null,
     "wiki_url": "N/A"
@@ -34741,8 +34741,8 @@
     "deck": "Promo",
     "set_number": 4,
     "card_type": "Promo",
-    "card_category": "Unknown",
-    "card_subcategory": "Unknown",
+    "card_category": "None",
+    "card_subcategory": "None",
     "image": "images\\GCG\\GCG-PR017(3).png",
     "image_back": null,
     "wiki_url": "N/A"

@@ -18,13 +18,17 @@ const TYPE_ORDER = [
     "Equipment",
     "Support",
     "Event",
-    "Summon"
+    "Summon",
+    "Skill",
+    "Status",
+    "None"
 ];
 
 const SUBTYPE_ORDER = {
-    Equipment: ["Weapon", "Artifact", "Talent"],
+    Equipment: ["Weapon", "Artifact", "Talent", "Technique"],
     Support: ["Companion", "Location", "Item"],
-    Event: ["Food", "Elemental Resonance"]
+    Event: ["Arcane Legend", "Elemental Resonance", "Food"],
+    Skill: ["Elemental Skill", "Elemental Burst"]
 };
 
 // Sidebar toggle for mobile
