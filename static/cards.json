@@ -4328,7 +4328,7 @@
   {
     "serial": "GCG01B-T032(1)",
     "name_cn": "结晶",
-    "name_en": "Shield",
+    "name_en": "Crystallize",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 1,
@@ -8150,7 +8150,7 @@
   {
     "serial": "GCG02B-T032(1)",
     "name_cn": "结晶",
-    "name_en": "Shield",
+    "name_en": "Crystallize",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 2,
@@ -11776,7 +11776,7 @@
   {
     "serial": "GCG03B-T032(1)",
     "name_cn": "结晶",
-    "name_en": "Shield",
+    "name_en": "Crystallize",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 3,
@@ -16004,7 +16004,7 @@
   {
     "serial": "GCG04B-T032(1)",
     "name_cn": "结晶",
-    "name_en": "Shield",
+    "name_en": "Crystallize",
     "rarity": 1,
     "deck": "Booster",
     "set_number": 4,
@@ -18272,7 +18272,7 @@
   {
     "serial": "GCG03S-T032(0)",
     "name_cn": "结晶",
-    "name_en": "Shield",
+    "name_en": "Crystallize",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 1,
@@ -22094,7 +22094,7 @@
   {
     "serial": "GCG10S-T032(0)",
     "name_cn": "结晶",
-    "name_en": "Shield",
+    "name_en": "Crystallize",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
@@ -23774,7 +23774,7 @@
   {
     "serial": "GCG13S-T032(0)",
     "name_cn": "结晶",
-    "name_en": "Shield",
+    "name_en": "Crystallize",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
@@ -25454,7 +25454,7 @@
   {
     "serial": "GCG16S-T032(0)",
     "name_cn": "结晶",
-    "name_en": "Shield",
+    "name_en": "Crystallize",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 2,
@@ -27134,7 +27134,7 @@
   {
     "serial": "GCG19S-T032(0)",
     "name_cn": "结晶",
-    "name_en": "Shield",
+    "name_en": "Crystallize",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 3,
@@ -34414,7 +34414,7 @@
   {
     "serial": "GCG32S-T032(0)",
     "name_cn": "结晶",
-    "name_en": "Shield",
+    "name_en": "Crystallize",
     "rarity": 0,
     "deck": "Starter",
     "set_number": 4,
