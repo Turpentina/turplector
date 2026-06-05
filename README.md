@@ -37,8 +37,8 @@ It is recommended to export your collection periodically as a backup.
   
 ## Known Issues
 
-- Cards that do not have an in-game counterpart do not translate and link to the wiki correctly
-  - Example: Ice Lotus (GCG01B-T001) (created by Ganyu's elemental skill, Trail of the Qilin) exists as a physical card but not in game
+- GCG20S-A118 missing an image - replaced with GCG22S-A118
+- A235 has incorrect Chinese name printed on card: 乐团遗落之花 (Orchestra's lost flower) instead of 乐园遗落之花 (Paradise's lost flower)
   
   
 ## Disclaimer
