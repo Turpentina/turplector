@@ -473,14 +473,23 @@ importFileInput.addEventListener("change", (event) => {
 
     const reader = new FileReader();
     reader.onload = (e) => {
-        const content = e.target.result.split("\n").filter(Boolean);
+        const lines = e.target.result.split("\n");
+
         const collectedMap = getCollectedMap();
-        content.forEach(serial => {
-            collectedMap[serial.trim()] = true;
-        });
+
+        for (const line of lines) {
+            const trimmed = line.trim();
+
+            // ignore comments / headers
+            if (!trimmed || trimmed.startsWith("#")) continue;
+
+            collectedMap[trimmed] = true;
+        }
+
         localStorage.setItem(STORAGE_KEY, JSON.stringify(collectedMap));
         applyFilters();
     };
+
     reader.readAsText(file, "utf-8");
 });
 
