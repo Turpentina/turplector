@@ -11,15 +11,15 @@
     --bg-header: #112018;
     --bg-sidebar: #17251D;
     --bg-surface: #2A3C32;
-    --bg-action-btn: #9F5F38;
-    --bg-action-btn-hover: #B06A3F;
+    --bg-action-btn: #6E8F45;
+    --bg-action-btn-hover: #82A653;
 
-    --color-body: #C87A4A;
+    --color-body: #C3E08F;
     --color-header: #F2EDE3;
     --color-sidebar: #D8D0C5;
     --color-action-btn: #F2EDE3;
 
-    --accent: #B06A3F;
+    --accent: #82A653;
 
     --sidebar-border: #314339;
     --border: #3A4D42;
@@ -30,7 +30,7 @@
     --table-header-color: #F2EDE3;
     --table-text-color: #D8D0C5;
     --table-border-color: #314339;
-    --table-link-color: #D99261;
+    --table-link-color: #D6F0A0;
 }
 
 /* Mondstadt */
@@ -792,4 +792,102 @@ header {
         cursor: pointer;
         width: fit-content;
     }
+}
+
+.theme-decor {
+    display: none;
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+:root[data-theme="fontaine"] #fontaineBubbles {
+    display: block;
+}
+
+/* Fontaine */
+.fontaine-bubble {
+    position: absolute;
+    right: var(--right, 0);
+    bottom: var(--bottom, 0);
+    width: var(--size, 60px);
+    height: var(--size, 60px);
+    opacity: var(--opacity, 0.5);
+    transform: rotate(var(--rotate, 0deg));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("motifs/fontaine-bubble.svg");
+}
+
+:root[data-theme="inazuma"] #inazumaPetals {
+    display: block;
+}
+
+/* Inazuma */
+.inazuma-petal {
+    position: absolute;
+    right: var(--right, 0);
+    bottom: var(--bottom, 0);
+    width: var(--size, 30px);
+    height: var(--size, 30px);
+    opacity: var(--opacity, 0.4);
+    transform: rotate(var(--rotate, 0deg));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("motifs/inazuma-petal.svg");
+}
+
+:root[data-theme="mondstadt"] #mondstadtDandelions {
+    display: block;
+}
+
+/* Mondstadt */
+.mondstadt-dandelion {
+    position: absolute;
+    right: var(--right, 0);
+    bottom: var(--bottom, 0);
+    width: var(--size, 30px);
+    height: var(--size, 30px);
+    opacity: var(--opacity, 0.4);
+    transform: rotate(var(--rotate, 0deg));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("motifs/mondstadt-dandelion.svg");
+}
+
+:root[data-theme="liyue"] #liyueGinkgoLeaves {
+    display: block;
+}
+
+/* Liyue */
+.liyue-ginkgo {
+    position: absolute;
+    right: var(--right, 0);
+    bottom: var(--bottom, 0);
+    width: var(--size, 30px);
+    height: var(--size, 30px);
+    opacity: var(--opacity, 0.4);
+    transform: rotate(var(--rotate, 0deg));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("motifs/liyue-ginkgo.svg");
+}
+
+:root[data-theme="sumeru"] #sumeruClovers {
+    display: block;
+}
+
+/* Sumeru */
+.sumeru-clover {
+    position: absolute;
+    right: var(--right, 0);
+    bottom: var(--bottom, 0);
+    width: var(--size, 30px);
+    height: var(--size, 30px);
+    opacity: var(--opacity, 0.4);
+    transform: rotate(var(--rotate, 0deg));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("motifs/sumeru-clover.svg");
 }
