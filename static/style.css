@@ -212,8 +212,10 @@ header {
 /* filter dropdowns */
 #sidebar select {
     width: 100%;
+    height: 45px;
     font-size: 1.1rem;
-    padding: 0.6rem 0.5rem;
+    line-height: 1.2;
+    padding: 0.5rem 0.5rem;
     border-radius: 6px;
     cursor: pointer;
     color:#3a3413;
