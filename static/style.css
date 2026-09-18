@@ -280,7 +280,7 @@ header {
 }
 
 #exportCollected {
-    margin-top: 2.5rem; /* significant gap from Apply filters */
+    margin-top: 0; /* first item after the spacer */
 }
 
 #importCollected:hover,
@@ -289,25 +289,27 @@ header {
     transform: translateY(-2px); /* slight lift on hover */
 }
 
+/* outline style, deliberately less prominent than Apply filters since
+   this bulk-toggles collected state for every currently visible card */
 #toggleAllCollected {
     display: block;
     width: 100%;
     padding: 0.75rem 1rem;
-    margin-top: 2.5rem; /* significant gap below Import */
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: var(--color-action-btn);
-    background-color: var(--bg-action-btn);
-    border: none;
+    margin-top: 1rem; /* normal gap below Apply filters, same group */
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--bg-action-btn);
+    background-color: transparent;
+    border: 1px solid var(--bg-action-btn);
     border-radius: 6px;
     cursor: pointer;
     text-align: center;
-    transition: background-color 0.2s, transform 0.1s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 #toggleAllCollected:hover {
-    background-color: var(--bg-action-btn-hover);
-    transform: translateY(-2px);
+    background-color: var(--bg-action-btn);
+    color: var(--color-action-btn);
 }
 
 .sidebar-link-button {
@@ -332,15 +334,11 @@ header {
     transform: translateY(-2px);
 }
 
-/* grows to push Info/Help to the bottom when there's leftover space, but
-   never shrinks below the same gap used between Apply filters and Export */
+/* grows to push Export/Import/Settings/Info to the bottom when there's
+   leftover space, but never shrinks below this gap from the filter group */
 #sidebarSpacer {
     flex: 1 1 auto;
     min-height: 2.5rem;
-}
-
-#settingsPageLink {
-    margin-top: 0;
 }
 
 /* Card grid */

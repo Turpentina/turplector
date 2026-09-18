@@ -480,6 +480,13 @@ toggleAllBtn.addEventListener("click", () => {
     // Determine if we should mark all as collected or uncollected
     const allCollected = filteredCards.every(serial => normalizeCount(collectedMap[serial]) > 0);
 
+    const confirmMessage = allCollected
+        ? `Unmark all ${filteredCards.length} currently visible cards as collected?`
+        : `Mark all ${filteredCards.length} currently visible cards as collected?`;
+    if (!window.confirm(confirmMessage)) {
+        return;
+    }
+
     filteredCards.forEach(serial => {
         if (allCollected) {
             delete collectedMap[serial]; // unmark all
@@ -490,8 +497,10 @@ toggleAllBtn.addEventListener("click", () => {
 
     localStorage.setItem(STORAGE_KEY, JSON.stringify(collectedMap));
 
-    // Re-render current filtered cards to update badges and count
-    applyFilters();
+    // Re-render the cards already on screen to update badges and count,
+    // without re-applying the filter dropdowns (they may hold unapplied changes)
+    const currentCards = filteredCards.map(serial => cards.find(card => card.serial === serial));
+    renderCards(currentCards);
 });
 
 // Count unique cards owned (at least 1 copy) from a given card list
