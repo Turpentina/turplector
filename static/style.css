@@ -346,11 +346,14 @@ header {
 
 /* individual card on main page */
 .card {
+    display: block;
     background: transparent;
     border-radius: 0;
     overflow: visible;
     box-shadow: none;
     position: relative;
+    text-decoration: none;
+    color: inherit;
 }
 
 .card img {

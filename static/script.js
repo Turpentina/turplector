@@ -315,8 +315,9 @@ function renderCards(cardList) {
 	updateCardCount(cardList);
 
     cardList.forEach(card => {
-        const cardEl = document.createElement("div");
+        const cardEl = document.createElement("a");
         cardEl.className = "card";
+        cardEl.href = `card.html?serial=${encodeURIComponent(card.serial)}`;
 
         const collected = isCollected(card.serial);
 
@@ -329,9 +330,10 @@ function renderCards(cardList) {
             </div>
         `;
 
-        // Click badge to toggle collection
+        // Click badge to toggle collection instead of navigating
         const badge = cardEl.querySelector(".collected-badge");
 		badge.addEventListener("click", (e) => {
+			e.preventDefault();
 			e.stopPropagation();
 
 			toggleCollected(card.serial);
@@ -339,13 +341,6 @@ function renderCards(cardList) {
 
 			updateCardCount(cardList);
 		});
-
-        // Click anywhere else on card navigates to detail page
-        cardEl.addEventListener("click", () => {
-            // window.location.href = `/turplector/card/${card.serial}`;
-            // Use query parameter instead of deep link
-            window.location.href = `card.html?serial=${encodeURIComponent(card.serial)}`;
-        });
 
         cardGrid.appendChild(cardEl);
     });
