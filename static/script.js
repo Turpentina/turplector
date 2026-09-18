@@ -52,28 +52,55 @@ document.addEventListener("click", (e) => {
 }, true);
 
 // local storage for collected cards
+//
+// Values are normally a positive integer (how many copies owned). Older data
+// stored `true` for a collected serial with no count — normalizeCount treats
+// that as 1 so old data keeps working without a migration step.
 
 const STORAGE_KEY = "tcg_collected";
+const SHOW_DUPLICATES_KEY = "tcg_show_duplicates";
 
 function getCollectedMap() {
     return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
 }
 
-function isCollected(serial) {
-    const collected = getCollectedMap();
-    return !!collected[serial];
+function normalizeCount(raw) {
+    if (typeof raw === "number" && raw > 0) return Math.floor(raw);
+    return raw ? 1 : 0;
 }
 
-function toggleCollected(serial) {
-    const collected = getCollectedMap();
+function getCount(serial) {
+    return normalizeCount(getCollectedMap()[serial]);
+}
 
-    if (collected[serial]) {
-        delete collected[serial];
+function isCollected(serial) {
+    return getCount(serial) > 0;
+}
+
+function setCount(serial, count) {
+    const collected = getCollectedMap();
+    const n = Math.max(0, Math.floor(count) || 0);
+
+    if (n > 0) {
+        collected[serial] = n;
     } else {
-        collected[serial] = true;
+        delete collected[serial];
     }
 
     localStorage.setItem(STORAGE_KEY, JSON.stringify(collected));
+    return n;
+}
+
+function incrementCount(serial, delta) {
+    return setCount(serial, getCount(serial) + delta);
+}
+
+function toggleCollected(serial) {
+    setCount(serial, isCollected(serial) ? 0 : 1);
+}
+
+function showDuplicatesEnabled() {
+    return localStorage.getItem(SHOW_DUPLICATES_KEY) === "1";
 }
 
 // load cards from json (full list for filter options; grid only after Apply or restore)
@@ -314,15 +341,25 @@ function renderCards(cardList) {
     cardGrid.innerHTML = "";
 	updateCardCount(cardList);
 
+    const showDuplicates = showDuplicatesEnabled();
+
     cardList.forEach(card => {
         const cardEl = document.createElement("a");
         cardEl.className = "card";
         cardEl.href = `card.html?serial=${encodeURIComponent(card.serial)}`;
 
-        const collected = isCollected(card.serial);
+        const count = getCount(card.serial);
+
+        const badgeHtml = showDuplicates
+            ? `<div class="collected-counter ${count > 0 ? "active" : ""}">
+                   <button type="button" class="count-btn count-minus" aria-label="Decrease count">−</button>
+                   <input type="number" class="count-input" min="0" step="1" value="${count}" aria-label="Copies owned">
+                   <button type="button" class="count-btn count-plus" aria-label="Increase count">+</button>
+               </div>`
+            : `<div class="collected-badge ${count > 0 ? "active" : ""}" title="Mark as collected">✔</div>`;
 
         cardEl.innerHTML = `
-            <div class="collected-badge ${collected ? "active" : ""}" title="Mark as collected">✔</div>
+            ${badgeHtml}
             <img src="${cardImageUrl(card.image)}" alt="${card.serial}">
             <div class="card-content">
                 <div class="card-title">${card.serial}</div>
@@ -330,17 +367,53 @@ function renderCards(cardList) {
             </div>
         `;
 
-        // Click badge to toggle collection instead of navigating
-        const badge = cardEl.querySelector(".collected-badge");
-		badge.addEventListener("click", (e) => {
-			e.preventDefault();
-			e.stopPropagation();
+        if (showDuplicates) {
+            const counterEl = cardEl.querySelector(".collected-counter");
+            const input = counterEl.querySelector(".count-input");
 
-			toggleCollected(card.serial);
-			badge.classList.toggle("active");
+            const applyCount = (n) => {
+                const applied = setCount(card.serial, n);
+                input.value = applied;
+                counterEl.classList.toggle("active", applied > 0);
+                updateCardCount(cardList);
+            };
 
-			updateCardCount(cardList);
-		});
+            counterEl.querySelector(".count-minus").addEventListener("click", (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                applyCount(getCount(card.serial) - 1);
+            });
+
+            counterEl.querySelector(".count-plus").addEventListener("click", (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                applyCount(getCount(card.serial) + 1);
+            });
+
+            input.addEventListener("click", (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+            });
+            input.addEventListener("mousedown", (e) => e.stopPropagation());
+            input.addEventListener("keydown", (e) => {
+                e.stopPropagation();
+                if (e.key === "Enter") input.blur();
+            });
+            input.addEventListener("change", () => {
+                applyCount(parseInt(input.value, 10));
+            });
+        } else {
+            const badge = cardEl.querySelector(".collected-badge");
+            badge.addEventListener("click", (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+
+                toggleCollected(card.serial);
+                badge.classList.toggle("active");
+
+                updateCardCount(cardList);
+            });
+        }
 
         cardGrid.appendChild(cardEl);
     });
@@ -373,7 +446,7 @@ function applyFilters() {
         const matchesCategory = selectedCategory === "" || card.card_category == selectedCategory;
         const matchesSubcategory = selectedSubcategory === "" || card.card_subcategory == selectedSubcategory;
 
-        const isCollectedCard = !!collectedMap[card.serial];
+        const isCollectedCard = normalizeCount(collectedMap[card.serial]) > 0;
         const matchesCollection =
             collectionMode === "" ||
             (collectionMode === "collected" && isCollectedCard) ||
@@ -410,13 +483,13 @@ toggleAllBtn.addEventListener("click", () => {
     const collectedMap = getCollectedMap();
 
     // Determine if we should mark all as collected or uncollected
-    const allCollected = filteredCards.every(serial => !!collectedMap[serial]);
+    const allCollected = filteredCards.every(serial => normalizeCount(collectedMap[serial]) > 0);
 
     filteredCards.forEach(serial => {
         if (allCollected) {
             delete collectedMap[serial]; // unmark all
-        } else {
-            collectedMap[serial] = true; // mark all
+        } else if (normalizeCount(collectedMap[serial]) === 0) {
+            collectedMap[serial] = 1; // mark as owned, without touching existing counts
         }
     });
 
@@ -426,10 +499,10 @@ toggleAllBtn.addEventListener("click", () => {
     applyFilters();
 });
 
-// Count collected cards from a given card list
+// Count unique cards owned (at least 1 copy) from a given card list
 function getCollectedCount(cardList) {
     const collectedMap = getCollectedMap();
-    const collectedCount = cardList.filter(card => collectedMap[card.serial]).length;
+    const collectedCount = cardList.filter(card => normalizeCount(collectedMap[card.serial]) > 0).length;
     return collectedCount;
 }
 
@@ -438,16 +511,23 @@ const importBtn = document.getElementById("importCollected");
 const importFileInput = document.getElementById("importCollectedFile");
 const exportBtn = document.getElementById("exportCollected");
 
-// Export collected cards to plain text
+// Export collected cards to plain text. A card with more than 1 copy is
+// written as "serial xN"; a single copy is just the serial, so files from
+// before duplicate tracking existed stay identical in shape.
 exportBtn.addEventListener("click", () => {
     const collectedMap = getCollectedMap();
-    const serials = Object.keys(collectedMap);
+    const serials = Object.keys(collectedMap).filter(serial => normalizeCount(collectedMap[serial]) > 0);
     if (serials.length === 0) {
         alert("No collected cards to export!");
         return;
     }
 
-    const blob = new Blob([serials.join("\n")], { type: "text/plain" });
+    const lines = serials.map(serial => {
+        const count = normalizeCount(collectedMap[serial]);
+        return count > 1 ? `${serial} x${count}` : serial;
+    });
+
+    const blob = new Blob([lines.join("\n")], { type: "text/plain" });
     const url = URL.createObjectURL(blob);
 
     const a = document.createElement("a");
@@ -482,7 +562,14 @@ importFileInput.addEventListener("change", (event) => {
             // ignore comments / headers
             if (!trimmed || trimmed.startsWith("#")) continue;
 
-            collectedMap[trimmed] = true;
+            // optional "serial xN" suffix for duplicate counts; a bare
+            // serial (old export format) implies a single copy
+            const match = trimmed.match(/^(.+?)\s+x(\d+)$/i);
+            if (match) {
+                collectedMap[match[1]] = Math.max(1, parseInt(match[2], 10));
+            } else {
+                collectedMap[trimmed] = 1;
+            }
         }
 
         localStorage.setItem(STORAGE_KEY, JSON.stringify(collectedMap));
