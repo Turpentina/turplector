@@ -37,6 +37,8 @@ toggleBtn.addEventListener("click", () => {
     sidebar.classList.toggle("open");
 });
 
+// Capture phase so this runs before the click reaches its target (e.g. a
+// card), letting us swallow the click instead of letting it act as well.
 document.addEventListener("click", (e) => {
     if (
         sidebar.classList.contains("open") &&
@@ -44,8 +46,10 @@ document.addEventListener("click", (e) => {
         e.target !== toggleBtn
     ) {
         sidebar.classList.remove("open");
+        e.preventDefault();
+        e.stopPropagation();
     }
-});
+}, true);
 
 // local storage for collected cards
 
