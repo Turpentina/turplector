@@ -475,7 +475,7 @@ importFileInput.addEventListener("change", (event) => {
     reader.onload = (e) => {
         const lines = e.target.result.split("\n");
 
-        const collectedMap = getCollectedMap();
+        const collectedMap = {};
 
         for (const line of lines) {
             const trimmed = line.trim();
