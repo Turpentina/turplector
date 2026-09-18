@@ -58,7 +58,6 @@ document.addEventListener("click", (e) => {
 // that as 1 so old data keeps working without a migration step.
 
 const STORAGE_KEY = "tcg_collected";
-const SHOW_DUPLICATES_KEY = "tcg_show_duplicates";
 
 function getCollectedMap() {
     return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
@@ -97,10 +96,6 @@ function incrementCount(serial, delta) {
 
 function toggleCollected(serial) {
     setCount(serial, isCollected(serial) ? 0 : 1);
-}
-
-function showDuplicatesEnabled() {
-    return localStorage.getItem(SHOW_DUPLICATES_KEY) === "1";
 }
 
 // load cards from json (full list for filter options; grid only after Apply or restore)
@@ -341,14 +336,15 @@ function renderCards(cardList) {
     cardGrid.innerHTML = "";
 	updateCardCount(cardList);
 
-    const showDuplicates = showDuplicatesEnabled();
+    const showDuplicates = window.tcgDuplicates.isShowDuplicatesEnabled();
+    const collectedMap = getCollectedMap();
 
     cardList.forEach(card => {
         const cardEl = document.createElement("a");
         cardEl.className = "card";
         cardEl.href = `card.html?serial=${encodeURIComponent(card.serial)}`;
 
-        const count = getCount(card.serial);
+        const count = normalizeCount(collectedMap[card.serial]);
 
         const badgeHtml = showDuplicates
             ? `<div class="collected-counter ${count > 0 ? "active" : ""}">
@@ -371,8 +367,7 @@ function renderCards(cardList) {
             const counterEl = cardEl.querySelector(".collected-counter");
             const input = counterEl.querySelector(".count-input");
 
-            const applyCount = (n) => {
-                const applied = setCount(card.serial, n);
+            const syncUI = (applied) => {
                 input.value = applied;
                 counterEl.classList.toggle("active", applied > 0);
                 updateCardCount(cardList);
@@ -381,13 +376,13 @@ function renderCards(cardList) {
             counterEl.querySelector(".count-minus").addEventListener("click", (e) => {
                 e.preventDefault();
                 e.stopPropagation();
-                applyCount(getCount(card.serial) - 1);
+                syncUI(incrementCount(card.serial, -1));
             });
 
             counterEl.querySelector(".count-plus").addEventListener("click", (e) => {
                 e.preventDefault();
                 e.stopPropagation();
-                applyCount(getCount(card.serial) + 1);
+                syncUI(incrementCount(card.serial, 1));
             });
 
             input.addEventListener("click", (e) => {
@@ -400,7 +395,7 @@ function renderCards(cardList) {
                 if (e.key === "Enter") input.blur();
             });
             input.addEventListener("change", () => {
-                applyCount(parseInt(input.value, 10));
+                syncUI(setCount(card.serial, parseInt(input.value, 10)));
             });
         } else {
             const badge = cardEl.querySelector(".collected-badge");
