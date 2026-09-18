@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <script src="static/theme.js"></script>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+    <header>
+        <a href="index.html" class="back-button" aria-label="Back to collection">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M15 6 L9 12 L15 18" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+    </header>
+
+    <main class="info-main">
+        <div class="info-container">
+            <h1>Settings</h1>
+
+            <section class="settings-section">
+                <h3>Theme</h3>
+
+                <div class="theme-grid" id="themeGrid">
+                    <button type="button" class="theme-option" data-theme-id="mondstadt">
+                        <span class="theme-swatches">
+                            <span class="theme-swatch" style="background:#163539"></span>
+                            <span class="theme-swatch" style="background:#2F7A68"></span>
+                            <span class="theme-swatch" style="background:#8FD1C0"></span>
+                        </span>
+                        <span class="theme-option-name">Mondstadt</span>
+                    </button>
+
+                    <button type="button" class="theme-option" data-theme-id="liyue">
+                        <span class="theme-swatches">
+                            <span class="theme-swatch" style="background:#33241A"></span>
+                            <span class="theme-swatch" style="background:#9C5A2E"></span>
+                            <span class="theme-swatch" style="background:#E0A25C"></span>
+                        </span>
+                        <span class="theme-option-name">Liyue</span>
+                    </button>
+
+                    <button type="button" class="theme-option" data-theme-id="inazuma">
+                        <span class="theme-swatches">
+                            <span class="theme-swatch" style="background:#2B1842"></span>
+                            <span class="theme-swatch" style="background:#7A4FB0"></span>
+                            <span class="theme-swatch" style="background:#C9A6E8"></span>
+                        </span>
+                        <span class="theme-option-name">Inazuma</span>
+                    </button>
+
+                    <button type="button" class="theme-option" data-theme-id="sumeru">
+                        <span class="theme-swatches">
+                            <span class="theme-swatch" style="background:#17251D"></span>
+                            <span class="theme-swatch" style="background:#9F5F38"></span>
+                            <span class="theme-swatch" style="background:#C87A4A"></span>
+                        </span>
+                        <span class="theme-option-name">Sumeru</span>
+                    </button>
+
+                    <button type="button" class="theme-option" data-theme-id="fontaine">
+                        <span class="theme-swatches">
+                            <span class="theme-swatch" style="background:#142C40"></span>
+                            <span class="theme-swatch" style="background:#3E7CB5"></span>
+                            <span class="theme-swatch" style="background:#7FB8DE"></span>
+                        </span>
+                        <span class="theme-option-name">Fontaine</span>
+                    </button>
+                </div>
+            </section>
+
+            <section class="settings-section">
+                <h3>Data</h3>
+                <p class="info-intro">
+                    Your collected cards, filters, and theme are all stored locally in this browser only.
+                    Deleting this data cannot be undone. Export your collection first if you want to keep it.
+                </p>
+
+                <button type="button" class="danger-button" id="deleteSiteDataBtn">Delete Browser Data</button>
+            </section>
+        </div>
+    </main>
+
+    <script src="static/settings.js"></script>
+</body>
+</html>

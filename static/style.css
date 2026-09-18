@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+/* Sumeru */
 :root {
     --bg-body: #08140E;
     --bg-header: #112018;
@@ -30,6 +31,118 @@
     --table-text-color: #D8D0C5;
     --table-border-color: #314339;
     --table-link-color: #D99261;
+}
+
+/* Mondstadt */
+:root[data-theme="mondstadt"] {
+    --bg-body: #08171A;
+    --bg-header: #0F2529;
+    --bg-sidebar: #163539;
+    --bg-surface: #275055;
+    --bg-action-btn: #2F7A68;
+    --bg-action-btn-hover: #3B8C77;
+
+    --color-body: #8FD1C0;
+    --color-header: #F2F7F0;
+    --color-sidebar: #D8E8E0;
+    --color-action-btn: #F2F7F0;
+
+    --accent: #3B8C77;
+
+    --sidebar-border: #234C48;
+    --border: #2C5D57;
+
+    /* Card detail table */
+    --table-bg: #163539;
+    --table-header-bg: #1E4640;
+    --table-header-color: #F2F7F0;
+    --table-text-color: #D8E8E0;
+    --table-border-color: #234C48;
+    --table-link-color: #8FE0C8;
+}
+
+/* Liyue */
+:root[data-theme="liyue"] {
+    --bg-body: #170F09;
+    --bg-header: #241811;
+    --bg-sidebar: #33241A;
+    --bg-surface: #55392A;
+    --bg-action-btn: #9C5A2E;
+    --bg-action-btn-hover: #B36B39;
+
+    --color-body: #E0A25C;
+    --color-header: #F7EDE0;
+    --color-sidebar: #E8D5C8;
+    --color-action-btn: #F7EDE0;
+
+    --accent: #B36B39;
+
+    --sidebar-border: #4A3323;
+    --border: #5C4230;
+
+    /* Card detail table */
+    --table-bg: #33241A;
+    --table-header-bg: #3F2C1F;
+    --table-header-color: #F7EDE0;
+    --table-text-color: #E8D5C8;
+    --table-border-color: #4A3323;
+    --table-link-color: #E8B85C;
+}
+
+/* Inazuma */
+:root[data-theme="inazuma"] {
+    --bg-body: #130A1C;
+    --bg-header: #1F1130;
+    --bg-sidebar: #2B1842;
+    --bg-surface: #452768;
+    --bg-action-btn: #7A4FB0;
+    --bg-action-btn-hover: #9163C9;
+
+    --color-body: #C9A6E8;
+    --color-header: #F3EDFB;
+    --color-sidebar: #DDCBEE;
+    --color-action-btn: #F3EDFB;
+
+    --accent: #9163C9;
+
+    --sidebar-border: #3B2159;
+    --border: #472A68;
+
+    /* Card detail table */
+    --table-bg: #2B1842;
+    --table-header-bg: #38215A;
+    --table-header-color: #F3EDFB;
+    --table-text-color: #DDCBEE;
+    --table-border-color: #3B2159;
+    --table-link-color: #E0A6D8;
+}
+
+/* Fontaine */
+:root[data-theme="fontaine"] {
+    --bg-body: #071620;
+    --bg-header: #0E2233;
+    --bg-sidebar: #142C40;
+    --bg-surface: #234258;
+    --bg-action-btn: #3E7CB5;
+    --bg-action-btn-hover: #4F8FC9;
+
+    --color-body: #7FB8DE;
+    --color-header: #EAF3FA;
+    --color-sidebar: #C7D9E6;
+    --color-action-btn: #EAF3FA;
+
+    --accent: #4F8FC9;
+
+    --sidebar-border: #24445C;
+    --border: #2B4E68;
+
+    /* Card detail table */
+    --table-bg: #142C40;
+    --table-header-bg: #1B3A52;
+    --table-header-color: #EAF3FA;
+    --table-text-color: #C7D9E6;
+    --table-border-color: #24445C;
+    --table-link-color: #7FD1E8;
 }
 
 body {
@@ -214,7 +327,7 @@ header {
     min-height: 2.5rem;
 }
 
-#infoPageLink {
+#settingsPageLink {
     margin-top: 0;
 }
 
@@ -441,6 +554,82 @@ header {
 
 .info-section-content a {
     color: var(--accent);
+}
+
+/* Settings page */
+.settings-section {
+    margin-top: 1.5rem;
+}
+
+.settings-section h3 {
+    margin-bottom: 0.4rem;
+}
+
+.theme-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.theme-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    width: 160px;
+    padding: 1rem;
+    background: var(--bg-surface);
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--color-sidebar);
+    font: inherit;
+    transition: border-color 0.2s, transform 0.1s;
+}
+
+.theme-option:hover {
+    transform: translateY(-2px);
+}
+
+.theme-option.selected {
+    border-color: var(--accent);
+}
+
+.theme-swatches {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.theme-swatch {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.theme-option-name {
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+.danger-button {
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-top: 0.75rem;
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #F2EDE3;
+    background-color: #7A2E2E;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.danger-button:hover {
+    background-color: #932E2E;
+    transform: translateY(-2px);
 }
 
 /* MOBILE ONLY */
