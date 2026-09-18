@@ -65,6 +65,9 @@ header {
     padding: 1rem;
     overflow-y: auto;
 
+    display: flex;
+    flex-direction: column;
+
     color: var(--color-sidebar);
     background-color: var(--bg-sidebar);
 }
@@ -133,11 +136,39 @@ header {
     transform: translateY(-2px);
 }
 
+/* Import & Export buttons */
+#importCollected,
+#exportCollected {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--color-action-btn);
+    background-color: var(--bg-action-btn);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+#exportCollected {
+    margin-top: 2.5rem; /* significant gap from Apply filters */
+}
+
+#importCollected:hover,
+#exportCollected:hover {
+    background-color: var(--bg-action-btn-hover);
+    transform: translateY(-2px); /* slight lift on hover */
+}
+
 #toggleAllCollected {
     display: block;
     width: 100%;
     padding: 0.75rem 1rem;
-    margin-top: 1.75rem;
+    margin-top: 2.5rem; /* significant gap below Import */
     font-size: 1.1rem;
     font-weight: bold;
     color: var(--color-action-btn);
@@ -151,31 +182,7 @@ header {
 
 #toggleAllCollected:hover {
     background-color: var(--bg-action-btn-hover);
-    transform: translateY(-2px); /* slight lift on hover */
-}
-
-/* Import & Export buttons */
-#importCollected,
-#exportCollected {
-    display: block;
-    width: 100%;
-    padding: 0.75rem 1rem;
-    margin-top: 1rem; /* slightly less than toggleAll for spacing */
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: var(--color-action-btn);
-    background-color: var(--bg-action-btn);
-    border: none;
-    border-radius: 6px; /* same as toggleAll */
-    cursor: pointer;
-    text-align: center;
-    transition: background-color 0.2s, transform 0.1s;
-}
-
-#importCollected:hover,
-#exportCollected:hover {
-    background-color: var(--bg-action-btn-hover);
-    transform: translateY(-2px); /* slight lift on hover */
+    transform: translateY(-2px);
 }
 
 .sidebar-link-button {
@@ -198,6 +205,17 @@ header {
 .sidebar-link-button:hover {
     background-color: var(--bg-action-btn-hover);
     transform: translateY(-2px);
+}
+
+/* grows to push Info/Help to the bottom when there's leftover space, but
+   never shrinks below the same gap used between Apply filters and Export */
+#sidebarSpacer {
+    flex: 1 1 auto;
+    min-height: 2.5rem;
+}
+
+#infoPageLink {
+    margin-top: 0;
 }
 
 /* Card grid */
