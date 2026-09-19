@@ -2,7 +2,5 @@
 *.log
 *.txt
 *.bat
-database/*
-preprocess/*
-test/*
+preprocess/
 scripts/*
