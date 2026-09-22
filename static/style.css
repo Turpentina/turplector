@@ -558,8 +558,11 @@ header {
     box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 
+/* On the card grid this pill sits on top of the card art, so a lighter tint
+   reads clearly without fighting the image underneath it; the count-btn/
+   count-input keep their normal dark text since this stays light. */
 .collected-counter.active {
-    background-color: #dff3e0;
+    background-color: color-mix(in srgb, var(--accent) 35%, white);
 }
 
 .count-btn {
@@ -791,6 +794,26 @@ header {
 .condensed-counter .count-input {
     width: 24px;
     font-size: 13px;
+}
+
+/* Condensed view: a plain table cell, not busy card art, sits behind the
+   pill, so it can use the full theme accent color rather than the lighter
+   tint used on the grid - with light-on-accent text/buttons for contrast. */
+.condensed-counter.active {
+    background-color: var(--accent);
+}
+
+.condensed-counter.active .count-btn,
+.condensed-counter.active .count-input {
+    color: white;
+}
+
+.condensed-counter.active .count-btn {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.condensed-counter.active .count-btn:hover {
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 @media (max-width: 768px) {
