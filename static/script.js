@@ -153,7 +153,7 @@ function restoreListStateFromStorage() {
     subcategoryFilter.value = saved.subcategory ?? "";
     rarityFilter.value = saved.rarity ?? "";
     collectionFilter.value = saved.collection ?? "";
-	sortMode.value = saved.sortMode ?? "set";
+	sortMode.value = saved.sortMode ?? "card";
     return true;
 }
 
@@ -253,20 +253,58 @@ function sortCardsByCardOrder(cardList) {
     });
 }
 
-// Row order for one set's condensed table, following the same Sort By
-// setting as the main grid: "card" order (serial's letter+number, ignoring
-// which category it was tagged) or the default category-grouped order.
+// Archon Quest cards, ordered first among A cards in Set Order mode. See notes.txt.
+const ARCHON_CARDS = [
+    "Wind and Freedom",
+    "Stone and Contracts",
+    "Thunder and Eternity",
+    "Nature and Wisdom",
+    "Water and Justice",
+    "Fire and War",
+    "Moon and Homeland"
+];
+
+// Remaining A-card buckets, checked after ARCHON_CARDS. See notes.txt.
+const A_CARD_BUCKETS = [
+    ["Event", "Arcane Legend"],
+    ["Equipment", "Talent"],
+    ["Event", "None"],
+    ["Support", "Location"],
+    ["Support", "Companion"],
+    ["Equipment", "Technique"],
+    ["Event", "Food"],
+    ["Support", "Item"],
+    ["Equipment", "Weapon"],
+    ["Equipment", "Artifact"],
+    ["Event", "Elemental Resonance"]
+];
+
+// Sort key for one A-card group: archon index, then bucket index, else warns and sorts last.
+function aCardTier(group) {
+    const archonIndex = ARCHON_CARDS.indexOf(group.name_en);
+    if (archonIndex !== -1) return archonIndex;
+
+    const bucketIndex = A_CARD_BUCKETS.findIndex(
+        ([cat, sub]) => cat === group.card_category && sub === group.card_subcategory
+    );
+    if (bucketIndex === -1) {
+        console.warn(`Condensed view: "${group.name_en}" (${group.base}, ${group.card_category}/${group.card_subcategory}) doesn't match any A-card ordering bucket - see notes.txt.`);
+        return ARCHON_CARDS.length + A_CARD_BUCKETS.length;
+    }
+    return ARCHON_CARDS.length + bucketIndex;
+}
+
+// Row order for one set's condensed table; A cards use aCardTier() in Set Order mode.
 function sortCondensedGroups(groups) {
     return groups.sort((a, b) => {
-        if (sortMode.value === "card") {
-            const ka = getCardOrderKey(a.base);
-            const kb = getCardOrderKey(b.base);
-            return ka.typeRank !== kb.typeRank ? ka.typeRank - kb.typeRank : ka.num - kb.num;
+        const ka = getCardOrderKey(a.base);
+        const kb = getCardOrderKey(b.base);
+        if (ka.typeRank !== kb.typeRank) return ka.typeRank - kb.typeRank;
+
+        if (sortMode.value !== "card" && ka.typeRank === 1) {
+            return aCardTier(a) - aCardTier(b) || ka.num - kb.num;
         }
-        const ta = TYPE_ORDER.indexOf(a.card_category);
-        const tb = TYPE_ORDER.indexOf(b.card_category);
-        if (ta !== tb) return (ta === -1 ? 999 : ta) - (tb === -1 ? 999 : tb);
-        return a.base.localeCompare(b.base, undefined, { numeric: true });
+        return ka.num - kb.num;
     });
 }
 
@@ -493,6 +531,7 @@ function buildBoosterGroups() {
                 name_en: card.name_en,
                 name_cn: card.name_cn,
                 card_category: card.card_category,
+                card_subcategory: card.card_subcategory,
                 variants: {}
             });
         }
@@ -941,7 +980,7 @@ resetFiltersBtn.addEventListener("click", () => {
     updateSubcategoryOptions(); // also disables it, since category is now blank
     subcategoryFilter.value = "";
     collectionFilter.value = "";
-    sortMode.value = "set";
+    sortMode.value = "card";
 
     sessionStorage.removeItem(LIST_STATE_KEY); // don't restore the cleared filters
 
