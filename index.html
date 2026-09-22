@@ -6,6 +6,7 @@
     <title>Card Collection</title>
     <script src="static/theme.js"></script>
     <script src="static/duplicates.js"></script>
+    <script src="static/viewmode.js"></script>
     <link rel="stylesheet" href="static/style.css">
     <link rel="icon" href="favicon.ico" />
     <button id="sidebarToggle">☰</button>
@@ -149,7 +150,24 @@
             </select>
 
             <button type="button" id="applyFilters">Apply filters</button>
+            <button type="button" id="resetFilters">Reset Filters</button>
             <button id="toggleAllCollected">Check/Uncheck All</button>
+
+            <h3>Display</h3>
+            <label class="switch-row sidebar-switch-row">
+                <span class="switch">
+                    <input type="checkbox" id="condensedViewToggle">
+                    <span class="switch-slider"></span>
+                </span>
+                <span>Condensed view</span>
+            </label>
+            <label class="switch-row sidebar-switch-row">
+                <span class="switch">
+                    <input type="checkbox" id="showDuplicatesToggle">
+                    <span class="switch-slider"></span>
+                </span>
+                <span>Duplicate counts</span>
+            </label>
             <div id="sidebarSpacer"></div>
             <button id="exportCollected">Export Collection</button>
             <button id="importCollected">Import Collection</button>
@@ -167,6 +185,15 @@
             <main class="content">
                 <div id="cardCount">Loading...</div>
                 <div id="cardGrid" class="card-grid"></div>
+
+                <div id="condensedView">
+                    <div id="condensedControls">
+                        <label for="setsPerRowSelect">Sets side by side</label>
+                        <select id="setsPerRowSelect"></select>
+                    </div>
+                    <div id="condensedSummary"></div>
+                    <div id="condensedSets"></div>
+                </div>
             </main>
         </div>
     </div>

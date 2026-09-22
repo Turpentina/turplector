@@ -11,7 +11,20 @@ const toggleBtn = document.getElementById("sidebarToggle");
 const sidebar = document.getElementById("sidebar");
 const sortMode = document.getElementById("sortMode");
 
+const condensedViewEl = document.getElementById("condensedView");
+const condensedSummaryEl = document.getElementById("condensedSummary");
+const condensedSetsEl = document.getElementById("condensedSets");
+const setsPerRowSelect = document.getElementById("setsPerRowSelect");
+const condensedViewToggle = document.getElementById("condensedViewToggle");
+const showDuplicatesToggle = document.getElementById("showDuplicatesToggle");
+
 const LIST_STATE_KEY = "tcg_list_filters";
+
+// the exact card list (objects, not just serials) behind whatever is
+// currently on screen - kept up to date by renderCurrentView() so
+// Check/Uncheck All and the condensed view's live summary don't need to
+// re-derive it from the DOM or re-run the filters.
+let lastFilteredCards = [];
 
 
 const TYPE_ORDER = [
@@ -98,6 +111,18 @@ function toggleCollected(serial) {
     setCount(serial, isCollected(serial) ? 0 : 1);
 }
 
+// The pristine "nothing loaded yet" state - used on first load (before any
+// filters have ever been applied) and by Reset Filters.
+function renderNothingLoaded() {
+    updateViewVisibility();
+    lastFilteredCards = [];
+    renderCards([]);
+    const placeholder = "Set filters and click Apply filters to load cards.";
+    cardCountEl.textContent = placeholder;
+    condensedSetsEl.innerHTML = "";
+    condensedSummaryEl.innerHTML = `<p class="condensed-empty">${placeholder}</p>`;
+}
+
 // load cards from json (full list for filter options; grid only after Apply or restore)
 async function loadCards() {
     try {
@@ -108,13 +133,13 @@ async function loadCards() {
         populateCategoryFilter(cards);
         populateRarityFilter(cards);
 
+        populateSetsPerRowSelect();
+
         if (restoreListStateFromStorage()) {
             applyFilters();
         } else {
             subcategoryFilter.disabled = true;
-            renderCards([]);
-            cardCountEl.textContent =
-                "Set filters and click Apply filters to load cards.";
+            renderNothingLoaded();
         }
     } catch (err) {
         console.error("Failed to load cards:", err);
@@ -415,6 +440,331 @@ function renderCards(cardList) {
 }
 
 
+// ---------------------------------------------------------------------
+// Condensed view: one table per booster set, one row per card number,
+// one column per rarity, instead of a separate tile per rarity variant.
+// ---------------------------------------------------------------------
+
+function updateViewVisibility() {
+    const condensed = window.tcgViewMode.isCondensedViewEnabled();
+    cardCountEl.style.display = condensed ? "none" : "";
+    cardGrid.style.display = condensed ? "none" : "";
+    // #condensedView defaults to display:none in the stylesheet, so clearing
+    // the inline style (as the other two lines do) would just fall back to
+    // that instead of showing it - it needs an explicit value here.
+    condensedViewEl.style.display = condensed ? "block" : "none";
+}
+
+// Renders whichever view is currently selected (settings.html), and keeps
+// lastFilteredCards in sync so Check/Uncheck All and the live summary refresh
+// always know exactly what's on screen without re-deriving it from the DOM.
+function renderCurrentView(cardList) {
+    lastFilteredCards = cardList;
+    updateViewVisibility();
+    if (window.tcgViewMode.isCondensedViewEnabled()) {
+        renderCondensedView(cardList);
+    } else {
+        renderCards(cardList);
+    }
+}
+
+function boosterBaseKey(serial) {
+    return serial.replace(/\(\d+\)$/, "");
+}
+
+function isBoosterSerial(serial) {
+    return serial.split("-")[0].endsWith("B");
+}
+
+// Every booster card in the full catalog (not just what passed the current
+// filters - a card's thumbnail and which rarities exist for it shouldn't
+// change depending on the filters), grouped by set code then by card number.
+function buildBoosterGroups() {
+    const bySet = new Map();
+    cards.forEach(card => {
+        if (!isBoosterSerial(card.serial)) return;
+        const setCode = card.serial.split("-")[0];
+        const base = boosterBaseKey(card.serial);
+        if (!bySet.has(setCode)) bySet.set(setCode, new Map());
+        const setMap = bySet.get(setCode);
+        if (!setMap.has(base)) {
+            setMap.set(base, {
+                base,
+                name_en: card.name_en,
+                name_cn: card.name_cn,
+                card_category: card.card_category,
+                variants: {}
+            });
+        }
+        setMap.get(base).variants[card.rarity] = card;
+    });
+    return bySet;
+}
+
+function highestRarity(bySet) {
+    let max = 1;
+    bySet.forEach(setMap => setMap.forEach(group => {
+        Object.keys(group.variants).forEach(r => { max = Math.max(max, parseInt(r, 10)); });
+    }));
+    return max;
+}
+
+// Rarity 3 art if this card has it, else 2, else 1 - a consistent "best
+// available" choice across categories that don't go all the way to 4.
+function representativeVariant(group) {
+    for (const r of [3, 2, 1]) {
+        if (group.variants[r]) return group.variants[r];
+    }
+    const any = Object.values(group.variants)[0];
+    return any || null;
+}
+
+function buildCardRow(group, rarityCols, interactiveSerials) {
+    const tr = document.createElement("tr");
+    const rep = representativeVariant(group);
+    const repHref = rep ? `card.html?serial=${encodeURIComponent(rep.serial)}` : "#";
+
+    const thumbTd = document.createElement("td");
+    thumbTd.className = "condensed-thumb";
+    thumbTd.innerHTML = rep
+        ? `<a href="${repHref}"><img src="${cardImageUrl(rep.image)}" alt="${rep.serial}"></a>`
+        : "";
+    tr.appendChild(thumbTd);
+
+    const nameTd = document.createElement("td");
+    nameTd.className = "condensed-name";
+    const numberMatch = group.base.match(/-([A-Z]+\d+)$/);
+    nameTd.innerHTML = `
+        <a href="${repHref}" class="condensed-cardnum">${numberMatch ? numberMatch[1] : group.base}</a>
+        <div class="condensed-cardname">${group.name_en}</div>
+    `;
+    tr.appendChild(nameTd);
+
+    const showDuplicates = window.tcgDuplicates.isShowDuplicatesEnabled();
+    const collectedMap = getCollectedMap();
+
+    for (let r = 1; r <= rarityCols; r++) {
+        const variant = group.variants[r];
+        const td = document.createElement("td");
+
+        if (!variant || !interactiveSerials.has(variant.serial)) {
+            td.className = "condensed-cell condensed-na";
+            td.textContent = "—";
+            tr.appendChild(td);
+            continue;
+        }
+
+        td.className = "condensed-cell";
+        const serial = variant.serial;
+        const count = normalizeCount(collectedMap[serial]);
+
+        if (showDuplicates) {
+            td.innerHTML = `
+                <div class="collected-counter condensed-counter ${count > 0 ? "active" : ""}">
+                    <button type="button" class="count-btn count-minus" aria-label="Decrease count">−</button>
+                    <input type="number" class="count-input" min="0" step="1" value="${count}" aria-label="Copies owned">
+                    <button type="button" class="count-btn count-plus" aria-label="Increase count">+</button>
+                </div>`;
+            const counterEl = td.querySelector(".collected-counter");
+            const input = counterEl.querySelector(".count-input");
+            const syncUI = (applied) => {
+                input.value = applied;
+                counterEl.classList.toggle("active", applied > 0);
+                refreshCondensedSummary();
+            };
+            counterEl.querySelector(".count-minus").addEventListener("click", () => syncUI(incrementCount(serial, -1)));
+            counterEl.querySelector(".count-plus").addEventListener("click", () => syncUI(incrementCount(serial, 1)));
+            input.addEventListener("click", (e) => e.stopPropagation());
+            input.addEventListener("mousedown", (e) => e.stopPropagation());
+            input.addEventListener("keydown", (e) => {
+                e.stopPropagation();
+                if (e.key === "Enter") input.blur();
+            });
+            input.addEventListener("change", () => syncUI(setCount(serial, parseInt(input.value, 10))));
+        } else {
+            td.innerHTML = `<div class="collected-badge condensed-badge ${count > 0 ? "active" : ""}" title="Mark as collected">✔</div>`;
+            td.querySelector(".collected-badge").addEventListener("click", () => {
+                toggleCollected(serial);
+                td.querySelector(".collected-badge").classList.toggle("active");
+                refreshCondensedSummary();
+            });
+        }
+
+        tr.appendChild(td);
+    }
+
+    return tr;
+}
+
+function buildSetTable(setCode, groups, rarityCols, interactiveSerials) {
+    const wrapper = document.createElement("div");
+    wrapper.className = "condensed-set-block";
+
+    const table = document.createElement("table");
+    table.className = "condensed-table";
+
+    const headRow = document.createElement("tr");
+    const setTh = document.createElement("th");
+    setTh.className = "condensed-set-header";
+    setTh.colSpan = 2;
+    setTh.textContent = setCode;
+    headRow.appendChild(setTh);
+    for (let r = 1; r <= rarityCols; r++) {
+        const th = document.createElement("th");
+        th.textContent = `R${r}`;
+        headRow.appendChild(th);
+    }
+    const thead = document.createElement("thead");
+    thead.appendChild(headRow);
+    table.appendChild(thead);
+
+    const tbody = document.createElement("tbody");
+    groups.forEach(group => tbody.appendChild(buildCardRow(group, rarityCols, interactiveSerials)));
+    table.appendChild(tbody);
+
+    wrapper.appendChild(table);
+    return wrapper;
+}
+
+// Kept so a checkbox/pill click can refresh just the summary table without
+// rebuilding every set's (much larger) table underneath it.
+let lastCondensedContext = null;
+
+function renderCondensedSummary(cardList, boosterSetCodes, rarityCols) {
+    const collectedMap = getCollectedMap();
+    const bySetRarity = new Map();
+    let overallTotal = 0, overallCollected = 0;
+
+    cardList.forEach(card => {
+        if (!isBoosterSerial(card.serial)) return;
+        const setCode = card.serial.split("-")[0];
+        const key = `${setCode}|${card.rarity}`;
+        if (!bySetRarity.has(key)) bySetRarity.set(key, { total: 0, collected: 0 });
+        const entry = bySetRarity.get(key);
+        entry.total++;
+        overallTotal++;
+        if (normalizeCount(collectedMap[card.serial]) > 0) {
+            entry.collected++;
+            overallCollected++;
+        }
+    });
+
+    let html = `<table class="condensed-summary-table"><thead><tr><th>Set</th>`;
+    for (let r = 1; r <= rarityCols; r++) html += `<th>R${r}</th>`;
+    html += `<th>Total</th></tr></thead><tbody>`;
+
+    boosterSetCodes.forEach(setCode => {
+        let rowTotal = 0, rowCollected = 0;
+        let rowHtml = `<tr><th>${setCode}</th>`;
+        for (let r = 1; r <= rarityCols; r++) {
+            const entry = bySetRarity.get(`${setCode}|${r}`);
+            if (!entry) {
+                rowHtml += `<td class="condensed-na">—</td>`;
+            } else {
+                rowTotal += entry.total;
+                rowCollected += entry.collected;
+                rowHtml += `<td>${entry.collected}/${entry.total}</td>`;
+            }
+        }
+        if (rowTotal === 0) return; // this set was entirely filtered out
+        const rowPercent = ((rowCollected / rowTotal) * 100).toFixed(0);
+        rowHtml += `<td>${rowCollected}/${rowTotal} (${rowPercent}%)</td></tr>`;
+        html += rowHtml;
+    });
+
+    const overallPercent = overallTotal > 0 ? ((overallCollected / overallTotal) * 100).toFixed(1) : "0.0";
+    html += `<tr class="condensed-summary-overall"><th>Overall</th>`;
+    for (let r = 1; r <= rarityCols; r++) html += `<td></td>`;
+    html += `<td>${overallCollected}/${overallTotal} (${overallPercent}%)</td></tr>`;
+    html += `</tbody></table>`;
+
+    condensedSummaryEl.innerHTML = overallTotal > 0
+        ? html
+        : `<p class="condensed-empty">No booster cards match the current filters.</p>`;
+}
+
+function refreshCondensedSummary() {
+    if (!lastCondensedContext) return;
+    const { cardList, boosterSetCodes, rarityCols } = lastCondensedContext;
+    renderCondensedSummary(cardList, boosterSetCodes, rarityCols);
+}
+
+function renderCondensedView(cardList) {
+    const interactiveSerials = new Set(cardList.map(c => c.serial));
+    const bySet = buildBoosterGroups();
+    const rarityCols = highestRarity(bySet);
+    const boosterSetCodes = sortSetsDynamic(new Set(cards.map(c => c.serial.split("-")[0])))
+        .filter(isBoosterSerial);
+
+    lastCondensedContext = { cardList, boosterSetCodes, rarityCols };
+    renderCondensedSummary(cardList, boosterSetCodes, rarityCols);
+
+    condensedSetsEl.innerHTML = "";
+    condensedSetsEl.style.setProperty("--sets-per-row", String(window.tcgViewMode.getSetsPerRow()));
+
+    let anySetShown = false;
+    boosterSetCodes.forEach(setCode => {
+        const setMap = bySet.get(setCode);
+        if (!setMap) return;
+
+        const groups = Array.from(setMap.values()).filter(g =>
+            Object.values(g.variants).some(v => interactiveSerials.has(v.serial))
+        );
+        if (groups.length === 0) return;
+
+        groups.sort((a, b) => {
+            const ta = TYPE_ORDER.indexOf(a.card_category);
+            const tb = TYPE_ORDER.indexOf(b.card_category);
+            if (ta !== tb) return (ta === -1 ? 999 : ta) - (tb === -1 ? 999 : tb);
+            return a.base.localeCompare(b.base, undefined, { numeric: true });
+        });
+
+        anySetShown = true;
+        condensedSetsEl.appendChild(buildSetTable(setCode, groups, rarityCols, interactiveSerials));
+    });
+
+    if (!anySetShown) {
+        condensedSetsEl.innerHTML = `<p class="condensed-empty">No booster cards match the current filters.</p>`;
+    }
+}
+
+function populateSetsPerRowSelect() {
+    const boosterCount = sortSetsDynamic(new Set(cards.map(c => c.serial.split("-")[0])))
+        .filter(isBoosterSerial).length || 1;
+
+    setsPerRowSelect.innerHTML = "";
+    for (let n = 1; n <= boosterCount; n++) {
+        const opt = document.createElement("option");
+        opt.value = String(n);
+        opt.textContent = n === boosterCount && n > 1 ? `${n} (All)` : String(n);
+        setsPerRowSelect.appendChild(opt);
+    }
+    setsPerRowSelect.value = String(Math.min(window.tcgViewMode.getSetsPerRow(), boosterCount));
+}
+
+setsPerRowSelect.addEventListener("change", () => {
+    window.tcgViewMode.setSetsPerRow(parseInt(setsPerRowSelect.value, 10));
+    if (window.tcgViewMode.isCondensedViewEnabled()) {
+        renderCondensedView(lastFilteredCards);
+    }
+});
+
+// These two used to live on settings.html; they're display preferences that
+// affect what's currently on screen, so they take effect immediately here
+// rather than needing a trip to another page.
+condensedViewToggle.checked = window.tcgViewMode.isCondensedViewEnabled();
+condensedViewToggle.addEventListener("change", () => {
+    window.tcgViewMode.setCondensedViewEnabled(condensedViewToggle.checked);
+    renderCurrentView(lastFilteredCards);
+});
+
+showDuplicatesToggle.checked = window.tcgDuplicates.isShowDuplicatesEnabled();
+showDuplicatesToggle.addEventListener("change", () => {
+    window.tcgDuplicates.setShowDuplicatesEnabled(showDuplicatesToggle.checked);
+    renderCurrentView(lastFilteredCards);
+});
+
+
 // Combined filter: search input + set filter
 function applyFilters() {
     const query = searchInput.value.toLowerCase();
@@ -464,34 +814,33 @@ function applyFilters() {
 	}
 	
     persistListState();
-    renderCards(sorted);
+    renderCurrentView(sorted);
 }
 
 const toggleAllBtn = document.getElementById("toggleAllCollected");
 
 toggleAllBtn.addEventListener("click", () => {
-    const filteredCards = Array.from(cardGrid.children).map(cardEl => {
-        const serial = cardEl.querySelector(".card-title").textContent;
-        return serial;
-    });
-
+    // Whatever is actually on screen right now, in either view - kept in
+    // sync by renderCurrentView(), so this doesn't need to read it back out
+    // of the DOM (which only ever held the normal grid's tiles anyway).
+    const visibleCards = lastFilteredCards;
     const collectedMap = getCollectedMap();
 
     // Determine if we should mark all as collected or uncollected
-    const allCollected = filteredCards.every(serial => normalizeCount(collectedMap[serial]) > 0);
+    const allCollected = visibleCards.every(card => normalizeCount(collectedMap[card.serial]) > 0);
 
     const confirmMessage = allCollected
-        ? `Unmark all ${filteredCards.length} currently visible cards as collected?`
-        : `Mark all ${filteredCards.length} currently visible cards as collected?`;
+        ? `Unmark all ${visibleCards.length} currently visible cards as collected?`
+        : `Mark all ${visibleCards.length} currently visible cards as collected?`;
     if (!window.confirm(confirmMessage)) {
         return;
     }
 
-    filteredCards.forEach(serial => {
+    visibleCards.forEach(card => {
         if (allCollected) {
-            delete collectedMap[serial]; // unmark all
-        } else if (normalizeCount(collectedMap[serial]) === 0) {
-            collectedMap[serial] = 1; // mark as owned, without touching existing counts
+            delete collectedMap[card.serial]; // unmark all
+        } else if (normalizeCount(collectedMap[card.serial]) === 0) {
+            collectedMap[card.serial] = 1; // mark as owned, without touching existing counts
         }
     });
 
@@ -499,8 +848,7 @@ toggleAllBtn.addEventListener("click", () => {
 
     // Re-render the cards already on screen to update badges and count,
     // without re-applying the filter dropdowns (they may hold unapplied changes)
-    const currentCards = filteredCards.map(serial => cards.find(card => card.serial === serial));
-    renderCards(currentCards);
+    renderCurrentView(visibleCards);
 });
 
 // Count unique cards owned (at least 1 copy) from a given card list
@@ -585,6 +933,25 @@ importFileInput.addEventListener("change", (event) => {
 
 
 applyFiltersBtn.addEventListener("click", applyFilters);
+
+const resetFiltersBtn = document.getElementById("resetFilters");
+
+resetFiltersBtn.addEventListener("click", () => {
+    searchInput.value = "";
+    setFilter.value = "__ALL_BOOSTERS__";
+    rarityFilter.value = "";
+    categoryFilter.value = "";
+    updateSubcategoryOptions(); // also disables it, since category is now blank
+    subcategoryFilter.value = "";
+    collectionFilter.value = "";
+    sortMode.value = "set";
+
+    // so a page refresh right after doesn't silently restore and re-apply
+    // the filters this just cleared
+    sessionStorage.removeItem(LIST_STATE_KEY);
+
+    renderNothingLoaded();
+});
 
 searchInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {

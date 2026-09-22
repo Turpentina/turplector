@@ -17,14 +17,6 @@ themeOptions.forEach(opt => {
 
 markSelected(window.tcgTheme.getStoredTheme());
 
-const showDuplicatesToggle = document.getElementById("showDuplicatesToggle");
-
-showDuplicatesToggle.checked = window.tcgDuplicates.isShowDuplicatesEnabled();
-
-showDuplicatesToggle.addEventListener("change", () => {
-    window.tcgDuplicates.setShowDuplicatesEnabled(showDuplicatesToggle.checked);
-});
-
 const deleteSiteDataBtn = document.getElementById("deleteSiteDataBtn");
 
 deleteSiteDataBtn.addEventListener("click", () => {

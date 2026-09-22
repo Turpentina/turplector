@@ -289,13 +289,15 @@ header {
     transform: translateY(-2px); /* slight lift on hover */
 }
 
-/* outline style, deliberately less prominent than Apply filters since
-   this bulk-toggles collected state for every currently visible card */
+/* outline style, deliberately less prominent than Apply filters: Reset just
+   clears the form (no confirm needed), Check/Uncheck All bulk-toggles
+   collected state for every currently visible card (see its own confirm) */
+#resetFilters,
 #toggleAllCollected {
     display: block;
     width: 100%;
     padding: 0.75rem 1rem;
-    margin-top: 1rem; /* normal gap below Apply filters, same group */
+    margin-top: 1rem; /* normal gap below the button above it, same group */
     font-size: 1rem;
     font-weight: normal;
     color: var(--bg-action-btn);
@@ -307,6 +309,7 @@ header {
     transition: background-color 0.2s, color 0.2s;
 }
 
+#resetFilters:hover,
 #toggleAllCollected:hover {
     background-color: var(--bg-action-btn);
     color: var(--color-action-btn);
@@ -597,6 +600,209 @@ header {
     margin: 0;
 }
 
+/* ------------------------------------------------------------------ */
+/* Condensed view: one table per booster set, one row per card number,  */
+/* one column per rarity (settings.html > Collection View)              */
+/* ------------------------------------------------------------------ */
+
+#condensedView {
+    display: none; /* toggled from script.js based on the saved setting */
+}
+
+#condensedControls {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+#condensedControls label {
+    font-weight: bold;
+    color: var(--color-header, inherit);
+}
+
+#condensedControls select {
+    padding: 0.4rem 1.5rem 0.4rem 0.6rem;
+    border-radius: 6px;
+    border: 1px solid var(--table-border-color);
+    background: var(--table-bg);
+    color: var(--table-text-color);
+    cursor: pointer;
+}
+
+.condensed-empty {
+    padding: 1rem;
+    color: var(--table-text-color);
+}
+
+/* --- summary table --- */
+
+#condensedSummary {
+    margin-bottom: 1.5rem;
+    overflow-x: auto;
+}
+
+.condensed-summary-table {
+    border-collapse: collapse;
+    background: var(--table-bg);
+    border: 1px solid var(--table-border-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.condensed-summary-table th,
+.condensed-summary-table td {
+    padding: 0.5rem 0.9rem;
+    text-align: center;
+    border-bottom: 1px solid var(--table-border-color);
+    color: var(--table-text-color);
+    white-space: nowrap;
+}
+
+.condensed-summary-table thead th {
+    background-color: var(--table-header-bg);
+    color: var(--table-header-color);
+}
+
+.condensed-summary-table tbody th {
+    text-align: left;
+    background-color: var(--table-header-bg);
+    color: var(--table-header-color);
+    font-weight: bold;
+}
+
+.condensed-summary-table tr:last-child th,
+.condensed-summary-table tr:last-child td {
+    border-bottom: none;
+}
+
+.condensed-summary-overall th,
+.condensed-summary-overall td {
+    font-weight: bold;
+}
+
+/* --- per-set tables, laid out side by side per the "sets side by side" control --- */
+
+#condensedSets {
+    display: grid;
+    grid-template-columns: repeat(var(--sets-per-row, 2), minmax(280px, 1fr));
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.condensed-set-block {
+    overflow-x: auto;
+}
+
+.condensed-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--table-bg);
+    border: 1px solid var(--table-border-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.condensed-table th,
+.condensed-table td {
+    padding: 0.4rem 0.5rem;
+    border-bottom: 1px solid var(--table-border-color);
+    text-align: center;
+}
+
+.condensed-table thead th {
+    background-color: var(--table-header-bg);
+    color: var(--table-header-color);
+}
+
+.condensed-set-header {
+    text-align: left !important;
+}
+
+.condensed-table tbody tr:last-child td,
+.condensed-table tbody tr:last-child th {
+    border-bottom: none;
+}
+
+.condensed-thumb {
+    width: 48px;
+    padding: 0.3rem !important;
+}
+
+.condensed-thumb img {
+    display: block;
+    width: 44px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.condensed-name {
+    text-align: left !important;
+    min-width: 110px;
+    color: var(--table-text-color);
+}
+
+.condensed-cardnum {
+    display: block;
+    font-weight: bold;
+    color: var(--table-link-color);
+    text-decoration: none;
+}
+
+.condensed-cardnum:hover {
+    text-decoration: underline;
+}
+
+.condensed-cardname {
+    font-size: 0.85rem;
+    color: var(--table-text-color);
+    opacity: 0.85;
+}
+
+.condensed-cell {
+    color: var(--table-text-color);
+}
+
+.condensed-na {
+    color: var(--table-border-color);
+}
+
+/* the checkmark badge / duplicate pill, resized to sit inline in a cell
+   instead of positioned over a card image */
+.condensed-badge {
+    position: static;
+    display: inline-flex;
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.condensed-counter {
+    position: static;
+    display: inline-flex;
+    padding: 2px;
+}
+
+.condensed-counter .count-btn {
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+}
+
+.condensed-counter .count-input {
+    width: 24px;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    #condensedSets {
+        grid-template-columns: repeat(var(--sets-per-row, 1), minmax(220px, 1fr));
+    }
+
+    .condensed-cardname {
+        display: none; /* keep rows compact on narrow screens */
+    }
+}
+
 /* Back button */
 .back-button {
     display: inline-flex;
@@ -740,6 +946,14 @@ header {
     gap: 0.75rem;
     cursor: pointer;
     width: fit-content;
+}
+
+/* same switch, narrower context (the sidebar) */
+.sidebar-switch-row {
+    width: 100%;
+    gap: 0.6rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.95rem;
 }
 
 .switch {
