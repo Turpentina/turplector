@@ -1,7 +1,5 @@
-// Shown when clicking a card's identity (thumbnail/number) in the condensed
-// view: every non-starter printing of that same card number (e.g. "C001"),
-// across whichever sets it was reprinted into, as an ordinary card grid -
-// this never touches the sidebar's own filters (see index.html/script.js).
+// Every non-starter printing of one card number (e.g. "C001"), as a plain
+// grid. Opened from the condensed view; never touches the sidebar's filters.
 
 function baseCardNumber(serial) {
     // "GCG04B-A048(2)" -> "A048"
@@ -23,9 +21,8 @@ function updateGroupCount(cardList) {
         `Showing ${cardList.length} cards — Collected ${collectedCount} (${percent}%)`;
 }
 
-// Same tile markup/behavior as the main grid (script.js's renderCards) - kept
-// as its own copy since this page has no filters, sorting, or Check/Uncheck
-// All to share with that one.
+// Same tile markup/behavior as script.js's renderCards; kept separate since
+// this page has no filters or Check/Uncheck All to share.
 function renderGroupGrid(cardList) {
     const gridEl = document.getElementById("cardGrid");
     gridEl.innerHTML = "";

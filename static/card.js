@@ -1,8 +1,4 @@
 async function loadCard() {
-    
-    // const pathParts = window.location.pathname.split("/");
-    // const serial = pathParts[pathParts.length - 1];
-    // Use query param instead of deep linking
     const params = new URLSearchParams(window.location.search);
     const serial = params.get("serial");
     if (!serial) {
@@ -49,8 +45,7 @@ async function loadCard() {
     }
 }
 
-// Card text (rule text) is only present for cards the wechat mini program
-// gave detail for; a handful of promos have none.
+// Card text is only present for cards the wechat mini program had detail for.
 const EXPERIMENTAL_NOTE_CN = "Experimental: this text may be auto-translated.";
 const EXPERIMENTAL_NOTE_EN = "Experimental: this text is auto-translated.";
 

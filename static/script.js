@@ -20,10 +20,7 @@ const showDuplicatesToggle = document.getElementById("showDuplicatesToggle");
 
 const LIST_STATE_KEY = "tcg_list_filters";
 
-// the exact card list (objects, not just serials) behind whatever is
-// currently on screen - kept up to date by renderCurrentView() so
-// Check/Uncheck All and the condensed view's live summary don't need to
-// re-derive it from the DOM or re-run the filters.
+// Card objects currently on screen, kept in sync by renderCurrentView().
 let lastFilteredCards = [];
 
 
@@ -50,8 +47,7 @@ toggleBtn.addEventListener("click", () => {
     sidebar.classList.toggle("open");
 });
 
-// Capture phase so this runs before the click reaches its target (e.g. a
-// card), letting us swallow the click instead of letting it act as well.
+// Capture phase: close before the click reaches its target.
 document.addEventListener("click", (e) => {
     if (
         sidebar.classList.contains("open") &&
@@ -64,12 +60,8 @@ document.addEventListener("click", (e) => {
     }
 }, true);
 
-// local storage for collected cards
-//
-// Values are normally a positive integer (how many copies owned). Older data
-// stored `true` for a collected serial with no count — normalizeCount treats
-// that as 1 so old data keeps working without a migration step.
-
+// Local storage for collected cards. Values are a copy count; older data
+// stored `true`, which normalizeCount treats as 1.
 const STORAGE_KEY = "tcg_collected";
 
 function getCollectedMap() {
@@ -111,8 +103,7 @@ function toggleCollected(serial) {
     setCount(serial, isCollected(serial) ? 0 : 1);
 }
 
-// The pristine "nothing loaded yet" state - used on first load (before any
-// filters have ever been applied) and by Reset Filters.
+// Pristine "nothing loaded yet" state - used on first load and Reset Filters.
 function renderNothingLoaded() {
     updateViewVisibility();
     lastFilteredCards = [];
@@ -211,8 +202,8 @@ function sortSetsDynamic(sets) {
 
         if (aRank !== bRank) return aRank - bRank;
 
-        // tie-breaker: alphabetical
-        return a.localeCompare(b);
+        // tie-breaker: numeric, so set 10+ still sorts after set 9
+        return a.localeCompare(b, undefined, { numeric: true });
     });
 }
 
@@ -440,24 +431,18 @@ function renderCards(cardList) {
 }
 
 
-// ---------------------------------------------------------------------
-// Condensed view: one table per booster set, one row per card number,
-// one column per rarity, instead of a separate tile per rarity variant.
-// ---------------------------------------------------------------------
+// Condensed view: one table per booster set, one row per card number, one
+// column per rarity, instead of a tile per rarity variant.
 
 function updateViewVisibility() {
     const condensed = window.tcgViewMode.isCondensedViewEnabled();
     cardCountEl.style.display = condensed ? "none" : "";
     cardGrid.style.display = condensed ? "none" : "";
-    // #condensedView defaults to display:none in the stylesheet, so clearing
-    // the inline style (as the other two lines do) would just fall back to
-    // that instead of showing it - it needs an explicit value here.
+    // Stylesheet default is display:none, so this needs an explicit value.
     condensedViewEl.style.display = condensed ? "block" : "none";
 }
 
-// Renders whichever view is currently selected (settings.html), and keeps
-// lastFilteredCards in sync so Check/Uncheck All and the live summary refresh
-// always know exactly what's on screen without re-deriving it from the DOM.
+// Renders the current view mode and keeps lastFilteredCards in sync.
 function renderCurrentView(cardList) {
     lastFilteredCards = cardList;
     updateViewVisibility();
@@ -476,9 +461,7 @@ function isBoosterSerial(serial) {
     return serial.split("-")[0].endsWith("B");
 }
 
-// Every booster card in the full catalog (not just what passed the current
-// filters - a card's thumbnail and which rarities exist for it shouldn't
-// change depending on the filters), grouped by set code then by card number.
+// Every booster card, unfiltered, grouped by set code then card number.
 function buildBoosterGroups() {
     const bySet = new Map();
     cards.forEach(card => {
@@ -509,8 +492,7 @@ function highestRarity(bySet) {
     return max;
 }
 
-// Rarity 3 art if this card has it, else 2, else 1 - a consistent "best
-// available" choice across categories that don't go all the way to 4.
+// Rarity 3 art if it exists, else 2, else 1.
 function representativeVariant(group) {
     for (const r of [3, 2, 1]) {
         if (group.variants[r]) return group.variants[r];
@@ -522,10 +504,8 @@ function representativeVariant(group) {
 function buildCardRow(group, rarityCols, interactiveSerials) {
     const tr = document.createElement("tr");
     const rep = representativeVariant(group);
-    // Clicking the card's identity (thumbnail or number/name) opens every
-    // non-starter printing of this card number, across whichever sets it was
-    // reprinted into - a temporary view, not a change to the sidebar's own
-    // filters. See card_group.html/card_group.js.
+    // Identity link opens every non-starter printing of this card number
+    // (card_group.html) without touching the sidebar's own filters.
     const numberMatch = group.base.match(/-([A-Z]+\d+)$/);
     const cardNumber = numberMatch ? numberMatch[1] : group.base;
     const groupHref = `card_group.html?number=${encodeURIComponent(cardNumber)}`;
@@ -631,8 +611,7 @@ function buildSetTable(setCode, groups, rarityCols, interactiveSerials) {
     return wrapper;
 }
 
-// Kept so a checkbox/pill click can refresh just the summary table without
-// rebuilding every set's (much larger) table underneath it.
+// Lets a toggle refresh just the summary table, not every set's table.
 let lastCondensedContext = null;
 
 function renderCondensedSummary(cardList, boosterSetCodes, rarityCols) {
@@ -705,7 +684,7 @@ function renderCondensedView(cardList) {
     renderCondensedSummary(cardList, boosterSetCodes, rarityCols);
 
     condensedSetsEl.innerHTML = "";
-    condensedSetsEl.style.setProperty("--sets-per-row", String(window.tcgViewMode.getSetsPerRow()));
+    condensedSetsEl.style.setProperty("--sets-per-row", String(window.tcgViewMode.getSetsPerRow(boosterSetCodes.length)));
 
     let anySetShown = false;
     boosterSetCodes.forEach(setCode => {
@@ -741,22 +720,33 @@ function populateSetsPerRowSelect() {
     for (let n = 1; n <= boosterCount; n++) {
         const opt = document.createElement("option");
         opt.value = String(n);
-        opt.textContent = n === boosterCount && n > 1 ? `${n} (All)` : String(n);
+        opt.textContent = String(n);
         setsPerRowSelect.appendChild(opt);
     }
-    setsPerRowSelect.value = String(Math.min(window.tcgViewMode.getSetsPerRow(), boosterCount));
+    // Dedicated "All" option so it still means "every set" once more exist.
+    if (boosterCount > 1) {
+        const allOpt = document.createElement("option");
+        allOpt.value = window.tcgViewMode.ALL_SETS_PER_ROW;
+        allOpt.textContent = "All";
+        setsPerRowSelect.appendChild(allOpt);
+    }
+
+    setsPerRowSelect.value = window.tcgViewMode.isAllSetsPerRow()
+        ? window.tcgViewMode.ALL_SETS_PER_ROW
+        : String(window.tcgViewMode.getSetsPerRow(boosterCount));
 }
 
 setsPerRowSelect.addEventListener("change", () => {
-    window.tcgViewMode.setSetsPerRow(parseInt(setsPerRowSelect.value, 10));
+    const value = setsPerRowSelect.value === window.tcgViewMode.ALL_SETS_PER_ROW
+        ? window.tcgViewMode.ALL_SETS_PER_ROW
+        : parseInt(setsPerRowSelect.value, 10);
+    window.tcgViewMode.setSetsPerRow(value);
     if (window.tcgViewMode.isCondensedViewEnabled()) {
         renderCondensedView(lastFilteredCards);
     }
 });
 
-// These two used to live on settings.html; they're display preferences that
-// affect what's currently on screen, so they take effect immediately here
-// rather than needing a trip to another page.
+// Display preferences take effect immediately.
 condensedViewToggle.checked = window.tcgViewMode.isCondensedViewEnabled();
 condensedViewToggle.addEventListener("change", () => {
     window.tcgViewMode.setCondensedViewEnabled(condensedViewToggle.checked);
@@ -825,13 +815,9 @@ function applyFilters() {
 const toggleAllBtn = document.getElementById("toggleAllCollected");
 
 toggleAllBtn.addEventListener("click", () => {
-    // Whatever is actually on screen right now, in either view - kept in
-    // sync by renderCurrentView(), so this doesn't need to read it back out
-    // of the DOM (which only ever held the normal grid's tiles anyway).
     const visibleCards = lastFilteredCards;
     const collectedMap = getCollectedMap();
 
-    // Determine if we should mark all as collected or uncollected
     const allCollected = visibleCards.every(card => normalizeCount(collectedMap[card.serial]) > 0);
 
     const confirmMessage = allCollected
@@ -850,9 +836,6 @@ toggleAllBtn.addEventListener("click", () => {
     });
 
     localStorage.setItem(STORAGE_KEY, JSON.stringify(collectedMap));
-
-    // Re-render the cards already on screen to update badges and count,
-    // without re-applying the filter dropdowns (they may hold unapplied changes)
     renderCurrentView(visibleCards);
 });
 
@@ -868,9 +851,7 @@ const importBtn = document.getElementById("importCollected");
 const importFileInput = document.getElementById("importCollectedFile");
 const exportBtn = document.getElementById("exportCollected");
 
-// Export collected cards to plain text. A card with more than 1 copy is
-// written as "serial xN"; a single copy is just the serial, so files from
-// before duplicate tracking existed stay identical in shape.
+// Export to plain text: "serial xN" for N>1 copies, else just the serial.
 exportBtn.addEventListener("click", () => {
     const collectedMap = getCollectedMap();
     const serials = Object.keys(collectedMap).filter(serial => normalizeCount(collectedMap[serial]) > 0);
@@ -919,8 +900,7 @@ importFileInput.addEventListener("change", (event) => {
             // ignore comments / headers
             if (!trimmed || trimmed.startsWith("#")) continue;
 
-            // optional "serial xN" suffix for duplicate counts; a bare
-            // serial (old export format) implies a single copy
+            // "serial xN" for duplicate counts, or a bare serial for 1 copy
             const match = trimmed.match(/^(.+?)\s+x(\d+)$/i);
             if (match) {
                 collectedMap[match[1]] = Math.max(1, parseInt(match[2], 10));
@@ -951,9 +931,7 @@ resetFiltersBtn.addEventListener("click", () => {
     collectionFilter.value = "";
     sortMode.value = "set";
 
-    // so a page refresh right after doesn't silently restore and re-apply
-    // the filters this just cleared
-    sessionStorage.removeItem(LIST_STATE_KEY);
+    sessionStorage.removeItem(LIST_STATE_KEY); // don't restore the cleared filters
 
     renderNothingLoaded();
 });

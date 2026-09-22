@@ -1,7 +1,8 @@
 (function () {
     const CONDENSED_VIEW_KEY = "tcg_condensed_view";
     const SETS_PER_ROW_KEY = "tcg_condensed_sets_per_row";
-    const DEFAULT_SETS_PER_ROW = 2;
+    // Sentinel for "however many booster sets currently exist"; also the default.
+    const ALL_SETS_PER_ROW = "all";
 
     function isCondensedViewEnabled() {
         return localStorage.getItem(CONDENSED_VIEW_KEY) === "1";
@@ -11,17 +12,35 @@
         localStorage.setItem(CONDENSED_VIEW_KEY, enabled ? "1" : "0");
     }
 
-    function getSetsPerRow() {
-        const n = parseInt(localStorage.getItem(SETS_PER_ROW_KEY), 10);
-        return Number.isInteger(n) && n > 0 ? n : DEFAULT_SETS_PER_ROW;
+    function isAllSetsPerRow() {
+        const raw = localStorage.getItem(SETS_PER_ROW_KEY);
+        return raw === null || raw === ALL_SETS_PER_ROW;
     }
 
-    function setSetsPerRow(n) {
-        localStorage.setItem(SETS_PER_ROW_KEY, String(Math.max(1, Math.floor(n) || 1)));
+    // totalBoosterSets resolves the "all" sentinel and clamps stale numbers.
+    function getSetsPerRow(totalBoosterSets) {
+        const total = Number.isInteger(totalBoosterSets) && totalBoosterSets > 0 ? totalBoosterSets : null;
+
+        if (isAllSetsPerRow()) {
+            return total || 1;
+        }
+
+        const n = parseInt(localStorage.getItem(SETS_PER_ROW_KEY), 10);
+        if (!Number.isInteger(n) || n <= 0) return total || 1;
+        return total ? Math.min(n, total) : n;
+    }
+
+    function setSetsPerRow(value) {
+        if (value === ALL_SETS_PER_ROW) {
+            localStorage.setItem(SETS_PER_ROW_KEY, ALL_SETS_PER_ROW);
+            return;
+        }
+        localStorage.setItem(SETS_PER_ROW_KEY, String(Math.max(1, Math.floor(value) || 1)));
     }
 
     window.tcgViewMode = {
-        CONDENSED_VIEW_KEY, SETS_PER_ROW_KEY, DEFAULT_SETS_PER_ROW,
-        isCondensedViewEnabled, setCondensedViewEnabled, getSetsPerRow, setSetsPerRow
+        CONDENSED_VIEW_KEY, SETS_PER_ROW_KEY, ALL_SETS_PER_ROW,
+        isCondensedViewEnabled, setCondensedViewEnabled,
+        getSetsPerRow, setSetsPerRow, isAllSetsPerRow
     };
 })();

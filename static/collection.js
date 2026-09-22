@@ -1,11 +1,5 @@
 (function () {
-    // Collected-card storage, shared by every page that needs to read or
-    // change it (currently script.js keeps its own copy for the main list -
-    // this module exists for the pages added afterward, e.g. card_group.js).
-    //
-    // Values are normally a positive integer (how many copies owned). Older
-    // data stored `true` for a collected serial with no count - normalizeCount
-    // treats that as 1 so old data keeps working without a migration step.
+    // Shared collected-card storage (script.js keeps its own copy for the main list).
     const STORAGE_KEY = "tcg_collected";
 
     function getCollectedMap() {

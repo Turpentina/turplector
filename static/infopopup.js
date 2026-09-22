@@ -1,7 +1,5 @@
 (function () {
-    // Small "i" icon that shows a text popup on click - used to attach a short
-    // explanation to a field or setting without taking up permanent space.
-    // Click elsewhere (or on another icon) to close.
+    // Small "i" icon with a click-to-show popup; click elsewhere to close.
     function infoIcon(note) {
         return `<span class="info-icon" tabindex="0" role="button" aria-label="More info">i<span class="info-popup">${note}</span></span>`;
     }

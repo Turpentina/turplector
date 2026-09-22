@@ -222,9 +222,7 @@ header {
     color: var(--color-sidebar);
     border: 1px solid var(--border);
 
-    /* native appearance (esp. iOS) ignores height/padding for its own text
-       metrics and clips the label instead of resizing; drawing our own
-       arrow lets the box behave like a normal element everywhere */
+    /* draw our own arrow; native appearance clips the label on iOS */
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -289,9 +287,7 @@ header {
     transform: translateY(-2px); /* slight lift on hover */
 }
 
-/* outline style, deliberately less prominent than Apply filters: Reset just
-   clears the form (no confirm needed), Check/Uncheck All bulk-toggles
-   collected state for every currently visible card (see its own confirm) */
+/* outline style, deliberately less prominent than Apply filters */
 #resetFilters,
 #toggleAllCollected {
     display: block;
@@ -337,8 +333,7 @@ header {
     transform: translateY(-2px);
 }
 
-/* grows to push Export/Import/Settings/Info to the bottom when there's
-   leftover space, but never shrinks below this gap from the filter group */
+/* pushes the bottom links down when there's leftover space */
 #sidebarSpacer {
     flex: 1 1 auto;
     min-height: 2.5rem;
@@ -543,8 +538,7 @@ header {
     color: white;
 }
 
-/* duplicate-count widget (shown instead of the checkmark when the
-   "show duplicate cards" setting is on) */
+/* duplicate-count widget, shown instead of the checkmark when enabled */
 .collected-counter {
     position: absolute;
     top: 8px;
@@ -558,9 +552,7 @@ header {
     box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 
-/* On the card grid this pill sits on top of the card art, so a lighter tint
-   reads clearly without fighting the image underneath it; the count-btn/
-   count-input keep their normal dark text since this stays light. */
+/* Light tint: sits on top of card art, keeps dark text. */
 .collected-counter.active {
     background-color: color-mix(in srgb, var(--accent) 35%, white);
 }
@@ -603,10 +595,7 @@ header {
     margin: 0;
 }
 
-/* ------------------------------------------------------------------ */
-/* Condensed view: one table per booster set, one row per card number,  */
-/* one column per rarity (settings.html > Collection View)              */
-/* ------------------------------------------------------------------ */
+/* Condensed view: one table per booster set, one row per card number, one column per rarity */
 
 #condensedView {
     display: none; /* toggled from script.js based on the saved setting */
@@ -768,8 +757,7 @@ header {
     color: var(--table-border-color);
 }
 
-/* the checkmark badge / duplicate pill, resized to sit inline in a cell
-   instead of positioned over a card image */
+/* checkmark badge / duplicate pill, resized to sit inline in a table cell */
 .condensed-badge {
     position: static;
     display: inline-flex;
@@ -796,10 +784,7 @@ header {
     font-size: 13px;
 }
 
-/* Condensed view: a plain table cell, not busy card art, sits behind the
-   pill, so it can use a stronger theme-accent tint than the grid's - but
-   toned down from the full accent color to keep it easy on the eyes across
-   a whole table of these. */
+/* Stronger tint than the grid's since it sits on a plain cell, not card art. */
 .condensed-counter.active {
     background-color: color-mix(in srgb, var(--accent) 75%, white);
 }
