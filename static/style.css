@@ -539,7 +539,7 @@ header {
 }
 
 .collected-badge.active {
-    background-color: #4caf50;
+    background-color: var(--accent);
     color: white;
 }
 
@@ -797,10 +797,11 @@ header {
 }
 
 /* Condensed view: a plain table cell, not busy card art, sits behind the
-   pill, so it can use the full theme accent color rather than the lighter
-   tint used on the grid - with light-on-accent text/buttons for contrast. */
+   pill, so it can use a stronger theme-accent tint than the grid's - but
+   toned down from the full accent color to keep it easy on the eyes across
+   a whole table of these. */
 .condensed-counter.active {
-    background-color: var(--accent);
+    background-color: color-mix(in srgb, var(--accent) 75%, white);
 }
 
 .condensed-counter.active .count-btn,
