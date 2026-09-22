@@ -253,6 +253,23 @@ function sortCardsByCardOrder(cardList) {
     });
 }
 
+// Row order for one set's condensed table, following the same Sort By
+// setting as the main grid: "card" order (serial's letter+number, ignoring
+// which category it was tagged) or the default category-grouped order.
+function sortCondensedGroups(groups) {
+    return groups.sort((a, b) => {
+        if (sortMode.value === "card") {
+            const ka = getCardOrderKey(a.base);
+            const kb = getCardOrderKey(b.base);
+            return ka.typeRank !== kb.typeRank ? ka.typeRank - kb.typeRank : ka.num - kb.num;
+        }
+        const ta = TYPE_ORDER.indexOf(a.card_category);
+        const tb = TYPE_ORDER.indexOf(b.card_category);
+        if (ta !== tb) return (ta === -1 ? 999 : ta) - (tb === -1 ? 999 : tb);
+        return a.base.localeCompare(b.base, undefined, { numeric: true });
+    });
+}
+
 function populateSetFilter(cards) {
     const sets = new Set(cards.map(c => c.serial.split("-")[0]));
     const sortedSets = sortSetsDynamic(sets);
@@ -696,12 +713,7 @@ function renderCondensedView(cardList) {
         );
         if (groups.length === 0) return;
 
-        groups.sort((a, b) => {
-            const ta = TYPE_ORDER.indexOf(a.card_category);
-            const tb = TYPE_ORDER.indexOf(b.card_category);
-            if (ta !== tb) return (ta === -1 ? 999 : ta) - (tb === -1 ? 999 : tb);
-            return a.base.localeCompare(b.base, undefined, { numeric: true });
-        });
+        sortCondensedGroups(groups);
 
         anySetShown = true;
         condensedSetsEl.appendChild(buildSetTable(setCode, groups, rarityCols, interactiveSerials));
