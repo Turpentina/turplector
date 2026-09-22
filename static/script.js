@@ -522,20 +522,25 @@ function representativeVariant(group) {
 function buildCardRow(group, rarityCols, interactiveSerials) {
     const tr = document.createElement("tr");
     const rep = representativeVariant(group);
-    const repHref = rep ? `card.html?serial=${encodeURIComponent(rep.serial)}` : "#";
+    // Clicking the card's identity (thumbnail or number/name) opens every
+    // non-starter printing of this card number, across whichever sets it was
+    // reprinted into - a temporary view, not a change to the sidebar's own
+    // filters. See card_group.html/card_group.js.
+    const numberMatch = group.base.match(/-([A-Z]+\d+)$/);
+    const cardNumber = numberMatch ? numberMatch[1] : group.base;
+    const groupHref = `card_group.html?number=${encodeURIComponent(cardNumber)}`;
 
     const thumbTd = document.createElement("td");
     thumbTd.className = "condensed-thumb";
     thumbTd.innerHTML = rep
-        ? `<a href="${repHref}"><img src="${cardImageUrl(rep.image)}" alt="${rep.serial}"></a>`
+        ? `<a href="${groupHref}"><img src="${cardImageUrl(rep.image)}" alt="${rep.serial}"></a>`
         : "";
     tr.appendChild(thumbTd);
 
     const nameTd = document.createElement("td");
     nameTd.className = "condensed-name";
-    const numberMatch = group.base.match(/-([A-Z]+\d+)$/);
     nameTd.innerHTML = `
-        <a href="${repHref}" class="condensed-cardnum">${numberMatch ? numberMatch[1] : group.base}</a>
+        <a href="${groupHref}" class="condensed-cardnum">${cardNumber}</a>
         <div class="condensed-cardname">${group.name_en}</div>
     `;
     tr.appendChild(nameTd);
